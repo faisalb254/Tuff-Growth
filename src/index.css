@@ -1,0 +1,348 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1, h2, h3 {
+  scroll-margin-top: 100px; 
+}
+
+.formbg {
+  background-image: url(./assets/form-bg.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.glassbg{
+  background-image: url(./assets/glassbg.svg);
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
+}
+
+.homeImg {
+  background-image: url(./assets/HeroLine.svg);
+  background-color: #5a2aff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.homeImg1 {
+  background-image: url(./assets/Banner1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.homeImg2 {
+  background-image: url(./assets/line2.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.homeImg3 {
+  background-image: url(./assets/line3.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.homeImg5 {
+  background-image: url(./assets/homebg5.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.creative {
+  background-image: url(./assets/creative.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.adline {
+  background-image: url(./assets/adline.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mediabg {
+  background-image: url(./assets/mediabg.svg);
+  background-size: cover;
+}
+
+.mediaLine {
+  background-image: url(./assets/mediaLine.svg);
+  background-size: cover;
+}
+
+/* this */
+.mediaLine1 {
+  background-image: url(./assets/mediaLine1.svg);
+  background-size: cover;
+}
+.creline {
+  background-image: url(./assets/creline.svg);
+  background-size: cover;
+}
+.MediaProcessLine {
+  background-image: url(./assets/MediaProcessLine.svg);
+  background-size: cover;
+}
+
+.VideoLine {
+  background-image: url(./assets/VideoLine.svg);
+  background-size: cover;
+  background-position: center;
+}
+.VideoLine2 {
+  background-image: url(./assets/VideoLine2.svg);
+  background-size: cover;
+  background-position: center;
+}
+.VideoLine3 {
+  background-image: url(./assets/VideoLine3.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/* this */
+.SeoBg {
+  background-image: url(./assets/SeoBg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Seolast {
+  background-image: url(./assets/Seolast.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.GeoBg {
+  background-image: url(./assets/GeoBg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ContentLine {
+  background-image: url(./assets/ContentLine.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.CSLine {
+  background-image: url(./assets/CSLine.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Croline {
+  background-image: url(./assets/Croline.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Croline2 {
+  background-image: url(./assets/Croline2.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.croline3 {
+  background-image: url(./assets/croline3.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.caseline {
+  background-image: url(./assets/caseline.svg);
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+.Dataline {
+  background-image: url(./assets/Dataline.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.AllLine {
+  background-image: url(./assets/AllLine.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ServiceBlue {
+  background-image: url(./assets/ServiceBlue.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.contactbg {
+  background-image: url(./assets/contactbg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.guidebg {
+  background-image: url(./assets/guidebg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.lightbg {
+  background-image: url(./assets/light-bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.smoothline {
+  background-image: url(./assets/smoothline.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.samplebg {
+  background-image: url(./assets/samplebg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.tiktokbg {
+  background-image: url(./assets/tiktokbg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.googlebg {
+  background-image: url(./assets/googlebg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.googleadsbg {
+  background-image: url(./assets/googleadsbg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.linkedinbg {
+  background-image: url(./assets/linkedinbg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.technicalbg {
+  background-image: url(./assets/technicalbg.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.hover-change .icon,
+.hover-change h2,
+.hover-change p {
+  color: black; /* default color */
+  transition: color 0.3s ease;
+}
+
+.hover-change:hover .icon,
+.hover-change:hover h2,
+.hover-change:hover p {
+  color: #ff6a39;
+}
+
+.filter {
+  filter: brightness(0) saturate(100%);
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.animate-slide-right {
+  animation: slide-right 40s linear infinite;
+}
+
+@media (max-width: 1300px) {
+  .lies {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .nav {
+    width: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .px1 {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 990px) {
+  .menu {
+    display: none;
+  }
+  .menu1 {
+    display: block;
+  }
+}
+
+.tilt-zoom {
+  /* display: inline-block; */
+  transition: transform 0.3s ease;
+  transform-origin: 35% 20% ;
+}
+
+.tilt-zoom:hover {
+  animation: tiltZoom 0.5s ease forwards;
+}
+
+@keyframes tiltZoom {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  30% {
+    transform: rotate(-5deg) scale(0.7);
+  }
+  60% {
+    transform: rotate(-6deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(-6deg) scale(1);
+  }
+}
+
+.triangle {
+clip-path: polygon(100% 0, 100% 0, 100% 100%, 0% 100%);
+}

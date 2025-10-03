@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- React app entry -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Tracking script (optional, if you already had it) -->
+   <script>
+(function(d, t, g, k) {
+	var ph = d.createElement(t),
+	s = d.getElementsByTagName(t)[0],
+	t = (new URLSearchParams(window.location.search)).get(k);
+	t && localStorage.setItem(k, t);
+	t = localStorage.getItem(k);
+	ph.type = 'text/javascript';
+	ph.async = true;
+	ph.defer = true;
+	ph.charset = 'UTF-8';
+	ph.src = g + '&v=' + (new Date()).getTime();
+	ph.src += t ? '&' + k + '=' + t : '';
+	s.parentNode.insertBefore(ph, s);
+})(document, 'script', '//havitgrowthagency.com/?p=8852&ph_apikey=980c2e1c1ec76e615acc6585edbae4e9', 'ph_access_token');
+</script>
+
+
+    <!-- 🔻 Add ProjectHuddle's script snippet HERE -->
+    <script>
+      // Replace this with the actual ProjectHuddle snippet they gave you
+      (function () {
+        var d = document,
+          s = d.createElement("script");
+        s.src = "https://yourprojecthuddleurl.com/embed.js"; // <-- example URL
+        s.async = true;
+        s.defer = true;
+        d.body.appendChild(s);
+      })();
+    </script>
+    <!-- 🔺 Ends just before </body> -->
+
+  </body>
+</html>

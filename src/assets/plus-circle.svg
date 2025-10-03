@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        stroke: #0c2233;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        fill: #0c2233;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M32,56.7c13.6,0,24.7-11,24.7-24.7S45.6,7.3,32,7.3,7.3,18.4,7.3,32s11,24.7,24.7,24.7Z"/>
+  <path class="cls-2" d="M32,56.7c13.6,0,24.7-11,24.7-24.7S45.6,7.3,32,7.3,7.3,18.4,7.3,32s11,24.7,24.7,24.7Z"/>
+  <path class="cls-1" d="M33.2,24.6c0-.8-.7-1.5-1.5-1.5-.8,0-1.5.7-1.5,1.5h3ZM30.3,39c0,.8.7,1.5,1.5,1.5.8,0,1.5-.7,1.5-1.5h-3ZM30.2,24.6v14.4c.1,0,3.1,0,3.1,0v-14.4c-.1,0-3.1,0-3.1,0Z"/>
+  <path class="cls-3" d="M33.2,24.6c0-.8-.7-1.5-1.5-1.5-.8,0-1.5.7-1.5,1.5h3ZM30.3,39c0,.8.7,1.5,1.5,1.5.8,0,1.5-.7,1.5-1.5h-3ZM30.2,24.6v14.4c.1,0,3.1,0,3.1,0v-14.4c-.1,0-3.1,0-3.1,0Z"/>
+  <path class="cls-1" d="M24.5,30.2c-.8,0-1.5.7-1.5,1.5s.7,1.5,1.5,1.5v-3ZM38.9,33.3c.8,0,1.5-.7,1.5-1.5,0-.8-.7-1.5-1.5-1.5v3ZM24.5,33.2h14.4c0,.1,0-2.9,0-2.9h-14.4c0-.1,0,2.9,0,2.9Z"/>
+  <path class="cls-3" d="M24.5,30.2c-.8,0-1.5.7-1.5,1.5s.7,1.5,1.5,1.5v-3ZM38.9,33.3c.8,0,1.5-.7,1.5-1.5,0-.8-.7-1.5-1.5-1.5v3ZM24.5,33.2h14.4c0,.1,0-2.9,0-2.9h-14.4c0-.1,0,2.9,0,2.9Z"/>
+  <metadata>
+    <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+      <slices/>
+      <sliceSourceBounds x="5.83" y="5.83" width="52.33" height="52.33" bottomLeftOrigin="true"/>
+    </sfw>
+  </metadata>
+</svg>
