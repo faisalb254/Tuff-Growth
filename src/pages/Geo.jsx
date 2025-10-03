@@ -10,7 +10,7 @@ import chevDown from "../assets/chevDown.svg";
 import soonamedia from "../assets/soonamedia.jpg";
 import soona from "../assets/soona.svg";
 import palmetto from "../assets/koji.png";
-import pal from "../assets/soona.svg";
+import pal from "../assets/pal.svg";
 import star1 from "../assets/star1.svg";
 import { BiChevronRight } from "react-icons/bi";
 import SeoTech from "../assets/SeoTech.svg";

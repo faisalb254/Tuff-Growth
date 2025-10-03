@@ -2,23 +2,16 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import React, { useState } from "react";
-import { Minus, Plus } from "lucide-react";
 import { BiChevronRight } from "react-icons/bi";
-import { CiCircleCheck } from "react-icons/ci";
 import lines from "../assets/green-line.png"
 import block from "../assets/orange-block.png"
 import laptop from "../assets/ppclaptop.png"
 import laptop2 from "../assets/ppclaptop2.png"
 import chart from "../assets/ppcchart.png"
-import rewire from "../assets/rewire.svg"
 import stars from "../assets/stars.svg"
 import SeoTech from "../assets/SeoTech.svg";
 import SeoCont from "../assets/SeoCont.svg";
 import SeoRep from "../assets/SeoRep.svg";
-import SeoTeam from "../assets/GeoTeam.png";
-import Blackboard from "../assets/Blackboard.svg";
-import Award from "../assets/Award.svg";
-import List from "../assets/List.svg";
 import social from "../assets/ppc-social.svg";
 import display from "../assets/ppc-display.svg";
 import cro from "../assets/ppc-cro.svg";

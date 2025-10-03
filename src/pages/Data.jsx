@@ -5,7 +5,7 @@ import Datahead1 from "../assets/Datahead1.png";
 import DataImg1 from "../assets/DataImg1.png";
 import Search from "../assets/search.svg";
 import Set from "../assets/Set.svg";
-import Report from "../assets/Report.svg";
+import Report from "../assets/report.svg";
 import Pencil from "../assets/Pencil.svg";
 import Anal from "../assets/Anal.svg";
 import Wheel from "../assets/Wheel.svg";

@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import FinalSection from '../components/FinalSection'
 import Toc from '../components/Toc';
 import RelatedPosts from '../components/RelatedPosts';
 import Newsletter from '../components/Newsletter';

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import ContentHero from "../assets/ContentHero.png";
 import User from "../assets/User.svg";
 import Chat from "../assets/Chat.svg";
-import Share from "../assets/Share.svg";
+import Share from "../assets/share.svg";
 import Sync from "../assets/Sync.svg";
 import Blackboard from "../assets/Blackboard.svg";
 import Award from "../assets/Award.svg";

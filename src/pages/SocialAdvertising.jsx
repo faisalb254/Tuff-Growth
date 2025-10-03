@@ -6,8 +6,6 @@ import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import block from "../assets/green-block.png"
 import phone from "../assets/advertisingphone.png"
-import laptop2 from "../assets/ppclaptop2.png"
-import chart from "../assets/ppcchart.png"
 import img1 from "../assets/advertisingimg.png"
 import img2 from "../assets/advertisingimg2.png"
 import soonamedia from "../assets/soonamedia.jpg";

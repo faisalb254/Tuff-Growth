@@ -13,10 +13,9 @@ import img5 from '../assets/linkedinimg5.jpg'
 import img6 from '../assets/linkedinimg6.png'
 import greenquote from '../assets/greenquote.svg'
 import Elle from '../assets/ellieicon.png'
-import jack from '../assets/jackicon.png'
+
 import kate from '../assets/kateicon.png'
 import david from '../assets/davidicon.png'
-import { Link } from 'react-router-dom'
 import FinalSection from '../components/FinalSection'
 
 

@@ -10,8 +10,6 @@ import social from "../assets/ppc-social.svg";
 import display from "../assets/ppc-display.svg";
 import search from "../assets/paidsearch.svg";
 import marketing from "../assets/ppc-marketing.svg";
-import content from "../assets/ppc-content.svg";
-import creative from "../assets/ppc-creative.svg";
 import { BiChevronRight } from "react-icons/bi";
 import stars from "../assets/stars.svg"
 import michael from "../assets/michael.png"
