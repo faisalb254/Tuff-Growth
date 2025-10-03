@@ -29,7 +29,7 @@ import thnks from "../assets/thnks.svg";
 import search from '../assets/paidsearch.svg'
 import data from '../assets/track.svg'
 import cro from '../assets/UserEx.svg'
-import rate from '../assets/Report.svg'
+import rate from '../assets/report.svg'
 import pic from '../assets/pic.svg'
 import cursor from '../assets/cursor.svg'
 import { BiCheck, BiChevronRight } from "react-icons/bi";
