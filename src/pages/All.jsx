@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import AllImg from "../assets/AllImg.png";
 import Value from "../assets/Value.svg";
 import Audi from "../assets/Audi.svg";
-import Track from "../assets/Track.svg";
+import Track from "../assets/track.svg";
 import Search from "../assets/search.svg";
 import Add from "../assets/Add.svg";
 import Email from "../assets/email.svg";
