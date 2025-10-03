@@ -50,7 +50,7 @@ import GrowthFramework from "./pages/GrowthFramework";
 import Performance from "./pages/Performance";
 import GrowthAgency from "./pages/GrowthAgency";
 import Digital from "./pages/Digital";
-import B2B from "./pages/B2B.JSX";
+import B2B from "./pages/B2B";
 import Email from "./pages/Email";
 
 export default function App() {
