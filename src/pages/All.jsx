@@ -6,7 +6,7 @@ import Audi from "../assets/Audi.svg";
 import Track from "../assets/Track.svg";
 import Search from "../assets/search.svg";
 import Add from "../assets/Add.svg";
-import Email from "../assets/Email.svg";
+import Email from "../assets/email.svg";
 import Rate from "../assets/Rate.svg";
 import Develop from "../assets/Develop.svg";
 import Web from "../assets/Web.svg";
