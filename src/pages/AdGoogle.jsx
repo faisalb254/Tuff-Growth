@@ -152,11 +152,11 @@ export default function AdGoogle() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#5A2AFF]">
-        <Navbar />
-      </div>
+                <Navbar />
+            </div>
 
             <section>
-                <div className="googlebg w-full flex justify-center items-center pt-50 ">
+                <div className="googlebg w-full flex justify-center items-center md:pt-50 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
                             <h1 className=' text-6xl font-black my-5'>

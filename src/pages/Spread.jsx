@@ -136,7 +136,7 @@ export default function Spread() {
       </div>
 
       <section>
-        <div className="w-full min-h-[60vh] guidebg pt-[100px] sm:pt-[120px] md:pt-1 flex items-center">
+        <div className="w-full min-h-[60vh] guidebg md:pt-[100px] py-5 flex items-center">
           <div className="w-[90%] sm:w-[80%] md:w-[75%] lg:w-[80%] m-auto">
             <h2 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[59px] font-extrabold text-[#ffffff] text-center leading-[38px] sm:leading-[50px] md:leading-[60px] lg:leading-[70px]">
               13 Ready-to-Go Growth Marketing Spreadsheets Startups Can Use to

@@ -39,18 +39,20 @@ export default function Result() {
                  » How Performance Creative Generates Bold, Actionable Results for Growth Marketing
             </span>
         </div>
-        <div className='w-[55%] pt-10'>
-            <h1 className='text-3xl sm:text-6xl w-full font-bold text-center'>How Performance Creative Generates Bold, Actionable Results for Growth Marketing</h1>
+        <div className='w-9/10 md:w-[55%] pt-10'>
+            <h1 className='text-3xl md:text-6xl w-full font-bold text-center'>
+                How Performance Creative Generates Bold, Actionable Results for Growth Marketing
+            </h1>
             <p className='text-xl text-center'>January 9, 2023 / in Creative / <Link to={"/author/hannah"}>by Hannah Burks</Link></p>
             <img className='my-2.5 py-2.5 h-[270px] w-full' src={Banner} alt=" banner" />
-            <p className='w-[720px] text-xl'>Performance creative challenges marketers to dig deep into what makes ads “work” better than others. Through deliberate testing and tweaking and testing again, we use data and analytics to not only understand the needs of our target audiences, but to also address them directly–in ad creative and copy. </p>
+            <p className=' text-xl'>Performance creative challenges marketers to dig deep into what makes ads “work” better than others. Through deliberate testing and tweaking and testing again, we use data and analytics to not only understand the needs of our target audiences, but to also address them directly–in ad creative and copy. </p>
             <span className='my-4.5 w-full text-xl'>Simple as that, right?</span>
             <h1 id='section-1' className='text-5xl w-full font-bold'>Key components of performance creative</h1>
             <p className='text-xl w-full my-4'>
             Yes, there’s more to advertising than color and copy (<span className='text-[#ff6b39] font-bold'>a lot more</span>). Ad creative is particularly unique because <span className='text-[#ff6b39] font-bold'>75%</span> of campaign success is driven by creative. We know that attention spans have dropped since iPhones magically appeared in all of our back pockets in 2007. That means that first impressions count more than ever, and ad creative is one of the few things that has the ability to still grab someone’s attention mid-scroll. And aside from reading someone’s mind, testing that creative is the best way to understand what made them stop scrolling in the first place (so we can get more people to do the same). We do that testing after we establish a few key elements. 
             </p>
             <p className='my-4 font-bold text-xl w-full'>5 key elements for successful performance creative in growth marketing:</p>
-            <ol className='list-decimal w-full ml-10'>
+            <ol className='list-decimal w-9/10 ml-10'>
                 <li className='mb-2.5 text-xl'><span className='font-bold'>A clear understanding of the target audience:</span> This requires research into their demographics, interests, and behaviors, as well as anything you can find on their motivations for clicking, browsing, purchasing, signing up, etc.</li>
                 <li className='mb-2.5 text-xl'><span className='font-bold'>A clear and measurable goal:</span> Set a specific data-driven goal for each marketing campaign so at the end of a test you can say: “We learned something useful here.”</li>
                 <li className='mb-2.5 text-xl'><span className='font-bold'>A strong value proposition:</span> The ad creative and copy need to clearly communicate the benefits and value of the brand. </li>
@@ -236,12 +238,12 @@ export default function Result() {
         </div>
     </section>
     <section className='pt-12.5 flex flex-col items-center w-full'>
-        <div className=" w-[55%]">
+        <div className=" w-9/10 md:w-[55%]">
             <p className='text-xl my-4 font-bold'>
                 Psst 👋 want help? <span className="text-[#ff6b39] font-bold">We got you.</span>
             </p>
-            <div className="py-12.5 w-full bg-[#F0F0F0] h-64 rounded-xl px-5 pt-2.5 pb-6 flex items-center">
-                <div className="w-1/5">
+            <div className="py-12.5 w-full bg-[#F0F0F0] rounded-xl px-5 pt-2.5 pb-6 flex flex-col md:flex-row items-center">
+                <div className="w-1/2 md:w-1/5">
                     <div className="px-5 pb-5">
                         <img className='rounded-full w-25 h-25 ' src={pfp} alt="" />
                     </div>

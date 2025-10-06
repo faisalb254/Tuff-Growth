@@ -179,7 +179,7 @@ export default function GrowthAgency() {
             </div>
 
             <section>
-                <div className="VideoLine w-full flex justify-center items-center pt-45 pb-10 ">
+                <div className="VideoLine w-full flex justify-center items-center pt-10 md:pt-45 pb-10 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
                             <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>
@@ -517,7 +517,7 @@ export default function GrowthAgency() {
                     {
                         comments.map((comment, idx) => (
                             <div className=" w-9/10 flex flex-col md:flex-row gap-5 my-5">
-                                <div className="w-1/2 flex flex-col gap-5 ">
+                                <div className="w-full md:w-1/2 flex flex-col gap-5 ">
                                     <img className=' w-1/4' src={stars} alt="" />
                                     <p className=' text-2xl'>
                                         <span className={`${comment.first.sentence1.font}`}>"{comment.first.sentence1.text}</span> <span className={`${comment.first.sentence2.font}`}>{comment.first.sentence2.text}"</span>
@@ -536,7 +536,7 @@ export default function GrowthAgency() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-1/2 flex flex-col gap-5">
+                                <div className="w-full md:w-1/2 flex flex-col gap-5">
                                     <img className=' w-1/4' src={stars} alt="" />
                                     <p className=' text-2xl'>
                                         <span className={`${comment.second.sentence1.font}`}>"{comment.second.sentence1.text}</span> <span className={`${comment.second.sentence2.font}`}>{comment.second.sentence2.text}"</span>

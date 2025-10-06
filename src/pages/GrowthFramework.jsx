@@ -23,7 +23,7 @@ export default function GrowthFramework() {
       </div>
 
             <section>
-                <div className="tiktokbg w-full flex justify-center items-center pt-50">
+                <div className="tiktokbg w-full flex justify-center items-center md:pt-50">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
                             <h1 className='text-4xl md:text-6xl font-black my-5'>
@@ -112,8 +112,8 @@ export default function GrowthFramework() {
                         <h2 className=' text-5xl font-black'>
                             Resources
                         </h2>
-                        <div className=" w-full flex gap-5 flex-wrap">
-                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72. sm:w-96">
+                        <div className=" w-full flex justify-center gap-5 flex-wrap">
+                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72 sm:w-96">
                                 <img className=' my-4' src={img3} alt="" />
                                 <span className=' my-4 px-5 py-2.5 bg-[#FF6A39] font-black rounded-full'>
                                     CREATIVE

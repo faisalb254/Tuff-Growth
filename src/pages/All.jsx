@@ -35,7 +35,7 @@ export default function All() {
 
       <section>
         <div className="w-full h-auto AllLine pt-1 pb-30 px-4 sm:px-6 md:px-12 lg:px-0">
-          <div className="h-auto md:h-[39px] m-auto capitalize py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-40 md:mt-28 lg:mt-37 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
+          <div className="h-auto md:h-[39px] m-auto capitalize py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5  md:mt-28 lg:mt-37 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
             SERVICES
           </div>
           <h2 className="text-[30px] sm:text-[36px] md:text-[44px] lg:text-[50px] font-semibold leading-[38px] sm:leading-[46px] md:leading-[52px] lg:leading-[55px] mt-6 text-[#0C2233] text-center px-2 sm:px-6 md:px-16 lg:px-30">

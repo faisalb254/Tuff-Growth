@@ -107,13 +107,13 @@ export default function StartUp() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">
-        <Navbar />
-      </div>
+                <Navbar />
+            </div>
 
             <section>
                 <div className="w-full min-h-[570px] h-auto lightbg pb-7.5">
-                    <div className="w-full h-full flex flex-col md:flex-row pt-45">
-                        <div className="w-full md:w-1/2 h-full flex flex-col  pl-15 text-black">
+                    <div className="w-full h-full flex flex-col md:flex-row lg:pt-45">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  px-15 text-black">
                             <h1 className='text-4xl lg:text-6xl font-black w-full my-7.5'>
                                 Unlock the performance of your startup and team
                             </h1>
@@ -144,8 +144,8 @@ export default function StartUp() {
                     <div className="mt-20 w-full flex flex-col lg:justify-center lg:flex-row gap-20 text-white">
                         <div className=" w-full lg:w-1/3">
                             <div className="py-5 flex flex-col lg:flex-row gap-5 border-b-3 border-[rgb(255_255_255_/12%)]">
-                                <img src={thnks} alt="" />
-                                <img src={stars} alt="" />
+                                <img src={thnks} alt="" className='w-1/2 lg:w-auto'/>
+                                <img src={stars} alt="" className='w-1/2 lg:w-auto'/>
                             </div>
                             <p className="mt-5 w-full text-lg">
                                 “I view our partnership with Tuff as more like an extension of my team. <span className=' font-black'>We strategize together, ask tough questions, examine the results, optimize – and it just keeps getting better. Exactly what I was looking for.”</span>
@@ -167,8 +167,8 @@ export default function StartUp() {
                         </div>
                         <div className=" w-full lg:w-1/3">
                             <div className="py-5 flex flex-col lg:flex-row gap-5 border-b-3 border-[rgb(255_255_255_/12%)]">
-                                <img src={soona} alt="" />
-                                <img src={stars} alt="" />
+                                <img src={soona} alt="" className='w-1/2 lg:w-auto'/>
+                                <img src={stars} alt="" className='w-1/2 lg:w-auto'/>
                             </div>
                             <p className="mt-5 w-full text-lg">
                                 <span className=' font-black'>“What’s great about Tuff is that we’ve been guided by them to seek bolder results.</span> Tuff has been great about being graceful with feedback while also making sure the insight that inspired an asset in the first place is still rooted in the data.”
@@ -190,8 +190,8 @@ export default function StartUp() {
                         </div>
                         <div className=" w-full lg:w-1/3">
                             <div className="py-5 flex flex-col lg:flex-row gap-5 border-b-3 border-[rgb(255_255_255_/12%)]">
-                                <img className='h-[33px]' src={antica} alt="" />
-                                <img src={stars} alt="" />
+                                <img className='w-1/3 lg:w-auto lg:h-[33px]' src={antica} alt="" />
+                                <img src={stars} alt="" className='w-1/2 lg:w-auto'/>
                             </div>
                             <p className="mt-5 w-full text-lg">
                                 “I felt like Tuff really understood who our brand was, who we were trying to talk to, and what made us special. <span className=' font-black'>I’ve worked with partners where it took a couple months to ramp up or felt like there was a lot of back and forth to get started and Tuff has just hit the ground running.”</span>
@@ -220,7 +220,7 @@ export default function StartUp() {
                         What we bring to the table
                     </h1>
                     <div className=" flex flex-col lg:flex-row w-full h-full px-9 lg:px-18">
-                        <div className="w-full lg:w-1/2 flex flex-col justify-center items-center lg:items-start h-full">
+                        <div className="w-full lg:w-1/2 flex flex-col justify-center items-start lg:items-start h-full">
                             <div className={`${index === 0 ? "border-[#0A91AB]" : "border-white"} border-l-4 pl-4 mb-12 hover:cursor-pointer`} onClick={() => { setIndex(0) }}>
                                 <span className=' flex items-center'>
                                     <img src={position} alt="" />
@@ -412,8 +412,8 @@ export default function StartUp() {
                     </div>
                 </div>
             </section>
-            <FinalSection text={box}/>
-            <Footer/>
+            <FinalSection text={box} />
+            <Footer />
         </>
 
     )

@@ -233,7 +233,7 @@ export default function Technical() {
             </div>
 
             <section>
-                <div className="VideoLine w-full flex justify-center items-center pt-45 pb-10 ">
+                <div className="VideoLine w-full flex justify-center items-center pt-10 lg:pt-45 pb-10 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
                             <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>
@@ -319,7 +319,7 @@ export default function Technical() {
             <section>
                 <div className="w-full flex justify-center items-center text-white technicalbg py-20">
                     <div className="w-9/10 flex flex-col md:flex-row gap-5">
-                        <div className="w-1/2">
+                        <div className="w-full md:w-1/2">
                             <h1 className=' font-black text-5xl'>
                                 We’ve got the right tricks, tools, and tactics to help improve your technical SEO performance.
                             </h1>
@@ -366,7 +366,7 @@ export default function Technical() {
 
 
             <section>
-                <div className=" w-full flex justify-center items-center pt-50 ">
+                <div className=" w-full flex justify-center items-center pt-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2  ">
                             <h1 className=' text-4xl font-black my-5'>
@@ -396,7 +396,7 @@ export default function Technical() {
                             Technical SEO Articles on Tuff
                         </h2>
                         <div className=" w-full flex justify-center gap-5 flex-wrap">
-                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72. sm:w-96">
+                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72 sm:w-96">
                                 <img className=' my-4' src={img3} alt="" />
                                 <span className=' my-4 px-5 py-2.5 bg-[#FF6A39] font-black rounded-full'>
                                     GEO
@@ -485,7 +485,7 @@ export default function Technical() {
                     {
                         comments.map((comment, idx) => (
                             <div className=" w-9/10 flex flex-col md:flex-row gap-5 my-5">
-                                <div className="w-1/2 flex flex-col gap-5 ">
+                                <div className="w-full md:w-1/2 flex flex-col gap-5 ">
                                     <img className=' w-1/4' src={stars} alt="" />
                                     <p className=' text-2xl'>
                                         <span className={`${comment.first.sentence1.font}`}>"{comment.first.sentence1.text}</span> <span className={`${comment.first.sentence2.font}`}>{comment.first.sentence2.text}"</span>
@@ -504,8 +504,8 @@ export default function Technical() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-1/2 flex flex-col gap-5">
-                                    <img className=' w-1/4' src={stars} alt="" />
+                                <div className="w-full md:w-1/2 flex flex-col gap-5">
+                                    <img className=' w-1/2' src={stars} alt="" />
                                     <p className=' text-2xl'>
                                         <span className={`${comment.second.sentence1.font}`}>"{comment.second.sentence1.text}</span> <span className={`${comment.second.sentence2.font}`}>{comment.second.sentence2.text}"</span>
                                     </p>

@@ -44,7 +44,7 @@ export default function Guides() {
       </div>
 
       <section>
-        <div className="w-full h-[60vh] guidebg pt-[145px] md:pt-28">
+        <div className="w-full guidebg pt-[145px] pb-10 md:pt-40">
           <div className="w-[90%] sm:w-[70%] lg:w-[33%] m-auto">
             <h2 className="text-[36px] sm:text-[48px] lg:text-[64px] font-bold text-[#ffffff] text-center">
               Guides

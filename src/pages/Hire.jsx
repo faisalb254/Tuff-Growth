@@ -38,7 +38,7 @@ export default function Hire() {
                         » You’re a Startup. Should You Hire a Growth Marketing Agency?
                     </span>
                 </div>
-                <div className="pt-10 w-[55%]">
+                <div className="pt-10 w-8/10 md:w-[55%]">
                     <h1 className=' text-3xl md:text-6xl w-full font-bold text-center'>
                         You’re a Startup. Should You Hire a Growth Marketing Agency?
                     </h1>
@@ -139,7 +139,7 @@ export default function Hire() {
                 </div>
             </section>
             <section className='flex justify-center text-xl'>
-                <div className="pt-10 w-[55%]">
+                <div className="pt-10 w-8/10 md:w-[55%]">
                     <h1 id='section-3' className='text-3xl w-full font-bold '>
                         So, What’s The Verdict?
                     </h1>

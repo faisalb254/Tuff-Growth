@@ -176,10 +176,10 @@ export default function B2B() {
             </div>
 
             <section>
-                <div className="VideoLine w-full flex flex-col justify-center items-center md:pt-20 pb-20 ">
+                <div className="VideoLine w-full flex flex-col justify-center items-center pt-10 md:pt-40 pb-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
-                            <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>
+                            <span className=' px-5 py-2.5 bg-[#CEFD94] font-black text-center sm:text-xs rounded-full text-black'>
                                 Full-Funnel B2B Digital Marketing Agency
                             </span>
                             <h1 className=' text-6xl font-black my-5'>
@@ -273,7 +273,7 @@ export default function B2B() {
                 <div className="w-full flex justify-center items-center MediaProcessLine py-20">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-start gap-10 text-white">
                         <div className=" w-full lg:w-1/2">
-                            <div className="flex gap-5 py-5 border-b-2 border-[rgb(255_255_255_/_12%)]">
+                            <div className="flex flex-col md:flex-row gap-5 py-5 border-b-2 border-[rgb(255_255_255_/_12%)]">
                                 <img src={multiverse} alt="" />
                                 <img src={stars} alt="" />
                             </div>
@@ -289,7 +289,7 @@ export default function B2B() {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/2">
-                            <div className="flex gap-5 py-5 border-b-2 border-[rgb(255_255_255_/_12%)]">
+                            <div className="flex flex-col md:flex-row gap-5 py-5 border-b-2 border-[rgb(255_255_255_/_12%)]">
                                 <img src={happy} alt="" className=' h-9' />
                                 <img src={stars} alt="" />
                             </div>
@@ -308,7 +308,7 @@ export default function B2B() {
                 </div>
             </section>
             <section>
-                <div className="w-full flex justify-center items-center">
+                <div className="w-full flex justify-center items-center py-10">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-black ">
                             <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>

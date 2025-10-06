@@ -36,7 +36,7 @@ export default function Agency() {
                 What is a Growth Marketing Agency?
             </span>
         </div>
-        <div className="pt-10 w-[55%]">
+        <div className="pt-10 w-8/10 md:w-[55%]">
             <h1  className='text-3xl sm:text-6xl w-full font-bold text-center'>
                 What is a Growth Marketing Agency?
             </h1>
@@ -118,7 +118,7 @@ export default function Agency() {
         </div>
     </section>
     <section className='pt-3 flex flex-col items-center text-xl w-full'>
-        <div className="w-[55%]">
+        <div className="w-8/10 md:w-[55%]">
             <ul className=' list-disc pl-8'>
                 <li className='mt-5'>Meeting consistently in small teams of two to four (always with a Growth Marketer in addition to one or more channel experts)</li>
                 <li className='mt-5'>With weekly or bi-weekly team meetings</li>

@@ -20,7 +20,7 @@ export default function Career() {
       </div>
 
             <section>
-                <div className="VideoLine w-full flex justify-center items-center pt-45 pb-10 ">
+                <div className="VideoLine w-full flex justify-center items-center md:pt-45 pb-10 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
                             <h1 className=' text-6xl font-black my-5'>
@@ -81,38 +81,38 @@ export default function Career() {
                         <h1 className=' text-5xl font-black'>
                             Benefits
                         </h1>
-                        <div className=" w-3/4 my-5 flex flex-wrap justify-center gap-5">
-                            <div className="w-1/4 px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
+                        <div className=" w-3/4 my-5 flex flex-col md:flex-row flex-wrap justify-center gap-5">
+                            <div className="w-full px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
                                 <img src={health} alt="" />
                                 <h1>
                                     Health
                                 </h1>
                             </div>
-                            <div className="w-1/4 px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
+                            <div className="w-full px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
                                 <img src={dental} alt="" />
                                 <h1>
                                     Dental
                                 </h1>
                             </div>
-                            <div className="w-1/4 px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
+                            <div className="w-full px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
                                 <img src={vision} alt="" />
                                 <h1>
                                     Vision
                                 </h1>
                             </div>
-                            <div className="w-1/4 px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
+                            <div className="w-full px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
                                 <img src={remote} alt="" />
                                 <h1>
                                     Remote
                                 </h1>
                             </div>
-                            <div className="w-1/4 px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
+                            <div className="w-full px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] font-black">
                                 <img src={umbrella} alt="" />
                                 <h1>
                                     Umbrella
                                 </h1>
                             </div>
-                            <div className="w-1/4 px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] text-center font-black">
+                            <div className="w-full px-12 py-9 text-3xl flex flex-col items-center gap-5 glassbg border border-[rgb(255_255_255_/_12%)] text-center font-black">
                                 <img src={box} alt="" />
                                 <h1>
                                     Office Allowance

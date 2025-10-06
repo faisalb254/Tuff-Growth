@@ -7,7 +7,7 @@ export default function Toc({ table }) {
 
   return (
     <>
-      <div className="w-2/3 md:w-1/7 md:absolute z-30 border border-black/12 m-10">
+      <div className="w-full md:w-1/7 md:absolute z-30 border border-black/12 m-10">
         <div className="w-full flex flex-col p-2 max-h-[575px] overflow-x-hidden overflow-y-scroll">
           <button 
             onClick={() => setShow(!show)} 

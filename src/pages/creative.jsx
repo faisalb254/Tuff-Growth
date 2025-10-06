@@ -22,7 +22,7 @@ export default function creative() {
       </div>
 
       <section>
-        <div className="w-full h-auto pt-[100px] sm:pt-[70px]">
+        <div className="w-full h-auto sm:pt-[70px]">
           <div className="flex flex-col lg:flex-row">
             <div className="order-2 sm:order-1 w-full lg:w-[60%] h-auto mt-[30px] sm:mt-[40px] lg:mt-0 pt-[30px] sm:pt-[40px] lg:pt-[80px] px-4 sm:px-6 lg:px-[76px]">
               <div className="h-auto md:h-[39px] py-[6px] sm:py-[8px] md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-4 sm:px-5 mt-[10px] sm:mt-[15px] lg:mt-4 text-[12px] sm:text-[14px] lg:text-sm font-semibold tracking-[1px] sm:tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
@@ -235,7 +235,7 @@ export default function creative() {
 
             <div className="w-full lg:w-[52.7%] h-auto pt-[40px] sm:pt-[50px] lg:pt-[80px] px-4 sm:px-6 lg:px-0 mt-[40px] sm:mt-[60px] lg:mt-0 flex justify-center items-center">
               <img
-                src=""
+                src={media7}
                 alt="media7"
                 loading="lazy"
                 className="w-[280px] xs:w-[300px] sm:w-[400px] md:w-[480px] lg:w-[520px] max-w-full"

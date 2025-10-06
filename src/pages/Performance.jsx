@@ -398,38 +398,38 @@ export default function Performance() {
                     <h2 className=' font-black w-2/3 text-5xl text-center'>
                         We continuously learn new things, and share those things with you:
                     </h2>
-                    <div className="flex justify-center items-center flex-wrap gap-5">
-                        <div className="w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
+                    <div className="flex flex-col md:flex-row justify-center items-center flex-wrap gap-5">
+                        <div className="w-2/3 md:w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
                             <img src={img6} alt="" />
                             <h2 className=' font-black my-5'>
                                 Building an inbound pipeline in a new region with account-based marketing principles
                             </h2>
                         </div>
-                        <div className="w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
+                        <div className="w-2/3 md:w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
                             <img src={img7} alt="" />
                             <h2 className=' font-black my-5'>
                                 Building an inbound pipeline in a new region with account-based marketing principles
                             </h2>
                         </div>
-                        <div className="w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
+                        <div className="w-2/3 md:w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
                             <img src={img8} alt="" />
                             <h2 className=' font-black my-5'>
                                 Building an inbound pipeline in a new region with account-based marketing principles
                             </h2>
                         </div>
-                        <div className="w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
+                        <div className="w-2/3 md:w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
                             <img src={img9} alt="" />
                             <h2 className=' font-black my-5'>
                                 Building an inbound pipeline in a new region with account-based marketing principles
                             </h2>
                         </div>
-                        <div className="w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
+                        <div className="w-2/3 md:w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
                             <img src={img10} alt="" />
                             <h2 className=' font-black my-5'>
                                 Building an inbound pipeline in a new region with account-based marketing principles
                             </h2>
                         </div>
-                        <div className="w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
+                        <div className="w-2/3 md:w-1/4 glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 cursor-pointer">
                             <img src={img11} alt="" />
                             <h2 className=' font-black my-5'>
                                 Building an inbound pipeline in a new region with account-based marketing principles

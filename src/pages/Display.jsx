@@ -27,7 +27,7 @@ export default function () {
             </div>
             <section>
                 <div className="w-full min-h-dvh VideoLine pb-7.5">
-                    <div className="w-full h-full flex md:flex-row flex-col pt-45">
+                    <div className="w-full flex md:flex-row flex-col md:pt-45">
                         <div className="w-full md:w-1/2 h-full flex flex-col  pl-15 text-white">
                             <h1 className=' text-6xl font-black w-full my-7.5'>
                                 Creating a different high-performance future

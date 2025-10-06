@@ -87,7 +87,7 @@ export default function Growth() {
 
       <section>
         <div className="w-full h-auto ContentLine pt-1 pb-20 md:pb-0">
-          <div className="w-full h-auto mt-20 md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row gap-10">
+          <div className="w-full h-auto  md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row gap-10">
             <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[48%] h-auto pt-8 mx-auto lg:mx-0">
               <h1 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-semibold text-[#ffffff] leading-[36px] sm:leading-[42px] md:leading-[52px] lg:leading-[60px] mt-10 sm:mt-6 md:mt-7 text-center lg:text-left">
                 Proven growth marketing agency
@@ -865,56 +865,56 @@ export default function Growth() {
         </div>
       </section>
       <section>
-        <div className="w-full h-[1076px] py-[5%] px-12 flex flex-col items-center">
+        <div className="w-full  py-[5%] px-12 flex flex-col items-center">
           <h3 className="h-9">
             <span className="bg-[#CEFD94] py-3 px-5 rounded-full font-bold">KNOWLEDGEBASE</span>
           </h3>
-          <h2 className=" font-black text-5xl my-5">
+          <h2 className=" font-black text-5xl my-5 text-center">
             Growth Marketing articles on Tuff
           </h2>
-          <div className=" w-full flex flex-wrap justify-center">
-            <Link className="w-1/4 m-5" to={"/how-performance-creative-generates-bold-actionable-results-for-growth-marketing"}>
-              <div className="h-94 w-full  border border-black p-7.5 hover:cursor-pointer">
+          <div className=" w-full flex flex-col md:flex-row flex-wrap justify-center">
+            <Link className="w-8/10 md:w-1/4 m-5" to={"/how-performance-creative-generates-bold-actionable-results-for-growth-marketing"}>
+              <div className=" w-full  border border-black p-7.5 hover:cursor-pointer">
                 <img src={marketing1} alt="" className="h-46 w-full" />
                 <p className=" font-bold text-xl">
                   How Performance Creative Generates Bold, Actionable Results for Growth Marketing
                 </p>
               </div>
             </Link>
-            <Link to={"/growth-marketing-spreadsheets"} className="w-1/4 m-5">
-              <div className="h-94 w-full border border-black p-7.5 hover:cursor-pointer">
+            <Link to={"/growth-marketing-spreadsheets"} className="w-8/10 md:w-1/4 m-5">
+              <div className=" w-full border border-black p-7.5 hover:cursor-pointer">
                 <img src={marketing2} alt="" className="h-46 w-full" />
                 <p className=" font-bold text-xl">
                   14 Ready-to-Go Growth Marketing Spreadsheets Startups Can Use to Boost Productivity
                 </p>
               </div>
             </Link>
-            <Link to={"/chatgpt-growth-marketing-strategies-how-to-write-ai-prompts"} className="w-1/4 m-5">
-              <div className="h-94 w-full  border border-black p-7.5 hover:cursor-pointer">
+            <Link to={"/chatgpt-growth-marketing-strategies-how-to-write-ai-prompts"} className="w-8/10 md:w-1/4 m-5">
+              <div className=" w-full  border border-black p-7.5 hover:cursor-pointer">
                 <img src={marketing3} alt="" className="h-46 w-full" />
                 <p className=" font-bold text-xl">
                   Level up your growth marketing strategies with ChatGPT: how to write AI prompts to get the best results
                 </p>
               </div>
             </Link>
-            <Link to={"/hire-growth-marketing-agency"} className="w-1/4 m-5">
-              <div className="h-94 w-full  border border-black p-7.5 hover:cursor-pointer">
+            <Link to={"/hire-growth-marketing-agency"} className="w-8/10 md:w-1/4 m-5">
+              <div className=" w-full  border border-black p-7.5 hover:cursor-pointer">
                 <img src={marketing4} alt="" className="h-46 w-full" />
                 <p className=" font-bold text-xl">
                   You’re a Startup. Should You Hire a Growth Marketing Agency?
                 </p>
               </div>
             </Link>
-            <Link to={"/growth-marketing"} className="w-1/4 m-5">
-              <div className="h-94 w-full border border-black p-7.5 hover:cursor-pointer">
+            <Link to={"/growth-marketing"} className="w-8/10 md:w-1/4 m-5">
+              <div className=" w-full border border-black p-7.5 hover:cursor-pointer">
                 <img src={marketing5} alt="" className="h-46 w-full" />
                 <p className=" font-bold text-xl">
                   Growth Marketing: What It Is and Why You Need It
                 </p>
               </div>
             </Link>
-            <Link className="w-1/4 m-5" to={"/what-is-a-growth-marketing-agency"}>
-              <div className="h-94 w-full border border-black p-7.5 hover:cursor-pointer">
+            <Link className="w-8/10 md:w-1/4 m-5" to={"/what-is-a-growth-marketing-agency"}>
+              <div className=" w-full border border-black p-7.5 hover:cursor-pointer">
                 <img src={marketing6} alt="" className="h-46 w-full" />
                 <p className=" font-bold text-xl">
                   What is a Growth Marketing Agency?

@@ -61,7 +61,7 @@ const TuffLandingSections = () => {
         <Navbar />
       </div>
 
-      <div className="min-h-screen pt-[105px] md:pt-0">
+      <div className="min-h-screen">
         <div className="relative contactbg overflow-hidden">
           <div className="relative max-w-[95%] sm:max-w-[90%] md:max-w-[88%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-start">
@@ -325,9 +325,9 @@ const TuffLandingSections = () => {
             ))}
           </div>
         </div>
-        <div className="py-46 bg-[#FFFCF8]">
+        <div className="py-30 bg-[#FFFCF8]">
           <div className="max-w-[90%] md:max-w-[80%] lg:max-w-[65.5%] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-8">
-            <div className="w-full sm:w-[70%] lg:w-[50%] flex items-center justify-center">
+            <div className="w-full lg:w-[50%] flex items-center justify-center">
               <img
                 src={Part}
                 alt="Partnership Overview"

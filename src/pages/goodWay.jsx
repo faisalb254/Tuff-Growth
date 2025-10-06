@@ -20,7 +20,7 @@ export default function goodWay() {
 
       <section>
         <div className="w-full h-auto flex flex-col lg:flex-row creative pt-[80px] pb-15">
-          <div className="order-2 sm:order-1 w-full lg:w-[60%] h-auto pt-14 px-6 lg:px-20">
+          <div className="order-2 sm:order-1 w-full lg:w-[60%] h-auto  px-6 lg:px-20">
             <div className="h-auto md:h-[39px] py-2 md:py-0 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
               PART OF GOODWAY GROUP
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 import HomeSection from "./sections/HomeSection";
 import GoodWay from "./pages/goodWay";
@@ -56,6 +57,7 @@ import Email from "./pages/Email";
 export default function App() {
   return (
     <div>
+
       <ScrollButton/>
       <nav style={{ padding: "1rem", background: "#f0f0f0" }} className="hidden">
         <Link to="/" style={{ margin: "0 0.5rem" }}>
@@ -101,7 +103,7 @@ export default function App() {
           Work
         </Link>
       </nav>
-
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomeSection />} />
         <Route path="/a-goodway-group-company" element={<GoodWay />} />
@@ -134,8 +136,9 @@ export default function App() {
         <Route path="/author/derek" element={<Derek/>}/>
         <Route path="/what-is-a-growth-marketing-agency" element={<Agency/>}/>
         <Route path="/growth-marketing" element={<Marketing/>}/>
-        <Route path="/hire-growth-marketing-agency" element={<Hire/>}/>
+        <Route path="/gui" element={<Hire/>}/>
         <Route path="/adam" element={<Adam/>}/>
+        <Route path="/author/adam" element={<Adam/>}/>
         <Route path="/chatgpt-growth-marketing-strategies-how-to-write-ai-prompts" element={<Chatgpt/>}/>
         <Route path="/growth-marketing-spreadsheets" element={<Spreadsheets/>}/>
         <Route path="/sample-growth-marketing-proposal" element={<Sample/>}/>

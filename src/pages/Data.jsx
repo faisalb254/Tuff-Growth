@@ -29,7 +29,7 @@ export default function Data() {
 
       <section>
         <div className="w-full h-auto pb-10 Croline pt-1">
-          <div className="w-full h-auto mt-26 md:mt-16 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row">
+          <div className="w-full h-auto  md:mt-16 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row">
             <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[58%] h-auto pt-0">
               <div className="h-auto md:h-[39px] capitalize py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-16 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
                 DATA

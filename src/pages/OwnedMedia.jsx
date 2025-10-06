@@ -29,18 +29,18 @@ export default function OwnedMedia() {
 
             <section>
                 <div className="w-full min-h-dvh bg-[#0c2233] pb-7.5">
-                    <div className="w-full h-full flex flex-col justify-center items-center pt-45">
+                    <div className="w-full h-full flex flex-col justify-center items-center pt-10 md:pt-45">
                         <div className="w-full md:w-2/3 h-full flex flex-col items-center  pl-15 text-white">
                             <div className="h-[45px] w-max px-[22px] bg-[#CEFD94] rounded-[40px] flex items-center justify-center gap-1 text-[15px] font-semibold text-[#0C2233]">
                                 OWNED MEDIA
                             </div>
-                            <h1 className=' text-6xl text-center font-black w-full my-7.5'>
+                            <h1 className='text-3xl md:text-6xl text-center font-black w-full my-7.5'>
                                 We help you make the customer journey as simple, clear, and efficient as possible.
                             </h1>
                             <p className=' text-2xl text-center my-7.5'>
                                 Building a strong brand means putting customer needs at the center of what you do and ensuring a flawless experience along every touchpoint.
                             </p>
-                            <button className='w-1/5 my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
+                            <button className='w-3/4 md:w-1/5 my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
                                 Let's talk
                             </button>
                         </div>
@@ -51,12 +51,12 @@ export default function OwnedMedia() {
                 </div>
             </section>
             <section>
-                <div className="w-full min-h-dvh flex flex-col justify-center items-start pt-20 mb-20">
-                    <h1 className=" text-5xl w-full p-15 font-black text-center">
+                <div className="w-full min-h-dvh flex flex-col justify-center items-start mb-20">
+                    <h1 className="text-3xl md:text-5xl w-full p-15 font-black text-center">
                         In our view, to drive growth, cross-functional collaboration is crucial to provide the best experience for the customer at every stage of the funnel.
                     </h1>
-                    <div className="w-full flex flex-wrap justify-center ">
-                        <div className="w-1/5 border-2 border-[#0000001F] min-h-[500px] ml-15 px-7.5 pb-7.5 pt-2.5">
+                    <div className="w-full flex flex-col md:flex-row flex-wrap justify-center items-center  gap-5">
+                        <div className="w-7/10 md:w-1/5 border-2 border-[#0000001F]  px-7.5 pb-7.5 pt-2.5">
                             <img src={search} alt="Blackboard" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 SEO
@@ -75,7 +75,7 @@ export default function OwnedMedia() {
                                 </Link>
                             </span>
                         </div>
-                        <div className="w-1/5 border-2 border-[#0000001F] min-h-[500px] ml-15 px-7.5 pb-7.5 pt-2.5">
+                        <div className="w-7/10 md:w-1/5 border-2 border-[#0000001F]  px-7.5 pb-7.5 pt-2.5">
                             <span className=' text-7xl'>
                                 <CiViewList />
                             </span>
@@ -96,7 +96,7 @@ export default function OwnedMedia() {
                                 </Link>
                             </span>
                         </div>
-                        <div className="w-1/5 border-2 border-[#0000001F] min-h-90 ml-15 px-7.5 pb-7.5 pt-2.5">
+                        <div className="w-7/10 md:w-1/5 border-2 border-[#0000001F]   px-7.5 pb-7.5 pt-2.5">
                             <span className=' text-7xl'>
                                 <CiAt />
                             </span>
@@ -117,7 +117,7 @@ export default function OwnedMedia() {
                                 </Link>
                             </span>
                         </div>
-                        <div className="w-1/5 border-2 border-[#0000001F] min-h-90 ml-15 px-7.5 pb-7.5 pt-2.5">
+                        <div className="w-7/10 md:w-1/5 border-2 border-[#0000001F]   px-7.5 pb-7.5 pt-2.5">
                             <span className=' text-7xl'>
                                 <img src={cro} alt="Blackboard" />
                             </span>

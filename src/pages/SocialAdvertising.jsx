@@ -71,33 +71,33 @@ export default function SocialAdvertising() {
             </div>
 
             <section>
-                <div className="w-full min-h-dvh GeoBg pb-7.5">
-                    <div className="w-full h-full flex pt-45">
-                        <div className="w-1/2 h-full flex flex-col  pl-15 text-white">
-                            <h1 className=' text-6xl font-black w-full my-7.5'>
+                <div className="w-full min-h-dvh GeoBg pb-10 ">
+                    <div className="w-full  flex flex-col md:flex-row pt-10 lg:pt-45">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  my-5 px-15 text-white">
+                            <h1 className='text-4xl md:text-6xl font-black w-full my-7.5'>
                                 Scale brand advertising, find new opportunities, and create a healthier media mix.
                             </h1>
                             <p className=' text-2xl my-7.5'>
                                 We generate quality results for our clients – not just empty traffic and one-off wins.
                             </p>
-                            <button className='w-1/3 my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
+                            <button className=' my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
                                 Let's talk
                             </button>
                         </div>
-                        <div className="w-1/2 flex justify-center items-center">
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
                             <img src={block} alt="" className='w-1/2 h-auto relative' />
-                            <img src={phone} alt="" className='w-1/5 h-auto absolute' />
+                            <img src={phone} alt="" className='w-1/3 md:w-1/5 h-auto absolute' />
                         </div>
                     </div>
                 </div>
             </section>
             <section >
                 <div className="px-18 py-12.5 flex justify-center items-center">
-                    <div className="w-8/10 h-[40vh] flex flex-col items-center justify-center text-2xl">
+                    <div className="w-9/10 md:w-8/10  flex flex-col items-center justify-center text-2xl">
                         <img src={stars} alt="" />
-                        <h2 className='my-2.5 font-black bg-[#CEFD94]'>
+                        <span className='my-2.5 font-black bg-[#CEFD94] text-center'>
                             “Tuff has been an incredible value-add to our business.
-                        </h2>
+                        </span>
                         <h2 className=' my-2.5 font-black text-center'>
                             They’re effective, flexible, communicative, and bright. I feel like I have six other sets of eyes on the growth of my business at all times.”
                         </h2>
@@ -105,7 +105,7 @@ export default function SocialAdvertising() {
                             <h3 className=' font-bold text-center'>
                                 Michael Corrao
                             </h3>
-                            <p>Co-Founder at the team Bootcamp</p>
+                            <p className=" text-center">Co-Founder at the team Bootcamp</p>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ export default function SocialAdvertising() {
             <section>
                 <div className="w-full h-auto SeoBg pt-10 flex items-center flex-col">
 
-                    <h2 className="text-3xl text-white text-center mt-4 px-4 font-black w-full lg:text-5xl lg:w-1/2">
+                    <h2 className="text-3xl text-white text-center mt-4 px-4 font-black w-full lg:text-5xl lg:w-full md:w-1/2">
                         Every campaign is tailored to your audience and unique media mix.
                     </h2>
 
@@ -183,7 +183,7 @@ export default function SocialAdvertising() {
                         </div>
                     </div>
                     <div className=" flex flex-col items-center pb-10">
-                        <h2 className=" w-1/2 text-[28px] sm:text-[36px] md:text-[44px] lg:text-[46px] font-semibold leading-snug sm:leading-tight lg:leading-[60px] mt-18 tracking-tight lg:tracking-[-1px] text-[#fffefb] text-center">
+                        <h2 className=" w-full md:w-1/2 text-[28px] sm:text-[36px] md:text-[44px] lg:text-[46px] font-semibold leading-snug sm:leading-tight lg:leading-[60px] mt-18 tracking-tight lg:tracking-[-1px] text-[#fffefb] text-center">
                             Our partners benefit from our extensive experience using the following platforms:
                         </h2>
 
@@ -268,8 +268,8 @@ export default function SocialAdvertising() {
 
             <section>
                 <div className="w-full min-h-[70vh] pb-7.5">
-                    <div className="w-full h-full flex flex-wrap pt-45">
-                        <div className="w-1/2 h-full flex flex-col  pl-15 text-black">
+                    <div className="w-full h-full flex flex-col md:flex-row flex-wrap pt-10 md:pt-45">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  px-15 text-black">
                             <h1 className=' text-4xl font-black w-full my-7.5'>
                                 Move the needle with measurable results
                             </h1>
@@ -285,15 +285,15 @@ export default function SocialAdvertising() {
                                 </p>
                             </Link>
                         </div>
-                        <div className="w-1/2 flex justify-center items-center">
-                            <img src={img1} alt="" className='w-2/5 h-auto absolute' />
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
+                            <img src={img1} alt="" className='w-2/3 h-auto ' />
                         </div>
                     </div>
-                    <div className="w-full h-full flex pt-45">
-                        <div className="w-1/2 flex justify-center items-center">
-                            <img src={img2} alt="" className='w-1/2 h-auto absolute pl-10' />
+                    <div className="w-full h-full flex flex-col-reverse md:flex-row md:pt-10">
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
+                            <img src={img2} alt="" className='w-full  h-auto px-10' />
                         </div>
-                        <div className="w-1/2 h-full flex flex-col  pr-15 text-black">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  px-15 text-black">
                             <h1 className=' text-4xl font-black w-full mt-7.5'>
                                 Let’s ensure our upper funnel assets are inspiring and lower funnel are informative.
                             </h1>
@@ -318,7 +318,7 @@ export default function SocialAdvertising() {
 
 
             <section>
-                <div className="creline h-auto w-full pt-4 mt-40 pb-10">
+                <div className="creline h-auto w-full pt-4  pb-10">
                     <div className="h-auto md:h-[39px] m-auto py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-24 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
                         CASE STUDIES
                     </div>
@@ -485,7 +485,7 @@ export default function SocialAdvertising() {
                     </p>
 
                     <div className="w-full h-auto pt-13 px-6 sm:px-10 md:px-14 lg:px-19 flex flex-wrap flex-col lg:flex-row gap-8 lg:gap-0 justify-between items-center lg:items-start">
-                        <div className="w-full lg:w-[31.5%] h-[44vh] mb-2 pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8 ">
+                        <div className="w-full lg:w-[31.5%]  mb-2 pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8 ">
                             <img src={social} alt="Blackboard" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Paid Social
@@ -505,7 +505,7 @@ export default function SocialAdvertising() {
                             </span>
                         </div>
 
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={display} alt="Award" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Display
@@ -525,7 +525,7 @@ export default function SocialAdvertising() {
                             </span>
                         </div>
 
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={cro} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 CRO
@@ -544,7 +544,7 @@ export default function SocialAdvertising() {
                                 </Link>
                             </span>
                         </div>
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={marketing} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Marketing Attribution
@@ -563,7 +563,7 @@ export default function SocialAdvertising() {
                                 </Link>
                             </span>
                         </div>
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={content} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Content
@@ -582,7 +582,7 @@ export default function SocialAdvertising() {
                                 </Link>
                             </span>
                         </div>
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={creative} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Creative
@@ -616,7 +616,7 @@ export default function SocialAdvertising() {
 
             <section >
                 <div className="px-18 py-12.5 flex justify-center items-center">
-                    <div className="w-8/10 h-[40vh] flex flex-col items-center justify-center text-2xl">
+                    <div className="w-8/10  flex flex-col items-center justify-center text-2xl">
                         <img src={stars} alt="" />
                         <h2 className='my-2.5 font-black bg-[#CEFD94]'>
                             “Great team to work with. Very experienced, quick to respond and always willing to pivot based on feedback.

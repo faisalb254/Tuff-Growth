@@ -38,7 +38,7 @@ export default function Marketing() {
             » Growth Marketing: What It Is and Why You Need It
           </span>
         </div>
-        <div className="pt-10 w-[55%]">
+        <div className="pt-10 w-8/10 md:w-[55%]">
           <h1 className='text-3xl sm:text-6xl w-full font-bold text-center'>
             Growth Marketing: What It Is and Why You Need It
           </h1>
@@ -152,7 +152,7 @@ export default function Marketing() {
         </div>
       </section>
       <section className='flex justify-center'>
-        <div className="pt-10 w-[55%]">
+        <div className="pt-10 w-8/10 md:w-[55%]">
           <div className="my-12.5 flex flex-col  text-white mx-6 border-20 border-[#060631] bg-[#060631] p-12.5">
             <h3 id='section-7' className='font-bold text-4xl'>We’d love to work with you.</h3>
             <p className='my-4'>

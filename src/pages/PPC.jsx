@@ -58,19 +58,19 @@ export default function PPC() {
 
             <section>
                 <div className="w-full min-h-[70vh] GeoBg pb-7.5">
-                    <div className="w-full h-full flex pt-45">
-                        <div className="w-1/2 h-full flex flex-col  pl-15 text-white">
-                            <h1 className=' text-6xl font-black w-full my-7.5'>
+                    <div className="w-full h-full flex flex-col md:flex-row md:pt-45">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  px-15 text-white">
+                            <h1 className='text-4xl md:text-6xl font-black w-full my-7.5'>
                                 Unlock a quick yet lasting path to growth.
                             </h1>
                             <p className=' text-2xl my-7.5'>
                                 We generate quality results for our clients – not just empty traffic and one-off wins.
                             </p>
-                            <button className='w-1/3 my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
+                            <button className='w-2/3 md:w-1/3 my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
                                 Let's talk
                             </button>
                         </div>
-                        <div className="w-1/2 flex justify-center items-center">
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
                             <img src={lines} alt="" className='w-2/3 h-auto relative' />
                             <img src={laptop} alt="" className='w-1/2 h-auto absolute' />
                         </div>
@@ -79,7 +79,7 @@ export default function PPC() {
             </section>
             <section >
                 <div className="px-18 py-12.5 flex justify-center items-center">
-                    <div className="w-8/10 h-[40vh] flex flex-col items-center justify-center text-2xl">
+                    <div className="w-8/10 flex flex-col items-center justify-center text-2xl">
                         <img src={stars} alt="" />
                         <h2 className='my-2.5 font-black bg-[#CEFD94]'>
                             “I view our partnership with Tuff as more like an extension of my team.
@@ -169,7 +169,7 @@ export default function PPC() {
                         </div>
                     </div>
                     <div className=" flex flex-col items-center pb-10">
-                        <h2 className=" w-1/2 text-[28px] sm:text-[36px] md:text-[44px] lg:text-[46px] font-semibold leading-snug sm:leading-tight lg:leading-[60px] mt-18 tracking-tight lg:tracking-[-1px] text-[#fffefb] text-center">
+                        <h2 className=" w-full md:w-1/2 text-[28px] sm:text-[36px] md:text-[44px] lg:text-[46px] font-semibold leading-snug sm:leading-tight lg:leading-[60px] mt-18 tracking-tight lg:tracking-[-1px] text-[#fffefb] text-center">
                             Our partners benefit from our extensive experience using the following platforms:
                         </h2>
 
@@ -246,7 +246,7 @@ export default function PPC() {
                     <div className="h-[45px] w-fit px-4 bg-[#CEFD94] rounded-[40px] flex items-center justify-center gap-1 text-[15px] font-semibold text-[#0C2233]">
                         LET'S TALK
                     </div>
-                    <h1 className='w-1/2 font-black my-4.5 text-5xl text-center'>
+                    <h1 className='w-full md:w-1/2 font-black my-4.5 text-5xl text-center'>
                         Learn more about a few of our team’s specialty areas
                     </h1>
                     <div className="bg-white w-3/5 rounded-[5px] border-[2px] border-gray-300 p-6 sm:p-8 md:p-9 mt-10 sm:mt-14 lg:mt-18">
@@ -443,29 +443,26 @@ export default function PPC() {
             </section>
             <section>
                 <div className="w-full min-h-[70vh] SeoBg pb-7.5">
-                    <div className="w-full h-full flex pt-45">
-                        <div className="w-1/2 h-full flex flex-col  pl-15 text-white">
+                    <div className="w-full h-full flex flex-col md:flex-row md:pt-45">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  pl-15 text-white">
                             <h1 className=' text-4xl font-black w-full my-7.5'>
                                 Get a PPC team that has consistently delivered results.
                             </h1>
                             <p className=' text-xl my-7.5'>
                                 Anyone can optimize a campaign. But what results in real growth is the ability to deeply understand what the numbers mean and then constantly iterate. Our team works hard, moves fast, and partners closely with you to test, learn, and validate what’s working and what’s not. Every adjustment to your PPC campaigns are based on opportunity, cost, ease, and value.
                             </p>
-                            {/* <button className='w-1/3 my-7.5 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
-                                Let's talk
-                            </button> */}
                         </div>
-                        <div className="w-1/2 flex justify-center items-center">
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
                             <img src={block} alt="" className='w-1/2 h-auto relative' />
-                            <img src={laptop2} alt="" className='w-1/2 h-auto absolute' />
+                            <img src={laptop2} alt="" className='w-2/3 md:w-1/2 h-auto absolute' />
                         </div>
                     </div>
-                    <div className="w-full h-full flex pt-45">
-                        <div className="w-1/2 flex justify-center items-center">
+                    <div className="w-full h-full flex flex-col-reverse md:flex-row md:pt-45">
+                        <div className="w-full md:w-1/2 flex justify-center items-center">
                             {/* <img src={lines} alt="" className='w-2/3 h-auto relative' /> */}
-                            <img src={chart} alt="" className='w-1/2 h-auto absolute pl-10' />
+                            <img src={chart} alt="" className='w-2/3 h-auto pl-10' />
                         </div>
-                        <div className="w-1/2 h-full flex flex-col  pl-15 text-white">
+                        <div className="w-full md:w-1/2 h-full flex flex-col  pl-15 text-white">
                             <h1 className=' text-4xl font-black w-full mt-7.5'>
                                 Use Tuff to zero in on the right search approach, the right way, fast
                             </h1>
@@ -490,7 +487,7 @@ export default function PPC() {
                     </p>
 
                     <div className="w-full h-auto pt-13 px-6 sm:px-10 md:px-14 lg:px-19 flex flex-wrap flex-col lg:flex-row gap-8 lg:gap-0 justify-between items-center lg:items-start">
-                        <div className="w-full lg:w-[31.5%] h-[44vh] mb-2 pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8 ">
+                        <div className="w-full lg:w-[31.5%]  mb-2 pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8 ">
                             <img src={social} alt="Blackboard" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Paid Social
@@ -508,7 +505,7 @@ export default function PPC() {
                             </span>
                         </div>
 
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-1/3  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={display} alt="Award" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Display
@@ -526,7 +523,7 @@ export default function PPC() {
                             </span>
                         </div>
 
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={cro} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 CRO
@@ -543,7 +540,7 @@ export default function PPC() {
                                 </p>
                             </span>
                         </div>
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={marketing} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Marketing Attribution
@@ -560,7 +557,7 @@ export default function PPC() {
                                 </p>
                             </span>
                         </div>
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={content} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Content
@@ -577,7 +574,7 @@ export default function PPC() {
                                 </p>
                             </span>
                         </div>
-                        <div className="w-full lg:w-[31.5%] h-[44vh] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
+                        <div className="w-full lg:w-[31.5%]  pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8">
                             <img src={creative} alt="List" />
                             <h2 className="text-[24px] font-bold text-[#0C2233] mt-6">
                                 Creative
@@ -609,9 +606,9 @@ export default function PPC() {
 
             <section >
                 <div className="px-18 py-12.5 flex justify-center items-center">
-                    <div className="w-8/10 h-[40vh] flex flex-col items-center justify-center text-2xl">
+                    <div className="w-8/10 flex flex-col items-center justify-center text-2xl">
                         <img src={stars} alt="" />
-                        <h2 className='my-2.5 font-black bg-[#CEFD94]'>
+                        <h2 className='my-2.5 font-black text-center bg-[#CEFD94]'>
                             “Tuff is an amazing team, extremely organized, and driven to produce results!
                         </h2>
                         <h2 className=' my-2.5 font-black text-center'>

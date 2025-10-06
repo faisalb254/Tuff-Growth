@@ -35,7 +35,7 @@ export default function Seo() {
 
       <section>
         <div className="w-full h-auto VideoLine pt-1">
-          <div className="w-full h-auto mt-40 md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row">
+          <div className="w-full h-auto  md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row">
             <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[48%] h-auto pt-1">
               <h1 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-medium text-[#ffffff] leading-[36px] sm:leading-[42px] md:leading-[52px] lg:leading-[60px] mt-4 sm:mt-6 md:mt-7">
                 Search visibility in front of the right organic audience.

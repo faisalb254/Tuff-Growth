@@ -33,7 +33,7 @@ export default function CaseStudies() {
         <Navbar />
       </div>
       <section>
-        <div className="w-full h-auto flex justify-center flex-col items-center pt-[220px] pb-10 lg:pt-[135px] lg:pb-15">
+        <div className="w-full h-auto flex justify-center flex-col items-center  pb-10 lg:pt-[135px] lg:pb-15">
           <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
             CASE STUDIES
           </div>

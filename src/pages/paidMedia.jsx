@@ -70,7 +70,7 @@ export default function paidMedia() {
 
 
       <section>
-        <div className="w-full h-auto mediabg pt-[80px] pb-15">
+        <div className="w-full h-auto mediabg  pb-15">
           <div className="flex flex-col lg:flex-row">
             <div className="order-2 sm:order-1 w-full lg:w-[60%] h-auto mt-10 md:mt-0 pt-14 px-4 lg:px-19">
               <div className="h-auto md:h-[39px] py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">

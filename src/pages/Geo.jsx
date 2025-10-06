@@ -24,39 +24,65 @@ import Footer from "../components/Footer";
 import { Plus, Minus } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Faq from '../components/Faq'
 import FinalSection from "../components/FinalSection";
 
 export default function Geo() {
   const box = {
-        heading: "Search is changing. We’ll help you create content for the AI age.",
-        para: ["We like to share how we help businesses grow organically. But, a great partnership is also about people. Let’s chat."],
-        button: "Book a free GEO strategy call today"
-    }
+    heading: "Search is changing. We’ll help you create content for the AI age.",
+    para: ["We like to share how we help businesses grow organically. But, a great partnership is also about people. Let’s chat."],
+    button: "Book a free GEO strategy call today"
+  }
   const faqs = [
     {
-      question: "How is GEO different from SEO? ",
+      question: "How is GEO different from SEO?",
       answer:
-        "GEO optimizes your content specifically for AI-generated search experiences like ChatGPT, Google Gemini, and Perplexity, focusing on relevance, structured responses, and conversational clarity. In contrast, traditional search engine optimization (SEO) targets visibility in standard search engine results by emphasizing keywords, backlinks, and algorithmic ranking factors.",
+        [
+          {
+            para: "GEO optimizes your content specifically for AI-generated search experiences like ChatGPT, Google Gemini, and Perplexity, focusing on relevance, structured responses, and conversational clarity. In contrast, traditional search engine optimization (SEO) targets visibility in standard search engine results by emphasizing keywords, backlinks, and algorithmic ranking factors.",
+            type: "para"
+          }
+        ],
     },
     {
       question: "Will GEO replace my current SEO strategy? ",
       answer:
-        "No. GEO complements traditional SEO rather than replacing it. Combining both ensures your content is visible across all search experiences, whether in traditional search engine formats or AI-driven generative platforms.",
+        [
+          {
+            para: "No. GEO complements traditional SEO rather than replacing it. Combining both ensures your content is visible across all search experiences, whether in traditional search engine formats or AI-driven generative platforms.",
+            type: "para"
+          }
+        ],
     },
     {
-      question: "How soon can I see results?",
+      question: "How soon can I see results? ",
       answer:
-        "Timelines vary, but most businesses will begin seeing improved visibility in generative search platforms within weeks to months of deployment. Leading indicators often include increased brand mentions, improved content positioning in AI responses, and incremental traffic lift from users coming from AI-driven search platforms.",
+        [
+          {
+            para: "Timelines vary, but most businesses will begin seeing improved visibility in generative search platforms within weeks to months of deployment. Leading indicators often include increased brand mentions, improved content positioning in AI responses, and incremental traffic lift from users coming from AI-driven search platforms.",
+            type: "para"
+          }
+        ],
     },
     {
-      question: "Why is understanding user intent crucial in GEO?",
+      question: "Why is understanding user intent crucial in GEO? ",
       answer:
-        "Understanding user intent allows you to create content tailored precisely to the information users seek. Generative answer engines rely on natural language processing to interpret user queries, meaning content closely aligned with user intent is more likely to be selected by AI as a reliable answer source.",
+        [
+          {
+            para: "Understanding user intent allows you to create content tailored precisely to the information users seek. Generative answer engines rely on natural language processing to interpret user queries, meaning content closely aligned with user intent is more likely to be selected by AI as a reliable answer source.",
+            type: "para"
+          }
+        ],
     },
     {
-      question:"What’s the difference between GEO and AEO?",
+      question: "What’s the difference between GEO and AEO? ",
       answer:
-        "Terms like GEO, AEO, and even LLM SEO are often used interchangeably. But we would argue they convey subtle differences in approach. Generative Engine Optimization (GEO) focuses on enhancing content for AI-driven platforms like ChatGPT, Google’s AI Overviews, and Perplexity AI, ensuring accurate representation and citation in AI-generated responses. Answer Engine Optimization (AEO), on the other hand, aims to optimize content for direct extraction from AI tools to answer user queries. This can include optimizing for results like featured snippets, knowledge panels, and voice search results — whether on Google Search or voice assistants like Siri and Alexa. While both strategies enhance visibility, GEO targets AI synthesis while AEO focuses on direct answer delivery to user queries. Gaining visibility on certain platforms requires a hybrid approach of both GEO and AEO. For example, Perplexity AI is an AI-powered answer engine that searches the web, identifies trusted sources, and synthesizes information into clear, up-to-date responses. While it shares characteristics with both generative AI platforms and traditional search engines, Perplexity’s approach involves directly answering user queries with synthesized information, often including citations. Therefore, optimizing content for Perplexity involves strategies from both Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO), ensuring content is authoritative, well-structured, and directly addresses user queries to enhance visibility across various AI-driven platforms."
+        [
+          {
+            para: "Terms like GEO, AEO, and even LLM SEO are often used interchangeably. But we would argue they convey subtle differences in approach. Generative Engine Optimization (GEO) focuses on enhancing content for AI-driven platforms like ChatGPT, Google’s AI Overviews, and Perplexity AI, ensuring accurate representation and citation in AI-generated responses. Answer Engine Optimization (AEO), on the other hand, aims to optimize content for direct extraction from AI tools to answer user queries. This can include optimizing for results like featured snippets, knowledge panels, and voice search results — whether on Google Search or voice assistants like Siri and Alexa. While both strategies enhance visibility, GEO targets AI synthesis while AEO focuses on direct answer delivery to user queries. Gaining visibility on certain platforms requires a hybrid approach of both GEO and AEO. For example, Perplexity AI is an AI-powered answer engine that searches the web, identifies trusted sources, and synthesizes information into clear, up-to-date responses. While it shares characteristics with both generative AI platforms and traditional search engines, Perplexity’s approach involves directly answering user queries with synthesized information, often including citations. Therefore, optimizing content for Perplexity involves strategies from both Generative Engine Optimization (GEO) and Answer Engine Optimization (AEO), ensuring content is authoritative, well-structured, and directly addresses user queries to enhance visibility across various AI-driven platforms.",
+            type: "para"
+          }
+        ],
     }
   ];
   const [openIndex, setOpenIndex] = useState(null);
@@ -72,7 +98,7 @@ export default function Geo() {
 
       <section>
         <div className="w-full h-auto GeoBg p-1">
-          <div className="w-full h-auto mt-40 md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row">
+          <div className="w-full h-auto  md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row">
             <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[48%] h-auto pt-1">
               <h1 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-semibold text-[#ffffff] leading-[36px] sm:leading-[42px] md:leading-[52px] lg:leading-[60px] mt-4 sm:mt-6 md:mt-7">
                 Reach the new generation of searchers with Generative Engine <br />
@@ -677,83 +703,15 @@ export default function Geo() {
       </section>
 
       <section>
-        <div className="w-full mx-auto px-4 sm:px-6 md:px-10 lg:px-14 py-10">
-          <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[42px] font-bold text-center text-[#0C2233] mb-8">
+        <div className="w-full flex justify-center items-center flex-col">
+          <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[42px] font-bold text-center text-[#0C2233] ">
             FAQs
           </h2>
-          <div>
-            {faqs.map((item, index) => {
-              const isFirst = index === 0;
-              const isLast = index === faqs.length - 1;
-
-              return (
-                <div
-                  key={index}
-                  className={`py-4 sm:py-5 md:py-6 ${
-                    isFirst ? "border-t border-black" : ""
-                  } border-b border-black`}
-                >
-                  <div
-                    className="cursor-pointer flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4"
-                    onClick={() => toggleFAQ(index)}
-                  >
-                    <h3 className="text-base sm:text-lg md:text-[24px] lg:text-[28px] font-semibold text-[#0C2233]">
-                      {item.question}
-                    </h3>
-                    <span className="text-orange-500 text-[24px] sm:text-[26px] md:text-[28px]">
-                      {openIndex === index ? (
-                        <Minus size={28} />
-                      ) : (
-                        <Plus size={28} />
-                      )}
-                    </span>
-                  </div>
-                  {openIndex === index && (
-                    <p className="mt-3 sm:mt-4 text-gray-700 text-sm sm:text-base">
-                      {item.answer}
-                    </p>
-                  )}
-                </div>
-              );
-            })}
+          <div className="w-full md:w-2/3">
+            <Faq faq={faqs} />
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -807,7 +765,7 @@ export default function Geo() {
         </div>
       </section>
 
-      <FinalSection text={box}/>
+      <FinalSection text={box} />
       <Footer />
     </>
   );

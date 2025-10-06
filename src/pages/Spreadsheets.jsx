@@ -47,7 +47,7 @@ export default function Spreadsheets() {
                     </div>
                 </div>
             </section>
-            <section className=' pt-3 flex flex-col items-center text-xl'>
+            <section className=' pt-3 flex flex-col justify-center items-center text-xl'>
                 <div className="w-full md:sticky top-10  flex justify-end">
                     <Toc table={table} />
                 </div>
@@ -57,7 +57,7 @@ export default function Spreadsheets() {
                         » 14 Ready-to-Go Growth Marketing Spreadsheets Startups Can Use to Boost Productivity
                     </span>
                 </div>
-                <div className="pt-10 w-[50%]">
+                <div className="pt-10 w-8/10 md:w-1/2">
                     <h1 className='text-3xl sm:text-6xl w-full font-bold text-center'>
                         14 Ready-to-Go Growth Marketing Spreadsheets Startups Can Use to Boost Productivity
                     </h1>

@@ -45,7 +45,7 @@ export default function Chatgpt() {
                         » Level up your growth marketing strategies with ChatGPT: how to write AI prompts to get the best results
                     </span>
                 </div>
-                <div className="pt-10 w-[50%]">
+                <div className="pt-10 w-8/10 md:w-1/2">
                     <h1 className='text-3xl sm:text-6xl w-full font-bold text-center'>
                         Level up your growth marketing strategies with ChatGPT: how to write AI prompts to get the best results
                     </h1>
@@ -258,7 +258,7 @@ export default function Chatgpt() {
                 </div>
             </section>
             <section className=' pt-3 flex flex-col items-center text-xl'>
-                <div className=" w-[50%]">
+                <div className=" w-8/10 md:w-1/2">
                     <h1 id='section-12' className='text-3xl w-full font-black '>
                         Key Takeaways
                     </h1>

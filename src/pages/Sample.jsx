@@ -143,18 +143,18 @@ export default function Sample() {
             </div>
 
             <section>
-                <div className="w-full  samplebg pb-7.5 flex flex-col justify-center items-center text-white gap-3">
+                <div className="w-full pt-5 md:pt-40 samplebg pb-7.5 flex flex-col justify-center items-center text-white gap-3">
                     <h1 className=' w-2/3 text-5xl font-black text-center'>
                         Download a Sample Growth Marketing Proposal
                     </h1>
                     <p className=' text-xl w-2/3 text-center'>
                         Fueled with the information you share with us in a 30-minute discovery call, and the accounts we get access to after, we put together a growth marketing proposal for us to review together that highlights where we think the biggest opportunities are.
                     </p>
-                    <form className='h-18 py-2.5 flex flex-col md:flex-row gap-3' action="">
+                    <form className=' py-2.5 flex flex-col lg:flex-row gap-3' action="">
                         <input id='1' name='firstname' className=' text-black rounded-sm py-2 px-4 bg-white focus:outline-none focus:ring-0 focus:border-transparent' placeholder='First Name' type="text" required />
                         <input id='2' name='lastname' className=' text-black rounded-sm py-2 px-4 bg-white focus:outline-none focus:ring-0 focus:border-transparent' placeholder='Last Name' type="text" required />
                         <input id='3' name='workemail' className=' text-black rounded-sm py-2 px-4 bg-white focus:outline-none focus:ring-0 focus:border-transparent' placeholder='Word Email' type="text" required />
-                        <button className='text-black py-2 px-4 bg-[#CEFD94] rounded-sm w-40 cursor-pointer'>
+                        <button className='w-full text-black py-2 px-4 bg-[#CEFD94] rounded-sm  cursor-pointer'>
                             Access Now
                         </button>
                     </form>
@@ -162,11 +162,11 @@ export default function Sample() {
             </section>
             <section>
                 <div className="py-12.5 flex justify-center items-center ">
-                    <div className="w-8/10 flex flex-col lg:flex-row gap-3">
-                        <div className="w-1/2">
+                    <div className="w-full flex flex-col-reverse lg:flex-row justify-center items-center gap-3">
+                        <div className="w-full md:w-1/2">
                             <img src={img1} alt="" />
                         </div>
-                        <div className="w-1/2 flex flex-col justify-center items-start gap-3">
+                        <div className="w-9/10 md:w-1/2 flex flex-col justify-center items-start gap-3">
                             <h1 className=' text-4xl font-black'>
                                 What’s Inside
                             </h1>
@@ -191,8 +191,8 @@ export default function Sample() {
                     {
                         comments.map((comment, idx) => (
                             <div className=" w-9/10 flex flex-col md:flex-row gap-5 my-5">
-                                <div className="w-1/2 flex flex-col gap-5 ">
-                                    <img className=' w-1/4' src={stars} alt="" />
+                                <div className="w-full md:w-1/2 flex flex-col gap-5 ">
+                                    <img className='w-1/2 md:w-1/4 ' src={stars} alt="" />
                                     <p className=' text-2xl'>
                                         <span className={`${comment.first.sentence1.font}`}>"{comment.first.sentence1.text}</span> <span className={`${comment.first.sentence2.font}`}>{comment.first.sentence2.text}"</span>
                                     </p>
@@ -210,8 +210,8 @@ export default function Sample() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-1/2 flex flex-col gap-5">
-                                    <img className=' w-1/4' src={stars} alt="" />
+                                <div className="w-full md:w-1/2 flex flex-col gap-5">
+                                    <img className='w-1/2 md:w-1/4 ' src={stars} alt="" />
                                     <p className=' text-2xl'>
                                         <span className={`${comment.second.sentence1.font}`}>"{comment.second.sentence1.text}</span> <span className={`${comment.second.sentence2.font}`}>{comment.second.sentence2.text}"</span>
                                     </p>

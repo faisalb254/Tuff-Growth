@@ -81,14 +81,14 @@ export default function Youtube() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">
-        <Navbar />
-      </div>
+                <Navbar />
+            </div>
 
             <section>
                 <div className="VideoLine w-full flex justify-center items-center pt-5 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
-                            <h1 className=' text-6xl font-black my-5'>
+                            <h1 className=' text-4xl md:text-6xl font-black my-5'>
                                 Your YouTube Ads Agency
                             </h1>
                             <p className=' text-xl my-5'>
@@ -347,7 +347,7 @@ export default function Youtube() {
             </section>
 
 
-            <FinalSection text={box}/>
+            <FinalSection text={box} />
             <Footer />
         </>
     )

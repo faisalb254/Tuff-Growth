@@ -33,7 +33,7 @@ export default function Work() {
       </div>
 
       <section>
-        <div className="w-full h-auto md:h-[100vh] ContentLine pt-1">
+        <div className="w-full h-auto py-5 ContentLine pt-1">
           <div className="w-full h-auto mt-20 md:mt-20 lg:mt-35 px-4 sm:px-6 md:px-12 lg:pl-19 flex flex-col lg:flex-row gap-10">
             <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[48%] h-auto pt-4">
               <div className="h-auto md:h-[39px] py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit mb-5">

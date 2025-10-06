@@ -84,27 +84,6 @@ export default function StrategicMessaging() {
                 </div>
             </section>
 
-            {/* <section>
-                <div className="w-full min-h-[90vh] GeoBg">
-                    <div className="w-full h-full flex pt-45">
-                        <div className="w-1/2 h-full flex flex-col  pl-15 text-white">
-                            <h1 className=' text-6xl font-black w-full'>
-                                The unsung growth hero: messaging.
-                            </h1>
-                            <p className='my-4'>
-                                We take a full-funnel, customer-first approach to messaging. That means your target audience receives a consistent and intentional experience, you achieve better creative output, and all together we see more consistency, smarter learnings, and maximum advocacy.
-                            </p>
-                            <button className='w-1/3 py-5 px-8 text-2xl text-black bg-[#dd4917] rounded-[2px] transition-all duration-500 tilt-zoom font-bold'>
-                                Let's talk
-                            </button>
-                        </div>
-                        <div className="w-1/2 flex justify-center items-center">
-                            <img src={curve} alt="" className='w-2/3 h-auto relative' />
-                            <img src={laptop} alt="" className='w-1/2 h-auto absolute' />
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <section className="w-full min-h-dvh flex flex-col justify-start items-center mt-10 px-4">
                 <h1 className="font-black text-3xl sm:text-4xl md:text-5xl text-center">
                     Let’s go deep.
