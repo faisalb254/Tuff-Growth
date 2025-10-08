@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Minus, Plus } from "lucide-react";
 
-export default function Test(props) {
+export default function Faq(props) {
     const faqs = props.faq
     const [openIndex, setOpenIndex] = useState(null);
 

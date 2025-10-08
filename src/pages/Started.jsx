@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Form from '../components/Form'
 import { Download } from "lucide-react";
 import Navbar from "../components/Navbar";
 import cl1 from "../assets/cl1.svg";
@@ -62,7 +63,7 @@ const TuffLandingSections = () => {
       </div>
 
       <div className="min-h-screen">
-        <div className="relative contactbg overflow-hidden">
+        {/* <div className="relative contactbg overflow-hidden">
           <div className="relative max-w-[95%] sm:max-w-[90%] md:max-w-[88%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-start">
               <div className="space-y-6 sm:space-y-8 mt-16 sm:mt-24 lg:mt-15">
@@ -282,7 +283,11 @@ const TuffLandingSections = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        <section>
+          <Form text="black" />
+        </section>
 
         <div className="w-full h-auto homeImg1 pt-3 pb-24 ">
           <div className="h-[40px] w-max p-2 bg-[#ceff2a] m-auto rounded-[20px] flex justify-center items-center px-5 mt-26 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
