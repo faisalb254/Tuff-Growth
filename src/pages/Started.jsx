@@ -22,39 +22,7 @@ import Part from "../assets/part.png";
 import Footer from "../components/Footer";
 
 const TuffLandingSections = () => {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    company: "",
-    companyWebsite: "",
-    companyStage: "",
-    timeline: "",
-    budget: "",
-    message: "",
-  });
-  const stages = ["Seed", "Series A or higher", "Enterprise"];
-  const [companyStage, setCompanyStage] = useState("");
 
-  const handleStageClick = (stage) => {
-    if (companyStage === stage) {
-      setCompanyStage("");
-    } else {
-      setCompanyStage(stage);
-    }
-  };
-
-  const handleInputChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-  };
 
   return (
     <>
@@ -286,7 +254,35 @@ const TuffLandingSections = () => {
         </div> */}
 
         <section>
-          <Form text="black" />
+          <div className="relative max-w-[95%] sm:max-w-[90%] md:max-w-[88%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-20">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-start">
+              <div className="space-y-6 sm:space-y-8 mt-16 sm:mt-24 lg:mt-15">
+                <div>
+                  <h1 className={`text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-extrabold text-black leading-tight`}>
+                    Book a call with a growth strategist.
+                  </h1>
+                </div>
+
+                <div className="space-y-3 text-[#0C2233] text-base sm:text-[17px] md:text-[19px]">
+                  <p>
+                    On our first call, we'll learn more about your growth goals,
+                    share a bit about what we do and discuss how we like to
+                    partner with clients to see if it might be a good fit.
+                  </p>
+                  <p className="text-sm sm:text-base md:text-lg">
+                    From there, we do an audit to figure out where we can have
+                    the biggest impact and then build a tailored plan based on
+                    our insights and customized to you. Last, we execute as a
+                    team, putting high-level marketing strategies with expert
+                    implementation.
+                  </p>
+                </div>
+              </div>
+              <div className="">
+                <Form text="black" />
+              </div>
+            </div>
+          </div>
         </section>
 
         <div className="w-full h-auto homeImg1 pt-3 pb-24 ">

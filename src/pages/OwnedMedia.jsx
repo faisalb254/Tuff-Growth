@@ -24,8 +24,8 @@ export default function OwnedMedia() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#5A2AFF]">
-        <Navbar />
-      </div>
+                <Navbar />
+            </div>
 
             <section>
                 <div className="w-full min-h-dvh bg-[#0c2233] pb-7.5">
@@ -395,8 +395,35 @@ export default function OwnedMedia() {
                     </Link>
                 </div>
             </section>
+
             <section>
-                <Form text="black" />
+                <div className="relative max-w-[95%] sm:max-w-[90%] md:max-w-[88%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-start">
+                        <div className="space-y-6 sm:space-y-8 mt-16 sm:mt-24 lg:mt-15">
+                            <div>
+                                <h1 className={`text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-extrabold text-black leading-tight`}>
+                                    Get in Touch
+                                </h1>
+                            </div>
+
+                            <div className={`space-y-3 text-black text-base sm:text-[17px] md:text-[19px]`}>
+                                <p>
+                                    Let’s talk about how we can optimize your funnel with a customer-first, data-driven approach.
+                                </p>
+                                {/* <p className="text-sm sm:text-base md:text-lg">
+                                From there, we do an audit to figure out where we can have
+                                the biggest impact and then build a tailored plan based on
+                                our insights and customized to you. Last, we execute as a
+                                team, putting high-level marketing strategies with expert
+                                implementation.
+                            </p> */}
+                            </div>
+                        </div>
+                        <div className="">
+                            <Form text="black" />
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <Footer />

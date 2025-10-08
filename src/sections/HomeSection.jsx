@@ -60,7 +60,7 @@ export default function HomeSection() {
         <Navbar />
       </div>
 
-      <section className="w-full h-full homeImg pt-10">
+      <section className="w-full h-full homeImg pt-20">
         <div className="w-full h-max">
           <div className="flex flex-col lg:flex-row px-5 md:px-10 lg:px-20">
             <div className="w-full lg:w-1/2">

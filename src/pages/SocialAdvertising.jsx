@@ -34,30 +34,6 @@ import chevUp from "../assets/chevUp.svg";
 import chevDown from "../assets/chevDown.svg";
 
 export default function SocialAdvertising() {
-    const [formData, setFormData] = useState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        company: "",
-        companyWebsite: "",
-        companyStage: "",
-        timeline: "",
-        budget: "",
-        message: "",
-    });
-    const stages = ["Seed", "Series A or higher", "Enterprise"];
-    const [companyStage, setCompanyStage] = useState("");
-    const handleInputChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log("Form submitted:", formData);
-    };
     const box = {
         heading: "Ready to elevate your brand AND drive results?",
         para: [""],
