@@ -50,7 +50,7 @@ export default function HomeSection() {
           <div className="flex flex-col lg:flex-row px-5 md:px-10 lg:px-20">
             <div className="w-full lg:w-1/2">
               <div className="h-auto md:h-[39px] md:w-max bg-[#FFFFFF] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal">
-                GROWTH WITHOUT THE GUESSWORK
+                HAVE IT ALL AT HAVIT 
               </div>
 
               <h1 className="text-[32px] sm:text-[48px]  font-semibold text-white leading-tight  mt-6 tracking-tight">
@@ -58,14 +58,11 @@ export default function HomeSection() {
                 <span className="text-[#CEFD94]">growth team.</span>
               </h1>
               <p className="text-base sm:text-lg text-white mt-4 leading-[27px] max-w-[95%]">
-                We’ve been around the block. And, the most important lesson
-                learned = growth is a process not an outcome. Team up with our
-                growth strategist and deep squad of marketing specialists to
-                grow your business with less risk, hassle, and cost.
+                We help brands cut through the noise and find clarity. And, the most important lesson learned = growth is a process not an outcome. Team up with our growth strategist and deep squad of marketing specialists to grow your business with less risk, hassle, and cost.
               </p>
               <Link to='/get-started-with-tuff'>
                 <button className="text-lg sm:text-xl cursor-pointer font-semibold text-[#0C2233] bg-[#ceff2a] mt-6 px-6 py-4 rounded-md transition-transform duration-500 tilt-zoom">
-                  Book an intro call
+                  Let’s Grow
                 </button>
               </Link>
             </div>
