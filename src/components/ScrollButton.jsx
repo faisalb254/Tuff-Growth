@@ -26,7 +26,7 @@ export default function ScrollButton() {
     }, [window.screenY])
     return (
         <div className={`hidden md:block fixed bottom-0 right-0 transition-all duration-500 ${show ? " opacity-100" : "opacity-0"}`}>
-            <button onClick={() => { scrollToTop() }} className='triangle w-25 h-25 bg-[#5A2AFF] text-white flex justify-center items-end pb-3 pl-7  hover:cursor-pointer'>
+            <button onClick={() => { scrollToTop() }} className='triangle w-25 h-25 bg-[#1E1E1E] text-white flex justify-center items-end pb-3 pl-7  hover:cursor-pointer'>
                 <FaChevronUp />
             </button>
         </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
 import emailjs from "@emailjs/browser";
-import bg from "../assets/form-bg.svg"
+
 
 export default function Form(props) {
+    const [isSubmitted, setSubmitted] = useState(false);
 
     const [formData, setFormData] = useState({
         firstName: "",
@@ -65,12 +66,17 @@ export default function Form(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        sendEmail(formData);
-        console.log("Form submitted:", formData);
+        if(isSubmitted){
+            return
+        } else{
+            console.log("Submitted");
+            setSubmitted(true);
+            sendEmail(formData);
+        }
     };
     return (
         <>
-            <div className="bg-white rounded-[5px] border-[2px] border-gray-300 p-6 sm:p-8 md:p-9 mt-10 sm:mt-14 lg:mt-18">
+            <div className="bg-white  rounded-[5px] border-[2px] border-gray-300 p-6 sm:p-8 md:p-9 mt-10 sm:mt-14 lg:mt-18">
                 <div className="space-y-5">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
                         <div>
@@ -254,9 +260,9 @@ export default function Form(props) {
 
                     <button
                         onClick={handleSubmit}
-                        className="w-full bg-[#ceff2a] text-[#0E2333] text-[18px] sm:text-[20px] md:text-[22px] font-bold py-3 sm:py-4 px-5 sm:px-6 rounded-[4px] transition-colors duration-200 hover:cursor-pointer tilt-zoom"
+                        className={`w-full  text-[#0E2333] text-[18px] sm:text-[20px] md:text-[22px] font-bold py-3 sm:py-4 px-5 sm:px-6 rounded-[4px] transition-colors duration-200 ${isSubmitted ? " bg-gray-200" : "hover:cursor-pointer tilt-zoom bg-[#ceff2a]"}`}
                     >
-                        Let's Talk
+                        {isSubmitted ? "Thank you!" : "Let's Talk"}
                     </button>
                 </div>
             </div>

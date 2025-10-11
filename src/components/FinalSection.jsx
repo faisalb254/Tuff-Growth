@@ -7,8 +7,8 @@ export default function FinalSection(props) {
     return (
         <>
             <section>
-                <div className="w-full  homeImg3 flex items-center justify-center p-10 md:px-19">
-                    <div className=" w-full p-7.5 py-18.5 bg-[#510AA6] border-2 border-[rgb(255_255_255_/_12%)] flex flex-col justify-center items-center text-center ">
+                <div className="w-full flex items-center justify-center p-10 md:px-19">
+                    <div className=" w-full p-7.5 py-18.5 bg-[#5A2AFF] border-2 border-[rgb(255_255_255_/_12%)] flex flex-col justify-center items-center text-center ">
                         <h2 className="text-[30px] sm:text-[32px] md:text-[42px] font-semibold text-[#FFFEFB] w-2/3">
                             {text.heading}
                         </h2>

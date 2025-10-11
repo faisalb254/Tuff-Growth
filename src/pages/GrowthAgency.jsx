@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
+import OurClients from '../components/OurClients'
 import stars from '../assets/stars.svg'
 import tech from '../assets/techcrunch.svg'
 import greenbg from '../assets/green-block.png'
@@ -561,7 +562,7 @@ export default function GrowthAgency() {
                 </div>
             </section>
             <section>
-                <div className="w-full h-fit flex flex-col justify-start items-center gap-10 pt-20 homeImg5">
+                {/* <div className="w-full h-fit flex flex-col justify-start items-center gap-10 pt-20 homeImg5">
                     <div className="w-9/10 flex flex-col justify-start items-center gap-5">
                         <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>
                             OUR COMPANY
@@ -579,7 +580,8 @@ export default function GrowthAgency() {
                             }
                         </div>
                     </div>
-                </div>
+                </div> */}
+                <OurClients/>
             </section>
             <section>
                 <div className="w-full flex flex-col justify-start items-center gap-10 pt-20">

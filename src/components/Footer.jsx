@@ -105,7 +105,7 @@ export default function Footer() {
   ]
   return (
     <>
-      <div className="w-full h-auto bg-[#5A2AFF] pb-8">
+      <div className="w-full h-auto bg-[#1E1E1E] pb-8">
         <div className="w-full h-auto bg-[#5A2AFF] px-6 md:px-16 lg:px-28 pt-16 md:pt-20 lg:pt-10">
           <div className="w-full h-auto flex flex-col lg:flex-row">
             <div className="h-full w-full lg:w-[48.3%] pt-4">
@@ -181,8 +181,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="w-full pt-10 lg:pt-14 px-6 md:px-16 lg:px-28">
-          <div className="w-full flex flex-col lg:flex-row justify-between border-t-2 border-b-2 border-[#607222] lg:px-0 py-8 lg:py-0">
+        <div className="w-full pt-10 lg:pt-14 px-6 md:px-16 lg:px-28 bg-[#1E1E1E]">
+          <div className="w-full flex flex-col lg:flex-row justify-between border-t-2 border-b-2 border-[#CEFF2A] lg:px-0 py-8 lg:pb-5">
             {[
               {
                 title: "Paid Media",

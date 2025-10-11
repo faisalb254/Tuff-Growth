@@ -11,9 +11,7 @@ body {
   overflow-x: hidden;
   font-family: sans-serif;
 }
-/* html {
-  scroll-behavior: smooth;
-} */
+/* html {  */
 h1, h2, h3 {
   scroll-margin-top: 100px; 
 }
@@ -33,7 +31,7 @@ h1, h2, h3 {
 }
 
 .homeImg {
-  background-image: url(./assets/HeroLine.svg);
+  background-image: url(./assets/HeroLine.png);
   background-color: #5a2aff;
   background-size: cover;
   background-attachment: fixed;
@@ -47,7 +45,7 @@ h1, h2, h3 {
 }
 
 .homeImg2 {
-  background-image: url(./assets/line2.svg);
+  background-image: url(./assets/line2new.png);
   background-attachment: fixed;
   background-size: cover;
 }

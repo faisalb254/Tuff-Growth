@@ -499,10 +499,10 @@ export default function B2B() {
                     <p className=' text-xl text-center w-3/4'>
                         Hyper-growth businesses need a data-driven vision. More importantly, they need a clear, action-packed game plan. We partner with you to strategize, prioritize, link up cross-channel insights, and, ultimately, grow.
                     </p>
-                    <div className="flex flex-wrap gap-10 my-10 justify-center items-center">
+                    <div className="flex flex-wrap gap-10 my-10 justify-center items-stretch">
                         {
                             goals.map((goal, idx) => (
-                                <div className="w-full md:w-1/5 border border-[rgb(0_0_0_/_12%)] p-7.5">
+                                <div className="w-full h-auto md:w-1/5 border border-[rgb(0_0_0_/_12%)] p-7.5">
                                     <img src={goal.img} alt="" />
                                     <h3 className=' font-black text-xl'>
                                         {goal.title}

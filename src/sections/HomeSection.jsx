@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import OurClients from "../components/OurClients";
 import HeroTeam from "../assets/HeroTeam.png";
 import aarp from "../assets/aarp.svg";
 import multiverse from "../assets/multiverse.svg";
@@ -16,7 +17,7 @@ import rikin from "../assets/rikin.png";
 import bonita from "../assets/bonita.png";
 import tech from "../assets/tech.svg";
 import star1 from "../assets/star1.svg";
-import home1 from "../assets/home1.svg";
+import home1 from "../assets/home1.png";
 import home3 from "../assets/home3.png";
 import acres from "../assets/acres.jpg";
 import acreslogo from "../assets/acres-logo.svg";
@@ -30,22 +31,6 @@ import sashee from "../assets/sashee.png";
 import jordan from "../assets/jordan.png";
 import Laurens from "../assets/Laurens.png";
 import aide from "../assets/aide.png";
-import cl1 from "../assets/cl1.svg";
-import cl2 from "../assets/cl2.svg";
-import cl3 from "../assets/cl3.svg";
-import cl4 from "../assets/cl4.svg";
-import cl5 from "../assets/cl5.svg";
-import cl6 from "../assets/cl6.svg";
-import cl7 from "../assets/cl7.svg";
-import cl8 from "../assets/cl8.svg";
-import cl9 from "../assets/cl9.svg";
-import cl10 from "../assets/cl10.svg";
-import cl11 from "../assets/cl11.svg";
-import cl12 from "../assets/cl12.svg";
-import cl13 from "../assets/cl13.svg";
-import cl14 from "../assets/cl14.svg";
-import cl15 from "../assets/cl15.svg";
-import cl16 from "../assets/cl16.svg";
 import team from "../assets/team.png";
 import { BiChevronRight } from "react-icons/bi";
 import { IoPlayOutline } from "react-icons/io5";
@@ -68,7 +53,7 @@ export default function HomeSection() {
                 GROWTH WITHOUT THE GUESSWORK
               </div>
 
-              <h1 className="text-[32px] sm:text-[48px] lg:text-[72px] font-semibold text-white leading-tight lg:leading-[70px] mt-6 tracking-tight">
+              <h1 className="text-[32px] sm:text-[48px]  font-semibold text-white leading-tight  mt-6 tracking-tight">
                 Find traction and growth with an expert-led,on-demand{" "}
                 <span className="text-[#CEFD94]">growth team.</span>
               </h1>
@@ -138,9 +123,7 @@ export default function HomeSection() {
           </div>
 
           <div
-            className="hidden lg:block w-full h-[120px] -rotate-1 overflow-hidden relative mt-4"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
-          >
+            className="hidden lg:block w-full h-[120px] top-3.5 -rotate-1 overflow-hidden relative mt-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap">
               {[...Array(2)].map((_, i) => (
                 <React.Fragment key={i}>
@@ -170,16 +153,16 @@ export default function HomeSection() {
       </section>
       <section className="mt-16 md:mt-28">
         <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px]">
-          <div className="w-full lg:w-[50%] h-max mt-10 lg:mt-[70px] flex justify-center pr-0 lg:pr-9 order-2 lg:order-1">
+          <div className="w-full lg:w-[50%] h-max mt-10 lg:mt-[70px] flex justify-center items-center pr-0 lg:pr-9 order-2 lg:order-1">
             <img
               src={Home}
               alt="Home"
               loading="lazy"
-              className="w-full h-auto max-w-[600px]"
+              className="w-full h-auto max-w-[800px]"
             />
           </div>
 
-          <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[154px] px-4 lg:px-8 order-1 lg:order-2">
+          <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-2">
             <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
               We believe growth is a process, not an outcome.
             </h3>
@@ -211,7 +194,7 @@ export default function HomeSection() {
       </section>
       <section>
         <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px]">
-          <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[154px] px-4 lg:px-8 order-1 lg:order-1">
+          <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-1">
             <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
               Your compounding growth curve begins here.
             </h3>
@@ -238,7 +221,7 @@ export default function HomeSection() {
             </Link>
           </div>
 
-          <div className="w-full lg:w-[50%] h-max mt-10 lg:mt-[70px] flex justify-center pr-0 lg:pr-9 order-2 lg:order-2">
+          <div className="w-full lg:w-[50%] h-max mt-10 lg:mt-[70px] flex justify-center items-center pr-0 lg:pr-9 order-2 lg:order-2">
             <img
               src={Servies}
               alt="Services"
@@ -864,47 +847,7 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto homeImg1 pt-3 pb-24 ">
-          <div className="h-[40px] w-max p-2 bg-[#CEEF2A] m-auto rounded-[20px] flex justify-center items-center px-5 mt-26 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
-            OUR CLIENTS
-          </div>
-          <p className="text-[24px] sm:text-[32px] lg:text-[43px] font-semibold text-[#FFFEFB] leading-snug lg:leading-[3.5rem] mt-4 text-center">
-            Trusted by kickass businesses
-          </p>
-
-          <div className="w-full h-auto flex justify-between flex-wrap px-7 md:px-19 pt-8 md:pt-13">
-            {[
-              cl1,
-              cl2,
-              cl3,
-              cl4,
-              cl5,
-              cl6,
-              cl7,
-              cl8,
-              cl9,
-              cl10,
-              cl11,
-              cl12,
-              cl13,
-              cl14,
-              cl15,
-              cl16,
-            ].map((logo, index) => (
-              <div
-                key={index}
-                className="w-[48%] md:w-[23%] h-[143px] bg-[#DCD5F5] rounded-[5px] flex items-center justify-center mt-8"
-              >
-                <img
-                  src={logo}
-                  alt={`client-${index + 1}`}
-                  loading="lazy"
-                  className="filter brightness-0 saturate-100"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
+        <OurClients/>
       </section>
       <section>
         <div className="w-full h-auto p-1 pb-16">
@@ -913,7 +856,7 @@ export default function HomeSection() {
           </div>
 
           <h3 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[43px] font-semibold text-[#0C2233] leading-snug md:leading-[2.5rem] lg:leading-[3.5rem] mt-4 text-center">
-            Meet the Tuff Team
+            Meet Havit's Team
           </h3>
 
           <p className="text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-normal text-[#0C2233] w-[95%] sm:w-[85%] md:w-[75%] lg:w-[60%] text-center mx-auto mt-4">
@@ -946,7 +889,7 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <div className="w-full h-[77vh] homeImg3 flex items-center justify-center p-1 md:px-19">
+        <div className="w-full h-[77vh] flex items-center justify-center p-1 md:px-19">
           <div className="w-[90%] md:w-full h-[360px] bg-[#5A2AFF] flex flex-col justify-center items-center text-center px-4">
             <h2 className="text-[30px] sm:text-[42px] md:text-[52px] font-semibold text-[#FFFEFB]">
               Ready to grow?

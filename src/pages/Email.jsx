@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
+import OurClients from '../components/OurClients'
 import img from '../assets/emailimg.png'
 import img1 from '../assets/emailimg1.png'
 import img2 from '../assets/emailimg2.png'
@@ -223,25 +224,7 @@ export default function Email() {
                 </div>
             </section>
             <section>
-                <div className="w-full h-fit flex flex-col justify-start items-center gap-10 pt-20 homeImg5">
-                    <div className="w-9/10 flex flex-col justify-start items-center gap-5">
-                        <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>
-                            OUR COMPANY
-                        </span>
-                        <h2 className=' text-5xl font-black text-white'>
-                            Trusted by kickass businesses
-                        </h2>
-                        <div className="flex gap-5 flex-wrap my-30 justify-center items-center">
-                            {
-                                icons.map((icon, idx) => (
-                                    <div key={idx} className="w-full md:w-1/5 h-[200px] glassbg border border-[rgb(255_255_255_/_12%)] p-7.5 flex justify-center items-center">
-                                        <img src={icon} alt="" className=' ' />
-                                    </div>
-                                ))
-                            }
-                        </div>
-                    </div>
-                </div>
+                <OurClients/>
             </section>
             <section>
                 <div className="w-full flex flex-col justify-center items-center py-20 gap-10">

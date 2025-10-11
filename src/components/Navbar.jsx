@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-[#5A2AFF] w-full xl:h-[68px] md:h-[145px] flex items-center px-6 md:px-14 pr-6 md:pr-20 pb-36 md:pb-0 nav relative">
+    <nav className="bg-[#1E1E1E] w-full xl:h-[68px] md:h-[145px] flex items-center px-6 md:px-14 pr-6 md:pr-20 pb-36 md:pb-0 nav relative">
       <div
         className="block lg:hidden md:hidden absolute left-2 top-1/2 -translate-y-1/2 cursor-pointer text-white text-[46px]"
         onClick={() => setMenuOpen(!menuOpen)}

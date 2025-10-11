@@ -265,60 +265,72 @@ export default function Performance() {
                                 <h3 className=' text-2xl font-black my-5'>
                                     Paid Media
                                 </h3>
-                                <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
-                                    Learn More
-                                    <BiChevronRight />
-                                </span>
+                                <Link to={"/paid-media"}>
+                                    <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
+                                        Learn More
+                                        <BiChevronRight />
+                                    </span>
+                                </Link>
                             </div>
                             <div className="w-full md:w-1/4 border border-[rgb(0_0_0_/_12%)] p-7.5">
                                 <img src={pic} alt="" />
                                 <h3 className=' text-2xl font-black my-5'>
                                     Performance Creative
                                 </h3>
-                                <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
-                                    Learn More
-                                    <BiChevronRight />
-                                </span>
+                                <Link to={"/creative"}>
+                                    <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
+                                        Learn More
+                                        <BiChevronRight />
+                                    </span>
+                                </Link>
                             </div>
                             <div className="w-full md:w-1/4 border border-[rgb(0_0_0_/_12%)] p-7.5">
                                 <img src={search} alt="" />
                                 <h3 className=' text-2xl font-black my-5'>
                                     SEO
                                 </h3>
-                                <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
-                                    Learn More
-                                    <BiChevronRight />
-                                </span>
+                                <Link to={"/seo"}>
+                                    <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
+                                        Learn More
+                                        <BiChevronRight />
+                                    </span>
+                                </Link>
                             </div>
                             <div className="w-full md:w-1/4 border border-[rgb(0_0_0_/_12%)] p-7.5">
                                 <img src={rate} alt="" />
                                 <h3 className=' text-2xl font-black my-5'>
                                     Content Marketing
                                 </h3>
-                                <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
-                                    Learn More
-                                    <BiChevronRight />
-                                </span>
+                                <Link to={"/content-strategy"}>
+                                    <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
+                                        Learn More
+                                        <BiChevronRight />
+                                    </span>
+                                </Link>
                             </div>
                             <div className="w-full md:w-1/4 border border-[rgb(0_0_0_/_12%)] p-7.5">
                                 <img src={cro} alt="" />
                                 <h3 className=' text-2xl font-black my-5'>
                                     Conversion Rate Optimization
                                 </h3>
-                                <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
-                                    Learn More
-                                    <BiChevronRight />
-                                </span>
+                                <Link to={"/cro"}>
+                                    <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
+                                        Learn More
+                                        <BiChevronRight />
+                                    </span>
+                                </Link>
                             </div>
                             <div className="w-full md:w-1/4 border border-[rgb(0_0_0_/_12%)] p-7.5">
                                 <img src={data} alt="" />
                                 <h3 className=' text-2xl font-black my-5'>
                                     Data & Analytics
                                 </h3>
-                                <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
-                                    Learn More
-                                    <BiChevronRight />
-                                </span>
+                                <Link to={"/marketing-attribution"}>
+                                    <span className=' flex my-5 items-center gap-2.5 hover:text-[#FF6A39] tilt-zoom transition-all duration-500 text-2xl font-black'>
+                                        Learn More
+                                        <BiChevronRight />
+                                    </span>
+                                </Link>
                             </div>
                         </div>
                     </div>

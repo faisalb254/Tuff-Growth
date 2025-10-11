@@ -258,7 +258,9 @@ export default function () {
                             <p>Head of Operations at Commonstock</p>
                         </div>
                     </div>
-                    <Form text="white" />
+                    <div className=" w-7/10">
+                        <Form text="white" />
+                    </div>
                 </div>
             </section>
 
