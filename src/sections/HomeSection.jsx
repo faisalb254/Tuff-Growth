@@ -161,25 +161,17 @@ export default function HomeSection() {
 
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-2">
             <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
-              We believe growth is a process, not an outcome.
+              Building Real Growth Through Strategy & Structure
             </h3>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
-              We build custom teams that click into your business and act as an
-              in-house growth marketing team, replacing the hassle and risk of
-              prematurely hiring and managing an in-house marketer or team of
-              freelancers.
+              Growth doesn’t happen by chance; it’s built through clarity, focus, and smart execution. Every strong business starts with the right strategy & a process that keeps things moving forward. That’s where structured planning, data-driven insights, and steady leadership make the real difference.
             </p>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
-              Our bread and butter is building efficient, holistic marketing
-              strategies. We do this with our process. We stay hungry for
-              research, then execute to a T, consistently optimizing and
-              refining to find maximum efficiencies. We do this with our team.
-              Egoless and curious, we share hypotheses and findings with your
-              team and each other to find more streamlined paths to growth.
+              No big promises; just a clear path that turns efforts into progress and progress into results.
             </p>
             <Link to={"/our-company"}>
               <p className="flex items-center gap-1 text-[18px] lg:text-[20px] font-semibold mt-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                Learn more about our approach
+                Learn how we take care of you 
                 <span>
                   <BiChevronRight className="text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
                 </span>
@@ -190,27 +182,24 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px]">
+        <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px] py-5">
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-1">
-            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
+            <h3 className="text-[28px] md:text-[32px] lg:text-[35px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
               Your compounding growth curve begins here.
             </h3>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
-              Enable your team with expert growth strategy, planning, and
-              leadership from a proven growth marketing process and team. We
-              have full-stack skills and technical expertise, so we’re not
-              afraid to get in the weeds.
+              Combining creative direction, full funnel growth marketing, and tech-driven execution to scale businesses across industries-especially in E-commerce, Healthcare, Fintech, Blockchain, Travel & Tour, EdTech, B2B & B2C ecosystem.
             </p>
-            <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
+            {/* <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
               This includes things like rapid message testing, building
               amazingly effective web pages, usability testing, ad optimization,
               A/B testing, and multivariate testing. It’s time to move beyond
               simply implementing tactics and start designing the right process
               with the right growth strategy.
-            </p>
+            </p> */}
             <Link to={"/services"}>
               <p className="flex items-center gap-1 text-[18px] lg:text-[20px] font-semibold mt-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                Learn more about our services
+                Lean more about our specialisation
                 <span>
                   <BiChevronRight className="text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
                 </span>
@@ -234,13 +223,12 @@ export default function HomeSection() {
             <div className="w-full h-auto flex flex-col items-center pt-10 lg:pt-19 px-4">
               <p className="text-[20px] sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-[#0C2233] text-center mt-6">
                 <span className="bg-[#CEFD94] px-1">
-                  “The team at Tuff knows their stuff – and it’s precisely why
-                  they are not
+                  Havit
                 </span>
-                <br />
+                {/* <br />
                 <span className="bg-[#CEFD94] px-1 texc">
                   selling ‘magic’ or any kind of ‘mysterious sauce.’
-                </span>
+                </span> */}
               </p>
               <p className="text-[20px] sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-white w-full sm:w-[90%] lg:w-[67%] text-center mt-6">
                 Instead, they are betting on transparency and experimentation,
