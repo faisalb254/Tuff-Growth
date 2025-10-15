@@ -1,6 +1,7 @@
 import React from "react";
 import Line3 from "../assets/Line3.svg";
-import Logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
+import Logo from "../assets/HavitLogo.png";
 import map from "../assets/map.png";
 import fb from "../assets/fb.svg";
 import lk from "../assets/lk.svg";
@@ -117,7 +118,7 @@ export default function Footer() {
               />
               <p className="text-[16px] font-normal text-[#FFFEFB] mt-8 md:mt-10 ml-1 md:ml-3">
                 <span className="font-semibold">Inbox:</span>{" "}
-                hello@tuffgrowth.com
+                havit360.contact@gmail.com
               </p>
               <p className="text-[16px] font-normal text-[#FFFEFB] mt-2 ml-1 md:ml-3">
                 <span className="font-semibold">Office:</span> 1099 Capitol St,
@@ -132,11 +133,11 @@ export default function Footer() {
                 loading="lazy"
                 className="w-[98%] m-auto mt-[-7%] bg-transparent"
               />
-              <div className="flex gap-2 mt-[-30px] ml-1 md:ml-3">
-                <img src={fb} alt="fb" loading="lazy" />
-                <img src={x} alt="x" loading="lazy" />
-                <img src={lk} alt="lk" loading="lazy" />
-                <img src={yt} alt="yt" loading="lazy" />
+              <div className="flex gap-2 mt-[-30px] ml-1 md:ml-3 my-2.5">
+                <a href="https://www.facebook.com/HavitGrowthAgency/?_rdc=2&_rdr#" target="_blank" rel="noopener noreferrer"><img src={fb} alt="fb" loading="lazy" /></a>
+                <a href="https://x.com/havitpk/status/1855973758265184276" target="_blank" rel="noopener noreferrer"><img src={x} alt="x" loading="lazy" /></a>
+                <a href="https://www.linkedin.com/company/havitgrowthagency/" target="_blank" rel="noopener noreferrer"><img src={lk} alt="lk" loading="lazy" /></a>
+                <a href="https://www.instagram.com/havitgrowthagency/" target="_blank" rel="noopener noreferrer"><img src={yt} alt="yt" loading="lazy" /></a>
               </div>
             </div>
 
@@ -156,7 +157,7 @@ export default function Footer() {
 
             <div className="w-full lg:w-[14.8%] h-auto pt-10 md:pt-12 lg:ml-20">
               <h2 className="text-[24px] font-semibold text-[#FFFFFF]">
-                Why Tuff
+                Why Havit
               </h2>
               {aboutUs.map((item, i) => (
                 <h4

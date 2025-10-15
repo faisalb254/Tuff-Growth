@@ -1,20 +1,24 @@
 import React from 'react'
-import cl1 from "../assets/cl1.svg";
-import cl2 from "../assets/cl2.svg";
-import cl3 from "../assets/cl3.svg";
-import cl4 from "../assets/cl4.svg";
-import cl5 from "../assets/cl5.svg";
-import cl6 from "../assets/cl6.svg";
-import cl7 from "../assets/cl7.svg";
-import cl8 from "../assets/cl8.svg";
-import cl9 from "../assets/cl9.svg";
-import cl10 from "../assets/cl10.svg";
-import cl11 from "../assets/cl11.svg";
-import cl12 from "../assets/cl12.svg";
-import cl13 from "../assets/cl13.svg";
-import cl14 from "../assets/cl14.svg";
-import cl15 from "../assets/cl15.svg";
-import cl16 from "../assets/cl16.svg";
+import advisory from "../assets/Logo/advisory-corp.png"
+import alsaud from "../assets/Logo/al-saud.png"
+import capital from "../assets/Logo/c-capital.png"
+import checkin from "../assets/Logo/checkin.png"
+import dispatch from "../assets/Logo/dispatch.png"
+import fgf from "../assets/Logo/FGF.png"
+import ideeza from "../assets/Logo/ideeza.png"
+import idk from "../assets/Logo/idk.png"
+import ldnio from "../assets/Logo/LDNIO.png"
+import peace from "../assets/Logo/peace-skin.png"
+import pixmo from "../assets/Logo/pixmo.png"
+import rfc from "../assets/Logo/RFC.png"
+import rm from "../assets/Logo/RM.png"
+import santa from "../assets/Logo/santa_voyage.png"
+import seee from "../assets/Logo/SEEE-tech.png"
+import sk from "../assets/Logo/SK.png"
+import slipper from "../assets/Logo/slipper.png"
+import sonderblu from "../assets/Logo/sonderblu.png"
+import space from "../assets/Logo/Space.png"
+import tgr from "../assets/Logo/TGR.png"
 
 export default function OurClients() {
   return (
@@ -29,22 +33,26 @@ export default function OurClients() {
       
                 <div className="w-full h-auto flex justify-between flex-wrap px-7 md:px-19 pt-8 md:pt-13">
                   {[
-                    cl1,
-                    cl2,
-                    cl3,
-                    cl4,
-                    cl5,
-                    cl6,
-                    cl7,
-                    cl8,
-                    cl9,
-                    cl10,
-                    cl11,
-                    cl12,
-                    cl13,
-                    cl14,
-                    cl15,
-                    cl16,
+                    advisory,
+                    alsaud,
+                    capital,
+                    checkin,
+                    dispatch,
+                    fgf,
+                    ideeza,
+                    idk,
+                    ldnio,
+                    peace,
+                    pixmo,
+                    rfc,
+                    rm,
+                    santa,
+                    seee,
+                    sk,
+                    slipper,
+                    sonderblu,
+                    space,
+                    tgr
                   ].map((logo, index) => (
                     <div
                       key={index}

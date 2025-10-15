@@ -31,7 +31,7 @@ h1, h2, h3 {
 }
 
 .homeImg {
-  background-image: url(./assets/HeroLine.png);
+  background-image: url(./assets/HeroLine.webp);
   background-color: #5a2aff;
   background-size: cover;
   background-attachment: fixed;

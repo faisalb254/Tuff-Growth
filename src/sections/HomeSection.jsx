@@ -38,6 +38,27 @@ import { FaArrowUp } from "react-icons/fa";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
+import advisory from "../assets/Logo/advisory-corp.png"
+import alsaud from "../assets/Logo/al-saud.png"
+import capital from "../assets/Logo/c-capital.png"
+import checkin from "../assets/Logo/checkin.png"
+import dispatch from "../assets/Logo/dispatch.png"
+import fgf from "../assets/Logo/FGF.png"
+import ideeza from "../assets/Logo/ideeza.png"
+import idk from "../assets/Logo/idk.png"
+import ldnio from "../assets/Logo/LDNIO.png"
+import peace from "../assets/Logo/peace-skin.png"
+import pixmo from "../assets/Logo/pixmo.png"
+import rfc from "../assets/Logo/RFC.png"
+import rm from "../assets/Logo/RM.png"
+import santa from "../assets/Logo/santa_voyage.png"
+import seee from "../assets/Logo/SEEE-tech.png"
+import sk from "../assets/Logo/SK.png"
+import slipper from "../assets/Logo/slipper.png"
+import sonderblu from "../assets/Logo/sonderblu.png"
+import space from "../assets/Logo/Space.png"
+import tgr from "../assets/Logo/TGR.png"
+
 export default function HomeSection() {
   return (
     <>
@@ -50,7 +71,7 @@ export default function HomeSection() {
           <div className="flex flex-col lg:flex-row px-5 md:px-10 lg:px-20">
             <div className="w-full lg:w-1/2">
               <div className="h-auto md:h-[39px] md:w-max bg-[#FFFFFF] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal">
-                HAVE IT ALL AT HAVIT 
+                HAVE IT ALL AT HAVIT
               </div>
 
               <h1 className="text-[32px] sm:text-[48px]  font-semibold text-white leading-tight  mt-6 tracking-tight">
@@ -69,39 +90,28 @@ export default function HomeSection() {
 
             <div className="lg:hidden w-full my-10">
               <div className="w-full h-[100px] bg-[#CEFD94] -rotate-1 overflow-hidden relative">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap">
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap items-center">
                   {[...Array(2)].map((_, i) => (
                     <React.Fragment key={i}>
-                      <img
-                        src={aarp}
-                        alt="img1"
-                        className="h-full w-auto mx-10"
-                      />
-                      <img
-                        src={multiverse}
-                        alt="img2"
-                        className="h-full w-auto mx-10"
-                      />
-                      <img
-                        src={punchbow}
-                        alt="img3"
-                        className="h-full w-auto mx-10"
-                      />
-                      <img
-                        src={soona}
-                        alt="img4"
-                        className="h-full w-auto mx-10"
-                      />
-                      <img
-                        src={teachable}
-                        alt="img5"
-                        className="h-full w-auto mx-10"
-                      />
-                      <img
-                        src={thnks}
-                        alt="img6"
-                        className="h-full w-auto mx-10"
-                      />
+                      <img src={advisory} alt="advisory" className="h-full w-auto mx-10" />
+                      <img src={alsaud} alt="al-saud" className="h-full w-auto mx-10" />
+                      <img src={capital} alt="capital" className="h-full w-auto mx-10" />
+                      <img src={dispatch} alt="dispatch" className="h-full w-auto mx-10" />
+                      <img src={fgf} alt="fgf" className="h-full w-auto mx-10" />
+                      <img src={ideeza} alt="ideeza" className="h-full w-auto mx-10" />
+                      <img src={idk} alt="idk" className="h-full w-auto mx-10" />
+                      <img src={ldnio} alt="ldnio" className="h-full w-auto mx-10" />
+                      <img src={peace} alt="peace" className="h-full w-auto mx-10" />
+                      <img src={pixmo} alt="pixmo" className="h-full w-auto mx-10" />
+                      <img src={rfc} alt="rfc" className="h-full w-auto mx-10" />
+                      <img src={rm} alt="rm" className="h-full w-auto mx-10" />
+                      <img src={santa} alt="santa" className="h-full w-auto mx-10" />
+                      <img src={seee} alt="seee" className="h-full w-auto mx-10" />
+                      <img src={sk} alt="sk" className="h-full w-auto mx-10" />
+                      <img src={slipper} alt="slipper" className="h-full w-auto mx-10" />
+                      <img src={sonderblu} alt="sonderblu" className="h-full w-auto mx-10" />
+                      <img src={space} alt="space" className="h-full w-auto mx-10" />
+                      <img src={tgr} alt="tgr" className="h-full w-auto mx-10" />
                     </React.Fragment>
                   ))}
                 </div>
@@ -118,30 +128,32 @@ export default function HomeSection() {
               />
             </div>
           </div>
+          
 
           <div
             className="hidden lg:block w-full h-[120px] top-3.5 -rotate-1 overflow-hidden relative mt-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap items-center">
               {[...Array(2)].map((_, i) => (
                 <React.Fragment key={i}>
-                  <img src={aarp} alt="img1" className="h-full w-auto mx-10" />
-                  <img
-                    src={multiverse}
-                    alt="img2"
-                    className="h-full w-auto mx-10"
-                  />
-                  <img
-                    src={punchbow}
-                    alt="img3"
-                    className="h-full w-auto mx-10"
-                  />
-                  <img src={soona} alt="img4" className="h-full w-auto mx-10" />
-                  <img
-                    src={teachable}
-                    alt="img5"
-                    className="h-full w-auto mx-10"
-                  />
-                  <img src={thnks} alt="img6" className="h-full w-auto mx-10" />
+                  <img src={advisory} alt="advisory" className="h-full w-auto mx-10" />
+                  <img src={alsaud} alt="al-saud" className="h-full w-auto mx-10" />
+                  <img src={capital} alt="capital" className="h-full w-auto mx-10" />
+                  <img src={dispatch} alt="dispatch" className="h-full w-auto mx-10" />
+                  <img src={fgf} alt="fgf" className="h-full w-auto mx-10" />
+                  <img src={ideeza} alt="ideeza" className="h-full w-auto mx-10" />
+                  <img src={idk} alt="idk" className="h-full w-auto mx-10" />
+                  <img src={ldnio} alt="ldnio" className="h-full w-auto mx-10" />
+                  <img src={peace} alt="peace" className="h-full w-auto mx-10" />
+                  <img src={pixmo} alt="pixmo" className="h-full w-auto mx-10" />
+                  <img src={rfc} alt="rfc" className="h-full w-auto mx-10" />
+                  <img src={rm} alt="rm" className="h-full w-auto mx-10" />
+                  <img src={santa} alt="santa" className="h-full w-auto mx-10" />
+                  <img src={seee} alt="seee" className="h-full w-auto mx-10" />
+                  <img src={sk} alt="sk" className="h-full w-auto mx-10" />
+                  <img src={slipper} alt="slipper" className="h-full w-auto mx-10" />
+                  <img src={sonderblu} alt="sonderblu" className="h-full w-auto mx-10" />
+                  <img src={space} alt="space" className="h-full w-auto mx-10" />
+                  <img src={tgr} alt="tgr" className="h-full w-auto mx-10" />
                 </React.Fragment>
               ))}
             </div>
@@ -171,7 +183,7 @@ export default function HomeSection() {
             </p>
             <Link to={"/our-company"}>
               <p className="flex items-center gap-1 text-[18px] lg:text-[20px] font-semibold mt-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                Learn how we take care of you 
+                Learn how we take care of you
                 <span>
                   <BiChevronRight className="text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
                 </span>
@@ -190,13 +202,7 @@ export default function HomeSection() {
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
               Combining creative direction, full funnel growth marketing, and tech-driven execution to scale businesses across industries-especially in E-commerce, Healthcare, Fintech, Blockchain, Travel & Tour, EdTech, B2B & B2C ecosystem.
             </p>
-            {/* <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
-              This includes things like rapid message testing, building
-              amazingly effective web pages, usability testing, ad optimization,
-              A/B testing, and multivariate testing. It’s time to move beyond
-              simply implementing tactics and start designing the right process
-              with the right growth strategy.
-            </p> */}
+
             <Link to={"/services"}>
               <p className="flex items-center gap-1 text-[18px] lg:text-[20px] font-semibold mt-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
                 Lean more about our specialisation
@@ -221,25 +227,15 @@ export default function HomeSection() {
         <div className="w-full homeImg1 h-max bg-]">
           <div className="w-full h-full">
             <div className="w-full h-auto flex flex-col items-center pt-10 lg:pt-19 px-4">
-              <p className="text-[20px] sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-[#0C2233] text-center mt-6">
+              <p className="text-[20px] w-full lg:w-3/4 sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-[#0C2233] text-center mt-6">
                 <span className="bg-[#CEFD94] px-1">
-                  Havit
+                  You need results you can count on. The team at Havit provide a clear strategy for success, not another empty promise based on hype.
                 </span>
-                {/* <br />
-                <span className="bg-[#CEFD94] px-1 texc">
-                  selling ‘magic’ or any kind of ‘mysterious sauce.’
-                </span> */}
               </p>
               <p className="text-[20px] sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-white w-full sm:w-[90%] lg:w-[67%] text-center mt-6">
-                Instead, they are betting on transparency and experimentation,
-                and it seems to be working well: The agency was warmly
-                recommended to TechCrunch multiple times via our growth
-                marketing survey.”
+                By prioritizing transparency and a data-driven approach of experimentation, the agency has built a strong reputation for delivering results, evidenced by the numerous warm recommendations.
               </p>
               <img src={star1} alt="star1" loading="lazy" className="mt-8" />
-              <p className="text-[18px] sm:text-[20px] leading-8 font-semibold text-white w-full sm:w-[90%] lg:w-[67%] text-center mt-5">
-                Tuff in TechCrunch (Full Article)
-              </p>
             </div>
 
             <div className="w-full md:bg-transparent flex flex-col lg:flex-row gap-6 lg:gap-0 justify-center items-center lg:justify-between pt-8 md:mt-16 px-4 sm:px-10 lg:px-19 pb-10">
@@ -365,8 +361,7 @@ export default function HomeSection() {
                 CLIENT STORIES
               </div>
               <h3 className="text-[24px] sm:text-[32px] lg:text-[42px] font-semibold text-[#FFFEFB] leading-snug lg:leading-[3.5rem] mt-4">
-                Don’t just take it from us…check out some of our favorite
-                stories.
+                Looking for a reason to believe? Find inspiration in growth stories from businesses like yours.
               </h3>
             </div>
           </div>
@@ -832,7 +827,7 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <OurClients/>
+        <OurClients />
       </section>
       <section>
         <div className="w-full h-auto p-1 pb-16">
