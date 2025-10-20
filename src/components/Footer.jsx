@@ -120,10 +120,10 @@ export default function Footer() {
                 <span className="font-semibold">Inbox:</span>{" "}
                 havit360.contact@gmail.com
               </p>
-              <p className="text-[16px] font-normal text-[#FFFEFB] mt-2 ml-1 md:ml-3">
+              {/* <p className="text-[16px] font-normal text-[#FFFEFB] mt-2 ml-1 md:ml-3">
                 <span className="font-semibold">Office:</span> 1099 Capitol St,
                 Eagle, CO 81631
-              </p>
+              </p> */}
               <p className="text-[16px] font-semibold text-[#FFFEFB] mt-6 md:mt-7 ml-1 md:ml-3">
                 With remote team members in:
               </p>
@@ -137,7 +137,7 @@ export default function Footer() {
                 <a href="https://www.facebook.com/HavitGrowthAgency/?_rdc=2&_rdr#" target="_blank" rel="noopener noreferrer"><img src={fb} alt="fb" loading="lazy" /></a>
                 <a href="https://x.com/havitpk/status/1855973758265184276" target="_blank" rel="noopener noreferrer"><img src={x} alt="x" loading="lazy" /></a>
                 <a href="https://www.linkedin.com/company/havitgrowthagency/" target="_blank" rel="noopener noreferrer"><img src={lk} alt="lk" loading="lazy" /></a>
-                <a href="https://www.instagram.com/havitgrowthagency/" target="_blank" rel="noopener noreferrer"><img src={yt} alt="yt" loading="lazy" /></a>
+                {/* <a href="https://www.instagram.com/havitgrowthagency/" target="_blank" rel="noopener noreferrer"><img src={yt} alt="yt" loading="lazy" /></a> */}
               </div>
             </div>
 

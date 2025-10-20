@@ -89,7 +89,7 @@ export default function HomeSection() {
             </div>
 
             <div className="lg:hidden w-full my-10">
-              <div className="w-full h-[100px] bg-[#CEFD94] -rotate-1 overflow-hidden relative">
+              <div className="w-full h-[100px] bg-[#CEFD94] -rotate-0 overflow-hidden relative">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap items-center">
                   {[...Array(2)].map((_, i) => (
                     <React.Fragment key={i}>
@@ -131,7 +131,7 @@ export default function HomeSection() {
           
 
           <div
-            className="hidden lg:block w-full h-[120px] top-3.5 -rotate-1 overflow-hidden relative mt-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
+            className="hidden lg:block w-full h-[120px] top-0  overflow-hidden relative mt-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex animate-slide-right whitespace-nowrap items-center">
               {[...Array(2)].map((_, i) => (
                 <React.Fragment key={i}>
@@ -172,7 +172,7 @@ export default function HomeSection() {
           </div>
 
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-2">
-            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
+            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full leading-[1.4]">
               Building Real Growth Through Strategy & Structure
             </h3>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
@@ -239,11 +239,11 @@ export default function HomeSection() {
             </div>
 
             <div className="w-full md:bg-transparent flex flex-col lg:flex-row gap-6 lg:gap-0 justify-center items-center lg:justify-between pt-8 md:mt-16 px-4 sm:px-10 lg:px-19 pb-10">
-              <div className="w-full sm:w-[80%] lg:w-[31.7%] bg-[#FFFFFF] flex flex-col items-center pt-14 pb-11">
+              <div className="w-full h-full sm:w-[80%] lg:w-[31.7%] bg-[#FFFFFF] flex flex-col items-center pt-14 pb-11">
                 <div>
                   <img
-                    src={Hustle}
-                    alt="Hustle"
+                    src={ideeza}
+                    alt="ideeza"
                     loading="lazy"
                     className="filter brightness-0 saturate-100"
                   />
@@ -257,10 +257,10 @@ export default function HomeSection() {
                   />
                 </div>
                 <h3 className="text-[20px] text-[black] font-bold text-center mt-6">
-                  Alden Schell
+                  Moran Biton
                 </h3>
                 <p className="text-[20px] text-[black] font-normal text-center mt-[-5px]">
-                  Head of Marketing
+                  Founder & CEO
                 </p>
                 <div className="mt-7">
                   <img
@@ -270,18 +270,21 @@ export default function HomeSection() {
                     className="filter brightness-0 saturate-100"
                   />
                 </div>
-                <button className="h-auto w-max p-2 px-[21px] text-black flex items-center gap-2 rounded-[2px] text-[18px] font-semibold mt-7 border-2 border-[black] transition-transform duration-500 tilt-zoom">
+                <div className=" text-lg w-3/4 text-justify mt-10">
+                  Havit understood our needs and delivered customized digital solutions that drove real growth. From SEO to email marketing, their holistic approach was impactful. Their team’s commitment to our goals and measurable results sets them apart.
+                </div>
+                {/* <button className="h-auto w-max p-2 px-[21px] text-black flex items-center gap-2 rounded-[2px] text-[18px] font-semibold mt-7 border-2 border-[black] transition-transform duration-500 tilt-zoom">
                   <span>
                     <IoPlayOutline className="text-[30px] text-black" />
                   </span>
                   Watch Client Story
-                </button>
+                </button> */}
               </div>
 
-              <div className="w-full sm:w-[80%] lg:w-[31.7%] bg-[#FFFFFF] flex flex-col items-center pt-14 pb-11">
+              <div className="w-full h-full sm:w-[80%] lg:w-[31.7%] bg-[#FFFFFF] flex flex-col items-center pt-14 pb-11">
                 <div>
                   <img
-                    src={soona}
+                    src={sonderblu}
                     alt="soona"
                     loading="lazy"
                     className="filter brightness-0 saturate-100"
@@ -296,10 +299,10 @@ export default function HomeSection() {
                   />
                 </div>
                 <h3 className="text-[20px] text-[black] font-bold text-center mt-6">
-                  Rikin Diwan
+                  Hope Corohan
                 </h3>
                 <p className="text-[20px] text-[black] font-normal text-center mt-[-5px]">
-                  Chief Marketing Officer
+                  CEO
                 </p>
                 <div className="mt-7">
                   <img
@@ -309,18 +312,21 @@ export default function HomeSection() {
                     className="filter brightness-0 saturate-100"
                   />
                 </div>
-                <button className="h-auto w-max p-2 px-[21px] text-black flex items-center gap-2 rounded-[2px] text-[18px] font-semibold mt-7 border-2 border-[black] transition-transform duration-500 tilt-zoom">
+                <div className=" text-lg w-3/4 text-justify mt-10">
+                  Havit was a lifesaver! Their expertise in IPTV technology and custom app development exceeded my expectations. They are professional, efficient, and results-driven. I’m grateful for their work and look forward to future collaborations.
+                </div>
+                {/* <button className="h-auto w-max p-2 px-[21px] text-black flex items-center gap-2 rounded-[2px] text-[18px] font-semibold mt-7 border-2 border-[black] transition-transform duration-500 tilt-zoom">
                   <span>
                     <IoPlayOutline className="text-[30px] text-black" />
                   </span>
                   Watch Client Story
-                </button>
+                </button> */}
               </div>
 
-              <div className="w-full sm:w-[80%] lg:w-[31.7%] bg-[#FFFFFF] flex flex-col items-center pt-14 pb-11">
+              <div className="w-full h-full sm:w-[80%] lg:w-[31.7%] bg-[#FFFFFF] flex flex-col items-center pt-14 pb-11">
                 <div>
                   <img
-                    src={teachable}
+                    src={dispatch}
                     alt="teachable"
                     loading="lazy"
                     className="filter brightness-0 saturate-100"
@@ -335,10 +341,10 @@ export default function HomeSection() {
                   />
                 </div>
                 <h3 className="text-[20px] text-[black] font-bold text-center mt-6">
-                  Bonita Thwaites
+                  Walid Bin Khalid
                 </h3>
                 <p className="text-[20px] text-[black] font-normal text-center mt-[-5px]">
-                  Director of Growth Marketing
+                  Founder
                 </p>
                 <div className="mt-7">
                   <img
@@ -348,12 +354,15 @@ export default function HomeSection() {
                     className="filter brightness-0 saturate-100"
                   />
                 </div>
-                <button className="h-auto w-max p-2 px-[21px] text-black flex items-center gap-2 rounded-[2px] text-[18px] font-semibold mt-7 border-2 border-[black] transition-transform duration-500 tilt-zoom">
+                <div className=" text-lg w-3/4 text-justify mt-10">
+                  Havit Growth Agency transformed our business with seamless digital solutions. Their expertise in online store setup, CRM, and automation streamlined operations, enhanced customer experiences, and drove growth. A game-changing partnership!
+                </div>
+                {/* <button className="h-auto w-max p-2 px-[21px] text-black flex items-center gap-2 rounded-[2px] text-[18px] font-semibold mt-7 border-2 border-[black] transition-transform duration-500 tilt-zoom">
                   <span>
                     <IoPlayOutline className="text-[30px] text-black" />
                   </span>
                   Watch Client Story
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="flex flex-col items-center pb-16 px-6 sm:px-10 xl:px-[200px] pt-[60px] lg:pt-[100px] text-center">
@@ -368,7 +377,7 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col items-center pt-20 sm:pt-24 px-4 sm:px-6 z-0">
+        <div className="w-full h-auto flex flex-col items-center pt-25 sm:pt-24 px-4 sm:px-6 z-0">
           <div className="h-[40px] w-max p-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
             WHAT WE DO
           </div>
@@ -377,14 +386,11 @@ export default function HomeSection() {
             You’ve got growth goals? We’ll build the roadmap.
           </h3>
 
-          <p className="text-[16px] sm:text-[17px] lg:text-[19px] font-medium text-[#0C2233] text-center w-full sm:w-[80%] md:w-[75%] lg:w-[69%] mt-4">
-            Hyper-growth businesses need a data-driven vision. More importantly,
-            they need a clear, action-packed game plan. We partner with you to
-            strategize, prioritize, link up cross-channel insights, and,
-            ultimately, grow.
+          <p className="text-[16px] sm:text-[17px] lg:text-2xl font-medium text-[#0C2233] text-center w-full sm:w-[80%] md:w-[75%] lg:w-[69%] mt-4">
+            Have an expert growth strategy, planning, and leadership from a proven growth marketing process and team.
           </p>
 
-          <div className="w-full h-auto flex items-center justify-center mt-10 sm:mt-16 px-2 sm:px-0">
+          <div className="w-full h-auto flex items-center justify-center  sm:mt-16 px-2 sm:px-0">
             <img
               src={home1}
               alt="home1"
@@ -395,7 +401,7 @@ export default function HomeSection() {
         </div>
 
         <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[40px]">
-          <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[130px] px-4 lg:px-8 order-1 lg:order-1">
+          <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[130px] px-4 lg:px-15 order-1 lg:order-1">
             <div className="h-[40px] w-max p-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
               OUR PROCESS
             </div>
@@ -421,13 +427,13 @@ export default function HomeSection() {
               opportunities. Ultimately, we emerge with detailed findings and a
               clear understanding of how you win for the long term.
             </p>
-            <Link to={"/get-started-with-tuff"}>
-              <p className="flex items-center gap-1 text-[18px] lg:text-[20px] font-semibold mt-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+            <Link to={"/get-started-with-tuff"} className=" w-1/5">
+              <span className="flex w-fit items-center gap-1 text-[18px] lg:text-[20px] font-semibold my-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
                 Learn how it all works
                 <span>
                   <BiChevronRight className="text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
                 </span>
-              </p>
+              </span>
             </Link>
           </div>
 
