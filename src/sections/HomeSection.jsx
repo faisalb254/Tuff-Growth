@@ -58,6 +58,7 @@ import slipper from "../assets/Logo/slipper.png"
 import sonderblu from "../assets/Logo/sonderblu.png"
 import space from "../assets/Logo/Space.png"
 import tgr from "../assets/Logo/TGR.png"
+import moran from "../assets/moran.jpeg"
 
 export default function HomeSection() {
   return (
@@ -250,7 +251,7 @@ export default function HomeSection() {
                 </div>
                 <div className="mt-9">
                   <img
-                    src={alden}
+                    src={moran}
                     alt="alden"
                     loading="lazy"
                     className="md:w-[70%] w-[60%] m-auto"
