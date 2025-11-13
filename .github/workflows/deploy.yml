@@ -3,7 +3,7 @@ name: Deploy to S3
 on:
   push:
     branches:
-      - main  # change if your default branch is different
+      - main  # or your default branch
 
 jobs:
   deploy:
@@ -13,12 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # (optional) Build step — needed if you use a frontend framework
+      # (Optional) Build your site if it uses npm
       - name: Install and build
         run: |
           npm ci
           npm run build
-        # skip this if you’re just uploading static HTML files
+        # skip this step if your repo just has static HTML/CSS
 
       - name: Deploy to S3
         uses: aws-actions/s3-sync@v2
@@ -26,17 +26,7 @@ jobs:
           bucket: ${{ secrets.S3_BUCKET }}
           region: ${{ secrets.AWS_REGION }}
           delete: true
-          source: ./dist  # change this to ./build or ./ if plain HTML
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-
-      - name: Invalidate CloudFront cache
-        if: success() && secrets.CLOUDFRONT_DISTRIBUTION_ID != ''
-        uses: aws-actions/cloudfront-invalidate-cache@v2
-        with:
-          distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-          paths: "/*"
+          source: ./dist  # or ./build or ./ depending on your project
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

@@ -5,7 +5,7 @@ import Portfolio from '../components/Portfolio'
 import zestoo from '../assets/Zestoo.webp'
 
 
-export default function CheckIn() {
+export default function Zestoo() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">

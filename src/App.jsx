@@ -59,6 +59,9 @@ import Ldnio from "./pages/Ldnio"
 import Zestoo from "./pages/Zestoo"
 import TGR from "./pages/TGR"
 import Slipper from "./pages/Slipper"
+import Peace from "./pages/Peace"
+import Tsy from "./pages/Tsy"
+import NuttyHunt from "./pages/NuttyHunt"
 import NotFound from "./pages/NotFound"
 
 export default function App() {
@@ -170,6 +173,9 @@ export default function App() {
           <Route path="/portfolios/zestoo" element={<Zestoo />}/>
           <Route path="/portfolios/tgr" element={<TGR />}/>
           <Route path="/portfolios/slipper" element={<Slipper />}/>
+          <Route path="/portfolios/peace" element={<Peace />}/>
+          <Route path="/portfolios/tsy" element={<Tsy />}/>
+          <Route path="/portfolios/nuttyhunt" element={<NuttyHunt />}/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

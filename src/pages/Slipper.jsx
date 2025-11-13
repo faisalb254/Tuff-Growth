@@ -5,7 +5,7 @@ import Portfolio from '../components/Portfolio'
 import slipper from '../assets/Slipper.webp'
 
 
-export default function CheckIn() {
+export default function Slipper() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">

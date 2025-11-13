@@ -128,6 +128,21 @@ export default function Navbar() {
                     Slipper
                   </p>
                 </Link>
+                <Link to="/portfolios/peace">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Peace
+                  </p>
+                </Link>
+                <Link to="/portfolios/tsy">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    TSY
+                  </p>
+                </Link>
+                <Link to="/portfolios/nuttyhunt">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Nutty Hunt
+                  </p>
+                </Link>
               </div>
             </div>
           </li>
@@ -259,6 +274,9 @@ export default function Navbar() {
                   { name: "Zestoo", path: "/portfolios/zestoo" },
                   { name: "TGR", path: "/portfolios/tgr" },
                   { name: "Slipper", path: "/portfolios/slipper" },
+                  { name: "Peace", path: "/portfolios/peace" },
+                  { name: "TSY", path: "/portfolios/tsy" },
+                  { name: "Nutty Hunt", path: "/portfolios/nuttyhunt" },
                 ],
               },
               {
