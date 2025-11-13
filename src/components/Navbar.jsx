@@ -97,21 +97,35 @@ export default function Navbar() {
             </div>
           </li>
           <li className="relative group flex items-center cursor-pointer">
-            <Link to="/how-it-works">
-              About Us
+            <Link to="/portfolios">
+              Portfolios
             </Link>
             <BiChevronDown className="text-[26px]" />
-            <div className="absolute top-full left-[-14px] w-[260px] cursor-pointer text-[17px] font-normal text-black hidden group-hover:block z-10">
-              <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded">
-                <Link to="/our-company">
-                  <p className="pb-[14px] hover:text-[#FF6A39]">Our Team</p>
+            <div className="absolute top-full left-[-14px] w-56 hover:cursor-pointer text-[17px] font-normal text-black  hidden group-hover:block z-10 ">
+              <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded ">
+                <Link to="/portfolios/checkin">
+                  <p className="pb-[14px] hover:text-[#FF6A39] hover:cursor-pointer">
+                    Checkin
+                  </p>
                 </Link>
-                <Link to="/how-it-works">
-                  <p className="pb-[14px] hover:text-[#FF6A39]">How We Work</p>
-                </Link>
-                <Link to="/growth-marketing-agency">
+                <Link to="/portfolios/ldnio">
                   <p className="pb-[14px] hover:text-[#FF6A39]">
-                    Growth Marketing Agency
+                    Ldnio
+                  </p>
+                </Link>
+                <Link to="/portfolios/zestoo">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Zestoo
+                  </p>
+                </Link>
+                <Link to="/portfolios/tgr">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    TGR
+                  </p>
+                </Link>
+                <Link to="/portfolios/slipper">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Slipper
                   </p>
                 </Link>
               </div>
@@ -176,8 +190,29 @@ export default function Navbar() {
             <li>Case Studies</li>
           </Link>
           <Link to="/a-goodway-group-company">
-            <li>A Goodway Group Company</li>
+            <li>Have it all at Havit</li>
           </Link>
+          <li className="relative group flex items-center cursor-pointer">
+            <Link to="/how-it-works">
+              About Us
+            </Link>
+            <BiChevronDown className="text-[26px]" />
+            <div className="absolute top-full left-[-14px] w-[260px] cursor-pointer text-[17px] font-normal text-black hidden group-hover:block z-10">
+              <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded">
+                <Link to="/our-company">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">Our Team</p>
+                </Link>
+                <Link to="/how-it-works">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">How We Work</p>
+                </Link>
+                <Link to="/growth-marketing-agency">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Growth Marketing Agency
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </li>
         </ul>
       </section>
 
@@ -205,19 +240,34 @@ export default function Navbar() {
               {
                 title: "Services",
                 items: [
-                  "Paid Media",
-                  "Performance Creative",
-                  "Video Marketing",
-                  "SEO",
-                  "Content Marketing",
-                  "CRO",
-                  "Data",
-                  "All",
+                  { name: "Paid Media", path: "/paid-media" },
+                  { name: "Performance Creative", path: "/creative" },
+                  { name: "Video Marketing", path: "/videomarketing" },
+                  { name: "SEO", path: "/seo" },
+                  { name: "GEO & AEO", path: "/geo" },
+                  { name: "Content Marketing", path: "/content-strategy" },
+                  { name: "CRO", path: "/Cro" },
+                  { name: "Data & Analytics", path: "/marketing-attribution" },
+                  { name: "All", path: "/services" },
+                ],
+              },
+              {
+                title: "Portfolios",
+                items: [
+                  { name: "Checkin", path: "/portfolios/checkin" },
+                  { name: "Ldnio", path: "/portfolios/ldnio" },
+                  { name: "Zestoo", path: "/portfolios/zestoo" },
+                  { name: "TGR", path: "/portfolios/tgr" },
+                  { name: "Slipper", path: "/portfolios/slipper" },
                 ],
               },
               {
                 title: "About Us",
-                items: ["Our Team", "How We Work", "Growth Marketing Agency"],
+                items: [
+                  { name: "Our Team", path: "/our-company" },
+                  { name: "How We Work", path: "/how-it-works" },
+                  { name: "Growth Marketing Agency", path: "/growth-marketing-agency" },
+                ],
               },
               {
                 title: "Resources",
@@ -238,15 +288,14 @@ export default function Navbar() {
                 </div>
 
                 <div
-                  className={`overflow-hidden transition-all duration-300 ${
-                    openDropdown === section.title
-                      ? "max-h-[1000px] opacity-100"
-                      : "max-h-0 opacity-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ${openDropdown === section.title
+                    ? "max-h-[1000px] opacity-100"
+                    : "max-h-0 opacity-0"
+                    }`}
                 >
                   {section.isCustom ? (
                     <div className="pb-8 flex flex-col gap-6">
-                      <div className="flex items-start gap-4">
+                      <Link to="/blog" className="flex items-start gap-4">
                         <GoPencil className="text-[36px] mt-1 text-gray-800" />
                         <div>
                           <h2 className="text-[20px] font-bold">Blog</h2>
@@ -255,8 +304,8 @@ export default function Navbar() {
                             Facebook, Google, YouTube, SEO, Content, and more.
                           </p>
                         </div>
-                      </div>
-                      <div className="flex items-start gap-4">
+                      </Link>
+                      <Link to="/growth-marketing-guides" className="flex items-start gap-4">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="36"
@@ -281,8 +330,8 @@ export default function Navbar() {
                             services.
                           </p>
                         </div>
-                      </div>
-                      <div className="flex items-start gap-4">
+                      </Link>
+                      <Link to="/marketing-spreadsheets" className="flex items-start gap-4">
                         <BiSpreadsheet className="text-[36px] text-gray-800" />
                         <div>
                           <h2 className="text-[20px] font-bold">
@@ -293,13 +342,15 @@ export default function Navbar() {
                             Startups Can Use to Boost Productivity
                           </p>
                         </div>
-                      </div>
+                      </Link>
                     </div>
                   ) : (
                     <ul className="pl-4 pb-8 text-[16px] text-gray-700 font-normal">
                       {section.items.map((item, i) => (
                         <li key={i} className="py-2">
-                          {item}
+                          <Link to={item.path} className="hover:text-[#FF6A39]">
+                            {item.name}
+                          </Link>
                         </li>
                       ))}
                     </ul>
@@ -311,10 +362,14 @@ export default function Navbar() {
             ))}
 
             <li className="py-6 text-[24px] font-semibold border-b border-gray-300">
-              Case Studies
+              <Link to="/case-studies" className="hover:text-[#FF6A39]">
+                Case Studies
+              </Link>
             </li>
             <li className="py-6 text-[24px] font-semibold border-b border-gray-300">
-              A Goodway Group Company
+              <Link to="/a-goodway-group-company" className="hover:text-[#FF6A39]">
+                Have it all at Havit
+              </Link>
             </li>
           </ul>
         </div>

@@ -53,6 +53,13 @@ import GrowthAgency from "./pages/GrowthAgency";
 import Digital from "./pages/Digital";
 import B2B from "./pages/B2B";
 import Email from "./pages/Email";
+import PortfolioLanding from "./pages/PortfolioLanding";
+import CheckIn from "./pages/CheckIn";
+import Ldnio from "./pages/Ldnio"
+import Zestoo from "./pages/Zestoo"
+import TGR from "./pages/TGR"
+import Slipper from "./pages/Slipper"
+import NotFound from "./pages/NotFound"
 
 export default function App() {
   return (
@@ -157,7 +164,13 @@ export default function App() {
           <Route path="/digital-marketing-agency" element={<Digital />} />
           <Route path="/b2b-digital-marketing-agency" element={<B2B />} />
           <Route path="/email-marketing" element={<Email />} />
-
+          <Route path="/portfolios" element={<PortfolioLanding/>}/>
+          <Route path="/portfolios/checkin" element={<CheckIn />}/>
+          <Route path="/portfolios/ldnio" element={<Ldnio />}/>
+          <Route path="/portfolios/zestoo" element={<Zestoo />}/>
+          <Route path="/portfolios/tgr" element={<TGR />}/>
+          <Route path="/portfolios/slipper" element={<Slipper />}/>
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </HashRouter>

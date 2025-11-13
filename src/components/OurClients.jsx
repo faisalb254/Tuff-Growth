@@ -24,10 +24,10 @@ export default function OurClients() {
   return (
     <>
       <div className="w-full h-auto homeImg1 pt-3 pb-24 ">
-                <div className="h-[40px] w-max p-2 bg-[#ceff2a] m-auto rounded-[20px] flex justify-center items-center px-5 mt-26 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
-                  OUR CLIENTS
+                <div className="text-[50px] w-max p-2  rounded-[20px]  mx-10 mt-26  font-semibold tracking-[1.5px] text-white">
+                  Our Clients
                 </div>
-                <p className="text-[24px] sm:text-[32px] lg:text-[43px] font-semibold text-[#FFFEFB] leading-snug lg:leading-[3.5rem] mt-4 text-center">
+                <p className="text-[24px] bg-[#ceff2a] rounded-full px-6 m-auto w-fit sm:text-[32px] lg:text-[18px] font-semibold text-black leading-snug lg:leading-[3.5rem] mt-4 text-center">
                   Trusted by kickass businesses
                 </p>
       
@@ -56,7 +56,7 @@ export default function OurClients() {
                   ].map((logo, index) => (
                     <div
                       key={index}
-                      className="w-[48%] md:w-[23%] h-[143px] bg-[#DCD5F5] rounded-[5px] flex items-center justify-center mt-8"
+                      className="w-[48%] md:w-[23%] h-[143px] bg-[#DCD5F5]/40 rounded-[5px] flex items-center justify-center mt-8"
                     >
                       <img
                         src={logo}

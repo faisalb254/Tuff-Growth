@@ -107,7 +107,7 @@ export default function Footer() {
   return (
     <>
       <div className="w-full h-auto bg-[#1E1E1E] pb-8">
-        <div className="w-full h-auto bg-[#5A2AFF] px-6 md:px-16 lg:px-28 pt-16 md:pt-20 lg:pt-10">
+        <div className="w-full h-auto bg-[#1E1E1E] px-6 md:px-16 lg:px-28 pt-16 md:pt-20 lg:pt-10">
           <div className="w-full h-auto flex flex-col lg:flex-row">
             <div className="h-full w-full lg:w-[48.3%] pt-4">
               <img
