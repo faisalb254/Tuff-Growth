@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Portfolio from '../components/Portfolio'
-import slipper from '../assets/Slipper.webp'
-
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
+import CaseSlipper from '../case-studies/CaseSlipper'
+import slipper from '../../assets/Slipper.webp'
 
 export default function Slipper() {
     return (
@@ -14,6 +14,7 @@ export default function Slipper() {
             <section>
                 <Portfolio brandimg={slipper} brandname="Slipper"/>
             </section>
+            <CaseSlipper noNavbarFooter={true} />
             <Footer />
         </>
     )

@@ -143,7 +143,7 @@ export default function Performance() {
                 <div className="VideoLine w-full flex flex-col justify-center items-center pt-40 md:pt-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
-                            <h1 className=' text-6xl font-black my-5'>
+                            <h1 className=' text-6xl font-black my-5 text-left'>
                                 Chart your course, adapt, and thrive with an established performance marketing agency.
                             </h1>
                             <p className=' text-xl my-5'>

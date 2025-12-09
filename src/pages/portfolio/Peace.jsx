@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Portfolio from '../components/Portfolio'
-import peace from '../assets/Peace.webp'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
+import CasePeaceSkin from '../case-studies/CasePeaceSkin'
+import peace from '../../assets/Peace.webp'
 
 export default function Peace() {
     return (
@@ -13,6 +14,7 @@ export default function Peace() {
             <section>
                 <Portfolio brandimg={peace} brandname="Peace"/>
             </section>
+            <CasePeaceSkin noNavbarFooter={true} />
             <Footer />
         </>
     )

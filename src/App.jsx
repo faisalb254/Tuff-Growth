@@ -54,15 +54,35 @@ import Digital from "./pages/Digital";
 import B2B from "./pages/B2B";
 import Email from "./pages/Email";
 import PortfolioLanding from "./pages/PortfolioLanding";
-import CheckIn from "./pages/CheckIn";
-import Ldnio from "./pages/Ldnio"
-import Zestoo from "./pages/Zestoo"
-import TGR from "./pages/TGR"
-import Slipper from "./pages/Slipper"
-import Peace from "./pages/Peace"
-import Tsy from "./pages/Tsy"
-import NuttyHunt from "./pages/NuttyHunt"
+import CheckIn from "./pages/portfolio/CheckIn";
+import Ldnio from "./pages/portfolio/Ldnio"
+import Zestoo from "./pages/portfolio/Zestoo"
+import TGR from "./pages/portfolio/TGR"
+import Slipper from "./pages/portfolio/Slipper"
+import Peace from "./pages/portfolio/Peace"
+import Tsy from "./pages/portfolio/Tsy"
+import NuttyHunt from "./pages/portfolio/NuttyHunt"
+import Temoc from "./pages/portfolio/Temoc"
+import FGF from "./pages/portfolio/FGF"
+import Arifix from "./pages/portfolio/Arifix"
+import BDBE from "./pages/portfolio/BDBE"
+import Creasoft_i from "./pages/portfolio/Creasoft_i"
+import Creasoft_c from "./pages/portfolio/Creasoft_c"
+import CLF from "./pages/portfolio/CLF"
+import Unidraft from "./pages/portfolio/Unidraft"
+import CaseCheckIn from "./pages/case-studies/CaseCheckIn"
 import NotFound from "./pages/NotFound"
+import RFC from "./pages/portfolio/RFC";
+import CaseLdnio from "./pages/case-studies/CaseLdnio";
+import CaseZestoo from "./pages/case-studies/CaseZestoo";
+import CaseTGR from "./pages/case-studies/CaseTgr";
+import CaseSlipper from "./pages/case-studies/CaseSlipper";
+import CasePeaceSkin from "./pages/case-studies/CasePeaceSkin";
+import CaseTsy from "./pages/case-studies/CaseTsy";
+import CaseNutty from "./pages/case-studies/CaseNutty";
+import CaseTemoc from "./pages/case-studies/CaseTemoc";
+import CaseFgf from "./pages/case-studies/CaseFgf";
+import CaseStudiesNew from "./pages/CaseStudiesNew";
 
 export default function App() {
   return (
@@ -74,8 +94,8 @@ export default function App() {
           <Link to="/" style={{ margin: "0 0.5rem" }}>
             Home
           </Link>
-          <Link to="/a-goodway-group-company" style={{ margin: "0 0.5rem" }}>
-            GoodWay
+          <Link to="/havit-growth-company" style={{ margin: "0 0.5rem" }}>
+            Havit
           </Link>
           <Link to="/case-studies" style={{ margin: "0 0.5rem" }}>
             Case Studies
@@ -117,7 +137,7 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomeSection />} />
-          <Route path="/a-goodway-group-company" element={<GoodWay />} />
+          <Route path="/havit-growth-company" element={<GoodWay />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/paid-media" element={<PaidMedia />} />
           <Route path="/creative" element={<Creative />} />
@@ -143,7 +163,6 @@ export default function App() {
           <Route path="/owned-media" element={<OwnedMedia />} />
           <Route path="/how-performance-creative-generates-bold-actionable-results-for-growth-marketing" element={<Result />} />
           <Route path="/author/hannah" element={<Hannah />} />
-          <Route path="/test" element={<Test />} />
           <Route path="/author/derek" element={<Derek />} />
           <Route path="/what-is-a-growth-marketing-agency" element={<Agency />} />
           <Route path="/growth-marketing" element={<Marketing />} />
@@ -167,7 +186,8 @@ export default function App() {
           <Route path="/digital-marketing-agency" element={<Digital />} />
           <Route path="/b2b-digital-marketing-agency" element={<B2B />} />
           <Route path="/email-marketing" element={<Email />} />
-          <Route path="/portfolios" element={<PortfolioLanding/>}/>
+          {/* <Route path="/portfolios" element={<PortfolioLanding/>}/> */}
+          <Route path="/portfolios" element={<CaseStudiesNew />} />
           <Route path="/portfolios/checkin" element={<CheckIn />}/>
           <Route path="/portfolios/ldnio" element={<Ldnio />}/>
           <Route path="/portfolios/zestoo" element={<Zestoo />}/>
@@ -176,6 +196,25 @@ export default function App() {
           <Route path="/portfolios/peace" element={<Peace />}/>
           <Route path="/portfolios/tsy" element={<Tsy />}/>
           <Route path="/portfolios/nuttyhunt" element={<NuttyHunt />}/>
+          <Route path="/portfolios/temoc" element={<Temoc />}/>
+          <Route path="/portfolios/fgf" element={<FGF />}/>
+          <Route path="/portfolios/rfc" element={<RFC />}/>
+          <Route path="/portfolios/arifix" element={<Arifix />}/>
+          <Route path="/portfolios/bdbe" element={<BDBE />}/>
+          <Route path="/portfolios/creasoft_i" element={<Creasoft_i />}/>
+          <Route path="/portfolios/creasoft_c" element={<Creasoft_c />}/>
+          <Route path="/portfolios/clf" element={<CLF />}/>
+          <Route path="/portfolios/unidraft" element={<Unidraft />}/>
+          {/* <Route path="/case-studies/checkin" element={<CaseCheckIn />}/>
+          <Route path="/case-studies/ldnio" element={<CaseLdnio />}/>
+          <Route path="/case-studies/zestoo" element={<CaseZestoo />}/>
+          <Route path="/case-studies/tgr" element={<CaseTGR />}/>
+          <Route path="/case-studies/slipper" element={<CaseSlipper />}/>
+          <Route path="/case-studies/peace" element={<CasePeaceSkin />}/>
+          <Route path="/case-studies/tsy" element={<CaseTsy />}/>
+          <Route path="/case-studies/nuttyhunt" element={<CaseNutty />}/>
+          <Route path="/case-studies/temoc" element={<CaseTemoc />}/>
+          <Route path="/case-studies/fgf" element={<CaseFgf />}/> */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

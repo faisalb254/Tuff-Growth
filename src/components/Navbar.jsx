@@ -49,7 +49,7 @@ export default function Navbar() {
         </Link>
       </section>
 
-      <section className="hidden xl:flex ml-37 justify-center">
+      <section className="hidden md:flex ml-37 justify-center">
         <ul className="lies flex items-center gap-[10px] text-[18px] cursor-pointer font-semibold text-[#FFFFFF]">
           <li className="relative group flex items-center cursor-pointer">
             <Link to="/services">
@@ -143,6 +143,46 @@ export default function Navbar() {
                     Nutty Hunt
                   </p>
                 </Link>
+                <Link to="/portfolios/temoc">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Temoc
+                  </p>
+                </Link>
+                <Link to="/portfolios/fgf">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    FGF
+                  </p>
+                </Link>
+                <Link to="/portfolios/arifix">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Arifix
+                  </p>
+                </Link>
+                <Link to="/portfolios/bdbe">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    BDBE
+                  </p>
+                </Link>
+                <Link to="/portfolios/creasoft_i">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Creasoft IO
+                  </p>
+                </Link>
+                <Link to="/portfolios/creasoft_c">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Creasoft Capital
+                  </p>
+                </Link>
+                <Link to="/portfolios/clf">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    CLF
+                  </p>
+                </Link>
+                <Link to="/portfolios/unidraft">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Unidraft
+                  </p>
+                </Link>
               </div>
             </div>
           </li>
@@ -201,10 +241,10 @@ export default function Navbar() {
               </div>
             </div>
           </li>
-          <Link to="/case-studies">
+          {/* <Link to="/case-studies">
             <li>Case Studies</li>
-          </Link>
-          <Link to="/a-goodway-group-company">
+          </Link> */}
+          <Link to="/havit-growth-company">
             <li>Have it all at Havit</li>
           </Link>
           <li className="relative group flex items-center cursor-pointer">
@@ -249,7 +289,7 @@ export default function Navbar() {
       </Link>
 
       {menuOpen && (
-        <div className="absolute top-full left-0 w-full bg-white text-black p-4 px-4 md:px-48 z-20 md:block xl:hidden">
+        <div className="absolute top-full left-0 w-full bg-white text-black p-4 px-4 md:px-48 z-20 md:hidden">
           <ul className="transition-all duration-300">
             {[
               {
@@ -277,6 +317,15 @@ export default function Navbar() {
                   { name: "Peace", path: "/portfolios/peace" },
                   { name: "TSY", path: "/portfolios/tsy" },
                   { name: "Nutty Hunt", path: "/portfolios/nuttyhunt" },
+                  { name: "Temoc", path: "/portfolios/temoc" },
+                  { name: "FGF", path: "/portfolios/fgf" },
+                  { name: "Arifix", path: "/portfolios/arifix" },
+                  { name: "BDBE", path: "/portfolios/bdbe" },
+                  { name: "Creasoft IO", path: "/portfolios/creasoft_i" },
+                  { name: "Creasoft Capital", path: "/portfolios/creasoft_c" },
+                  { name: "CLF", path: "/portfolios/clf" },
+                  { name: "Unidraft", path: "/portfolios/unidraft" },
+                  { name: "All", path: "/portfolios" },
                 ],
               },
               {
@@ -379,13 +428,13 @@ export default function Navbar() {
               </li>
             ))}
 
-            <li className="py-6 text-[24px] font-semibold border-b border-gray-300">
+            {/* <li className="py-6 text-[24px] font-semibold border-b border-gray-300">
               <Link to="/case-studies" className="hover:text-[#FF6A39]">
                 Case Studies
               </Link>
-            </li>
+            </li> */}
             <li className="py-6 text-[24px] font-semibold border-b border-gray-300">
-              <Link to="/a-goodway-group-company" className="hover:text-[#FF6A39]">
+              <Link to="/havit-growth-company" className="hover:text-[#FF6A39]">
                 Have it all at Havit
               </Link>
             </li>

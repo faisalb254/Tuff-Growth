@@ -21,24 +21,22 @@ const TuffLandingSections = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-start">
               <div className="space-y-6 sm:space-y-8 mt-16 sm:mt-24 lg:mt-15">
                 <div>
-                  <h1 className={`text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-extrabold text-black leading-tight`}>
+                  <h1 className={`text-2xl sm:text-3xl md:text-4xl lg:text-[50px] font-extrabold text-black leading-tight text-left`}>
                     Book a call with a growth strategist.
                   </h1>
                 </div>
 
                 <div className="space-y-3 text-[#0C2233] text-base sm:text-[17px] md:text-[19px]">
                   <p>
-                    On our first call, we'll learn more about your growth goals,
-                    share a bit about what we do and discuss how we like to
-                    partner with clients to see if it might be a good fit.
+                    During our introductory consultation, we will fully explore your specific growth objectives, present an overview of our capabilities, and discuss our collaborative partnership approach to confirm mutual alignment. Following this, we conduct a comprehensive audit to pinpoint areas where we can deliver maximum impact, which informs a tailored plan based on our insights. Finally, we execute jointly, combining sophisticated marketing strategies with expert, hands-on implementation.
                   </p>
-                  <p className="text-sm sm:text-base md:text-lg">
+                  {/* <p className="text-sm sm:text-base md:text-lg">
                     From there, we do an audit to figure out where we can have
                     the biggest impact and then build a tailored plan based on
                     our insights and customized to you. Last, we execute as a
                     team, putting high-level marketing strategies with expert
                     implementation.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               <div className="">
@@ -60,7 +58,7 @@ const TuffLandingSections = () => {
 
             <div className="w-full max-w-lg flex items-center flex-col gap-4 sm:gap-6 text-center lg:text-left">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#0C2233]">
-                Not ready to chat?
+                Want more details?
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-[#0c2233]">
                 Download a sample growth marketing proposal.

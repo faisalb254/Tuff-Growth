@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Portfolio from '../components/Portfolio'
-import checkin from '../assets/Checkin.webp'
-
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
+import CaseCheckIn from '../case-studies/CaseCheckIn'
+import checkin from '../../assets/Checkin.webp'
 
 export default function CheckIn() {
     return (
@@ -14,6 +14,7 @@ export default function CheckIn() {
             <section>
                 <Portfolio brandimg={checkin} brandname="Checkin"/>
             </section>
+            <CaseCheckIn noNavbarFooter={true} />
             <Footer />
         </>
     )

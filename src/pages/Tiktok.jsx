@@ -36,11 +36,11 @@ export default function Tiktok() {
             answer:
                 [
                     {
-                        para: "A TikTok ads agency is like having your very own squad of TikTok experts to help your business shine on the platform. These experts offer a bunch of helpful services, like coming up with strategic campaign ideas, creating platform-native videos, keeping an eye on your stats, finding your ideal audience, and making sure you play by TikTok’s rules.",
+                        para: "Hiring a TikTok Ads agency is like gaining your own dedicated squad of platform experts, focused solely on making your business shine. They provide a range of essential services, including strategic campaign planning, crafting authentic, native video creative, optimizing performance metrics, precisely targeting your ideal audience, and ensuring full compliance with all of TikTok's guidelines.",
                         type: "para"
                     },
                     {
-                        para: "So, why team up with a TikTok ads agency? Well, if you’re eager to make the most of TikTok’s advertising magic but don’t have all the know-how or resources in-house, these agencies are your go-to pals. They know TikTok inside and out, and they’ll help you reach your goals and connect with the right crowd on the platform.",
+                        para: "So, why partner with a TikTok ads agency? If you're ready to maximize TikTok's advertising potential but lack the in-house expertise or resources, these agencies are essential partners. They possess comprehensive, platform-specific knowledge and will ensure you effectively reach your goals and connect with the right target audience on TikTok.",
                         type: "para"
                     }
                 ],
@@ -50,23 +50,23 @@ export default function Tiktok() {
             answer:
                 [
                     {
-                        para: "When it comes to hiring a TikTok ads agency, the costs can vary significantly, influenced by various factors. Here are some key factors to bear in mind:",
+                        para: "Hiring a TikTok ads agency involves costs that vary significantly, based on specific criteria. We recommend bearing these key factors in mind:",
                         type: "para"
                     },
                     {
-                        para: "Advertising Budget: Your overall advertising budget plays a pivotal role in determining the total cost. Typically, the more you invest in TikTok advertising, the more the agency may charge for managing and optimizing your campaigns. Agencies frequently apply a percentage-based fee linked to your ad spend.",
+                        para: "Advertising Budget: The size of your total ad budget significantly influences the final cost. Agencies usually charge more to manage and optimize larger TikTok advertising investments. This is often structured as a percentage-based fee directly tied to your overall ad spend.",
                         type: "list"
                     },
                     {
-                        para: "Creative Requirements: Effective creative content is essential on platforms like TikTok. It can significantly impact your results. While additional creative services may increase the overall cost, they are often well worth it to achieve the desired outcomes.",
+                        para: "Content and Cost: Impactful creative content is critical for achieving your desired results on TikTok. Therefore, while the cost will increase with the addition of creative development services, the enhanced performance usually provides a strong return on that investment.",
                         type: "list"
                     },
                     {
-                        para: "Campaign Complexity: The complexity of your advertising campaigns can also affect costs. If your campaigns are relatively simple, with straightforward ad creatives and minimal targeting, the cost may be on the lower side. However, for intricate campaigns involving various ad formats, precise targeting, and extensive creative work, the cost is likely to be higher.",
+                        para: "Scope of Work: The level of campaign complexity directly affects the total cost. While simple campaigns with basic creative and targeting tend to be less expensive, highly intricate campaigns involving multiple formats, hyper-specific targeting, and substantial creative work will require a larger budget.",
                         type: "list"
                     },
                     {
-                        para: "It’s crucial to have open discussions about your budget and campaign objectives with the TikTok ads agency you’re considering. Most agencies, such as Tuff, are willing to provide a personalized proposal tailored to your specific needs and budget. This way, you can have a clear understanding of the expected costs and ensure they align with your advertising goals.",
+                        para: "It is essential to have transparent discussions about your budget and campaign objectives with any prospective TikTok ads agency. Agencies like Havit are typically happy to generate a personalized proposal that aligns with your specific requirements and budget, giving you a clear forecast of costs and confirming goal alignment.",
                         type: "para"
                     },
                 ],
@@ -75,11 +75,11 @@ export default function Tiktok() {
             question: "Do you manage influencers and creative?",
             answer: [
                 {
-                    para: "While we don’t manage influencers at Tuff, we have an extensive network of creators we tap for TikTok ad creation and a proven process of working with your existing influencers to repurpose or create new content for ads.",
+                    para: "While we do not handle influencer management at Havit, we maintain an extensive network of creators we utilize specifically for developing high-performing TikTok ad content. We also have a proven system for collaborating with your existing influencers to repurpose or generate new assets for advertising.",
                     type: "para"
                 },
                 {
-                    para: "The most important “ingredient” to getting this “recipe” right is our team’s ability to act like an extension of your in-house team; having dedicated conversations and building relationships with your creatives and community/influencer managers so that there’s open communication, tons of support, and big creative energy and fun.",
+                    para: "The most critical component of our success is our team's seamless integration with your in-house staff. This involves holding focused discussions and building strong working relationships with your creative and community/influencer managers, ensuring open communication, comprehensive support, and fostering vibrant creative energy.",
                     type: "para"
                 },
             ]
@@ -89,15 +89,15 @@ export default function Tiktok() {
             answer:
                 [
                     {
-                        para: "Crafting your brand’s narrative and conveying its value in under 15 seconds may not be a walk in the park, but it’s entirely attainable. If you can unlock this secret, TikTok has the potential to become a powerful catalyst for your brand’s growth.",
+                        para: "Developing your brand story and conveying its worth quickly, in less than 15 seconds, requires effort, yet it remains fully attainable. Once you achieve this brevity, TikTok offers massive potential to catalyze your brand's expansion.",
                         type: "para"
                     },
                     {
-                        para: "The crux of TikTok advertising success lies in the ingenuity of your ad creative. It’s not just about the content itself; it’s equally about how well it harmonizes with TikTok’s culture, seizes the viewer’s attention, and sparks interaction. A well-executed ad creative can supercharge your ad performance, expanding your reach and ultimately realizing your advertising objectives.",
+                        para: "The cornerstone of successful TikTok advertising is truly inventive ad creative. Success depends not just on the content itself, but also on how seamlessly it blends with TikTok's culture, captures viewer attention, and generates engagement. Superior creative execution can drastically boost your ad performance, expanding your reach and securing your advertising goals.",
                         type: "para"
                     },
                     {
-                        para: "Here at Tuff, our TikTok Ads team is in a constant state of exploration, trying out fresh creative concepts for our clients. If something doesn’t click, we swiftly pivot and continue experimenting with novel ideas until we discover the winning formula. Your success is our mission!",
+                        para: "Havit TikTok Ads team is continuously exploring and testing fresh creative concepts for our clients. If an approach doesn't perform, we quickly pivot and relentlessly experiment with new ideas until we uncover the successful formula. We consider your success our primary mission.",
                         type: "para"
                     },
                 ]
@@ -110,14 +110,17 @@ export default function Tiktok() {
             </div>
 
             <section>
-                <div className="tiktokbg w-full flex justify-center items-center pt-10 lg:pt-50">
+                <div className="tiktokbg w-full flex justify-center items-center pt-10 lg:pt-20">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
-                            <h1 className='text-4xl md:text-6xl font-black my-5'>
-                                The TikTok Ads Agency That Helps You Engage Customers at Every Stage of Their Journey, Maximizing Acquisition.
+                            <h1 className='text-4xl md:text-6xl font-black my-5 text-left'>
+                                Engaging Your Customers for Maximum Acquisition and Growth.
                             </h1>
                             <p className=' text-xl my-5'>
-                                Diversify your channel mix with TikTok ads. Let’s level up your acquisition and awareness efforts with highly-targeted campaigns on TikTok.
+                                Diversify your marketing channels. Let us level up your acquisition efforts with precision-targeted campaigns on TikTok.
+                            </p>
+                            <p className=' text-xl my-5'>
+                                Partner with Havit for TikTok Ad Success.
                             </p>
                             <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
                                 <Link to={"/get-started-with-tuff"}>Let's talk</Link>
@@ -134,13 +137,13 @@ export default function Tiktok() {
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10 ">
                         <div className="w-full md:w-1/2  ">
                             <h1 className='text-4xl font-black my-5'>
-                                Tuff is your TikTok Ads agency.
+                                Partner with Havit for TikTok Ad Success.
                             </h1>
                             <p className=' text-xl my-5'>
-                                Reach your target audience on TikTok to build awareness and drive the right traffic to your site. Showcase what makes you great with help from our experienced TikTok Ads agency team.
+                                Connect with your target audience on TikTok to build brand awareness and drive high-quality traffic directly to your site. Our experienced TikTok Ads agency team will help showcase your unique value proposition effectively.
                             </p>
                             {/* #FF6A39 */}
-                            <span className=' flex text-xl font-black hover:text-[#FF6A39] tilt-zoom'>Tuff is a remote growth marketing team for hire. Learn more
+                            <span className=' flex text-xl font-black hover:text-[#FF6A39] tilt-zoom'>Havit is a remote growth marketing team for hire. Learn more
                                 <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
                             </span>
                         </div>
@@ -148,10 +151,10 @@ export default function Tiktok() {
                             <div className=" border border-[rgb(0_0_0_/_12%)] p-7.5 w-72 md:w-96 ">
                                 <img className=' w-12.5 h-12.5' src={signal1} alt="" />
                                 <h2 className=' font-black text-xl my-5'>
-                                    Before Tuff
+                                    Before Havit
                                 </h2>
                                 <p className=' text-xl my-4 text-[#0c2233]'>
-                                    Accounts are unorganized, things slip, limited communication, all reports, and no action, it’s tough to see where things stand, and people are stressed.
+                                    Unorganized accounts, missed deadlines, and inconsistent communication lead to a reliance on static reports without clear actions, making it extremely difficult to determine progress and creating significant team stress.
                                 </p>
                             </div>
                             <div className=" border border-[rgb(0_0_0_/_12%)] p-7.5 w-72 md:w-96 ">
@@ -160,7 +163,7 @@ export default function Tiktok() {
                                     After Tuff
                                 </h2>
                                 <p className=' text-xl my-4 text-[#0c2233]'>
-                                    Everything is organized in one place, daily communication, focused Google Ads strategy and execution, results delivered, progress is clear, and a sense of trust sets in.
+                                    With everything organized and daily communication in place, our focused Google Ads strategy leads directly to high-impact execution. Clear results are delivered, progress is transparent, and a foundation of trust is firmly established.
                                 </p>
                             </div>
                         </div>
@@ -173,19 +176,19 @@ export default function Tiktok() {
                         Creative + Campaign Strategy
                     </div>
                     <h2 className=' text-4xl text-center font-black w-1/2'>
-                        Ad creative is critical for success on TikTok.
+                        Ad creative plays the most critical role in on TikTok
                     </h2>
                     <p className=' text-xl text-center w-3/5'>
-                        When it comes to developing ad creative for TikTok, it’s all about testing, testing, and testing again. Then testing some more. At Tuff, we’re ruthless about throwing out creative that’s not converting and making more of what is. So instead of relying on slow-moving and expensive creative agencies, we create UGC-forward, high-impact video assets designed for each stage of the customer journey on TikTok.
+                        Success on TikTok creative hinges entirely on continuous iteration, testing, and optimization. Havit cuts through the noise by being ruthless about eliminating underperforming creative and prioritizing assets that deliver results. We avoid the delays and high costs of traditional creative agencies; instead, we receive brand-forward, high-impact video assets, built in a UGC style and perfectly mapped to each stage of our acquisition funnel on TikTok.
                     </p>
-                    <video
+                    {/* <video
                         src={tiktokvideo}
                         autoPlay
                         muted
                         loop
                         playsInline
                         style={{ width: "80%", height: "auto" }}
-                    />
+                    /> */}
                     <span className=' p-5 border-white border-2 mt-10 font-black tilt-zoom text-center w-6/10'>
                         See examples of TikTok ad creative here
                     </span>
@@ -193,14 +196,14 @@ export default function Tiktok() {
             </section>
             <section>
                 <div className=" w-full flex justify-center items-center py-20">
-                    <div className="w-9/10 h-9/10 flex flex-col lg:flex-row">
+                    <div className="w-9/10 h-9/10 flex flex-col lg:flex-row gap-5">
                         <div className="w-full lg:w-1/2">
-                            <img src={img3} alt="" className=" w-8/10 h-6/10" />
-                            <h2 className=' text-5xl font-black'>
-                                Tuff’s approach to TikTok creative is simple and proven:
+                            <img src={img3} alt="" className=" w-8/10 h-5/10" />
+                            <h2 className=' text-4xl font-black my-5'>
+                                Havit's approach to TikTok creative is both simple and highly effective.
                             </h2>
                             <p className=' text-xl'>
-                                This past year alone, we’ve launched hundreds of ads on TikTok and we’ve put each asset under a microscope.  We know how to create TikTok ads that drive traffic, conversions, and results for your brand.
+                                Over the last year, we've launched hundreds of TikTok ads.  our team possesses the deep knowledge required to craft assets that consistently drive traffic, conversions, and significant results for your brand.
                             </p>
                             <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
                                 Let's talk
@@ -212,7 +215,7 @@ export default function Tiktok() {
                                     Step 1
                                 </span>
                                 <h3 className=' text-[28px] font-black my-5'>
-                                    Get specific with audiences & campaign setup so we understand the focus of our message testing
+                                    By being specific with audience profiles and campaign setup, we ensure a sharp, targeted focus for our message testing efforts.
                                 </h3>
                             </div>
                             <div className=" my-5">
@@ -220,7 +223,7 @@ export default function Tiktok() {
                                     Step 2
                                 </span>
                                 <h3 className=' text-[28px] font-black my-5'>
-                                    Develop low-budget/high-impact channel-specific creative with intentional messaging variety
+                                    Focus on creating low-budget, channel-specific creative that maximizes impact through intentionally varied messaging.
                                 </h3>
                             </div>
                             <div className=" my-5">
@@ -380,9 +383,7 @@ export default function Tiktok() {
                 </div>
             </section>
 
-
-
-            <section>
+            {/* <section>
                 <div className="w-full flex justify-center items-center bg-[#0c2233] text-white py-20">
                     <div className=" w-4/5 flex flex-col md:flex-row gap-4">
                         <img src={img2} alt="" className=" w-37.5 h-18" />
@@ -396,33 +397,33 @@ export default function Tiktok() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section>
                 <div className="w-full flex justify-center items-center my-20">
                     <div className="w-9/10 flex flex-col justify-start items-center">
-                        <h1 className=' text-5xl font-black w-full md:w-1/2 my-2.5 text-center'>
-                            Drive full-funnel growth with TikTok in your media mix.
+                        <h1 className=' text-4xl font-black w-full md:w-7/10 my-2.5 text-center'>
+                            Achieve full-funnel growth by utilizing TikTok within your advertising strategy.
                         </h1>
                         <p className='w-full md:w-1/2 text-xl text-center'>
-                            Regardless of the role of TikTok in the media mix, there are 5 key principles of TikTok ad success:
+                            Irrespective of the role of TikTok in the media mix, there are 5 foundational principles of TikTok ads success:
                         </p>
                         <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
                             <Link to={"/get-started-with-tuff"}>Let's talk</Link>
                         </button>
-                        <div className=" flex flex-wrap justify-evenly  gap-8">
-                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)]">
+                        <div className=" flex flex-wrap justify-evenly gap-8">
+                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)] text-left">
                                 <img src={circletik} alt="" />
                                 <span className=' my-2.5'>
                                     Deep understanding of your best audience segments
                                 </span>
                             </div>
-                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)]">
+                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)] text-left">
                                 <img src={circletik} alt="" />
                                 <span className=' my-2.5'>
                                     Proper campaign structure and campaign type
                                 </span>
                             </div>
-                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)]">
+                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)] text-left">
                                 <img src={circletik} alt="" />
                                 <span className=' my-2.5'>
                                     TikTok-specific assets with the right hook for each audience segment
@@ -430,13 +431,13 @@ export default function Tiktok() {
                             </div>
                         </div>
                         <div className=" mt-10 flex flex-wrap justify-evenly  gap-8">
-                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)]">
+                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)] text-left">
                                 <img src={circletik} alt="" />
                                 <span className=' my-2.5'>
                                     Clear user funnels and product flow
                                 </span>
                             </div>
-                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)]">
+                            <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)] text-left">
                                 <img src={circletik} alt="" />
                                 <span className=' my-2.5'>
                                     Correct measurement framework, bespoke reporting, and analytics

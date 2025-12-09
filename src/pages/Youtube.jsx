@@ -30,11 +30,11 @@ export default function Youtube() {
             answer:
                 [
                     {
-                        para: "Whether you’re embarking on your maiden YouTube campaign or seeking to enhance and expand your existing initiatives, collaborating with a seasoned agency can significantly expedite your progress. Partnering with a YouTube ads agency, such as Tuff, offers a multitude of services designed to empower clients in harnessing the platform’s marketing potential.",
+                        para: "Whether you are launching your first YouTube campaign or aiming to optimize and scale existing initiatives, partnering with a seasoned agency can dramatically accelerate your results. A YouTube ads agency, like Havit, provides a full range of services specifically designed to empower clients to fully harness the platform’s marketing potential.",
                         type: "para"
                     },
                     {
-                        para: "These encompass video production, audience growth strategies, predictive analysis, meticulous campaign strategizing, day-to-day campaign oversight, custom reporting, and a variety of other valuable services. With our extensive experience in navigating the intricate YouTube landscape, adeptly adapting to algorithm shifts, and deploying successful strategies, we are well-equipped to help our clients realize their marketing goals on this dynamic platform.",
+                        para: "These services comprehensively cover video production, audience growth strategies, predictive analytics, detailed campaign strategizing, daily campaign management, custom performance reporting, and more. Our extensive experience navigating the complex YouTube landscape, adapting to algorithm changes, and deploying proven successful strategies means we are uniquely equipped to help clients achieve their marketing goals on this dynamic platform.",
                         type: "para"
                     }
                 ],
@@ -88,11 +88,11 @@ export default function Youtube() {
                 <div className="VideoLine w-full flex justify-center items-center pt-5 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
-                            <h1 className=' text-4xl md:text-6xl font-black my-5'>
+                            <h1 className=' text-4xl md:text-6xl font-black my-5 text-left'>
                                 Your YouTube Ads Agency
                             </h1>
                             <p className=' text-xl my-5'>
-                                Fully managed YouTube ads strategy and execution from a team of media, data, and creative experts.
+                                End-to-end YouTube ads strategy and execution from a team of media, data, and creative experts.
                             </p>
                             <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
                                 Let's talk
@@ -106,14 +106,14 @@ export default function Youtube() {
             </section>
 
             <section>
-                <div className=" w-full flex justify-center items-center pt-5 ">
+                <div className=" w-full flex justify-center items-center py-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-black ">
-                            <h1 className=' text-5xl font-black my-5'>
-                                Video is no longer a nice option – it’s a necessity.
+                            <h1 className=' text-5xl font-black my-5 text-left'>
+                                Video is no longer optional; it is a mandatory component of modern strategy.
                             </h1>
                             <p className=' text-xl my-5'>
-                                We have helped build and manage campaigns on YouTube for companies of nearly every size, vertical, and business model. By digging into the data surrounding your audience, we select the right ad formats for your business. Then, our in-house creative team and YouTube specialists work with you to create original, authoritative videos that get people to drive brand visibility, traffic, and overall conversion lift.
+                                We have successfully built and managed YouTube campaigns for businesses of almost every size, vertical, and model. We begin by conducting a deep data analysis of your audience to select the ideal ad formats. Our in-house creative team and dedicated YouTube specialists then collaborate with you to produce original, authoritative videos that significantly boost brand visibility, drive traffic, and increase overall conversion lift.
                             </p>
                             <span className=' flex text-xl font-black hover:text-[#FF6A39] tilt-zoom'>
                                 Learn more about our Video Marketing services
@@ -150,7 +150,7 @@ export default function Youtube() {
                                 Genomelink
                             </span>
                         </div>
-                        <div className=" border-2 border-[rgb(255_255_255_/_15%)]   bg-[rgb(255_255_255_/_15%)] py-6 px-9 w-full flex flex-col md:flex-row">
+                        <div className=" border-2 border-[rgb(255_255_255_/25%)]   bg-[rgb(255_255_255_/_20%)] py-6 px-9 w-full flex flex-col md:flex-row gap-5">
                             <div className="w-full md:w-1/2 text-xl">
                                 <img src={koji} alt="" />
                                 <h3 className=' font-black my-5'>
@@ -228,19 +228,19 @@ export default function Youtube() {
                     <div className="w-8/10 min-h-80 flex flex-col items-center justify-center text-2xl">
                         <h2 className='w-full  text-center my-4.5 font-black  '>
                             <span className='bg-[#CEFD94]'>
-                                “The entire Tuff team is amazing, which is no surprise because their leadership is exceptional.
+                                “The entire Havit team performs exceptionally well, which reflects the outstanding quality of their leadership.
                             </span>
                         </h2>
                         <h2 className=' my-4.5 font-black text-center text-white'>
-                            They are always thinking of strategic ways to improve and always have the best interest of their clients in mind.”
+                            The team consistently focuses on strategic ways to improve performance, always prioritizing the best interests of their clients.
                         </h2>
                         <div className=" text-xl text-white my-4.5 flex flex-col justify-center items-center text-center">
                             <img src={stars} alt="" />
                             {/* <img className='w-2/5' src={michael} alt="" /> */}
                             <h3 className=' font-bold text-center'>
-                                Liliana Aide Monge
+                                Ishwa Hijab
                             </h3>
-                            <p>Co-founder, Sabio</p>
+                            <p>Co-founder, Havit</p>
                         </div>
                     </div>
                 </div>

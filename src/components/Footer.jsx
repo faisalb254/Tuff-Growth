@@ -52,7 +52,7 @@ export default function Footer() {
       link: "owned-media",
     },
     {
-      name:"Email",
+      name: "Email",
       link: "email-marketing"
     },
     {
@@ -127,12 +127,50 @@ export default function Footer() {
               <p className="text-[16px] font-semibold text-[#FFFEFB] mt-6 md:mt-7 ml-1 md:ml-3">
                 With remote team members in:
               </p>
-              <img
-                src={map}
-                alt="map"
-                loading="lazy"
-                className="w-[98%] m-auto mt-[-7%] bg-transparent"
-              />
+              <div className="relative my-22 w-full">
+                <img
+                  src={map}
+                  alt="map"
+                  loading="lazy"
+                  className="w-[98%] m-auto mt-[-7%] bg-transparent"
+                />
+                <div className="absolute top-[34%] left-[16%]">
+                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                    {/* Tooltip */}
+                    <div className="absolute left-[16%] top-[40%] invisible opacity-0 group-hover:visible group-hover:opacity-100
+                      transition bg-black text-white text-xs p-2 rounded shadow">
+                      USA
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[45%] left-[59%]">
+                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                    {/* Tooltip */}
+                    <div className="absolute left-[59%] top-[-45px] -translate-x-1/2 invisible opacity-0 group-hover:visible group-hover:opacity-100
+                      transition bg-black text-white text-xs p-2 rounded shadow">
+                      Dubai
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[42%] left-[66%]">
+                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                    <div className="absolute left-[66%] top-[42%] invisible opacity-0 group-hover:visible group-hover:opacity-100
+                      transition bg-black text-white text-xs p-2 rounded shadow">
+                      Pakistan
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute top-[25%] left-[45%]">
+                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                    <div className="absolute left-[45%] top-[25%] invisible opacity-0 group-hover:visible group-hover:opacity-100
+                      transition bg-black text-white text-xs p-2 rounded shadow">
+                      UK
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
               <div className="flex gap-2 mt-[-30px] ml-1 md:ml-3 my-2.5">
                 <a href="https://www.facebook.com/HavitGrowthAgency/?_rdc=2&_rdr#" target="_blank" rel="noopener noreferrer"><img src={fb} alt="fb" loading="lazy" /></a>
                 <a href="https://x.com/havitpk/status/1855973758265184276" target="_blank" rel="noopener noreferrer"><img src={x} alt="x" loading="lazy" /></a>
@@ -188,35 +226,35 @@ export default function Footer() {
               {
                 title: "Paid Media",
                 items: [
-                  {name: "TikTok Ads Agency", link: "tiktok-ad-agency"},
-                  {name: "YouTube Ads Agency", link: "youtube-ad-agency"},
-                  {name:"Google Ads Agency", link: "google-ad-agency"},
-                  {name: "Bing Ads Agency", link: "bing-ad-agency"},
-                  {name: "LinkedIn Ads Agency", link: "linkedin-ad-agency"},
+                  { name: "TikTok Ads Agency", link: "tiktok-ad-agency" },
+                  { name: "YouTube Ads Agency", link: "youtube-ad-agency" },
+                  { name: "Google Ads Agency", link: "google-ad-agency" },
+                  { name: "Bing Ads Agency", link: "bing-ad-agency" },
+                  { name: "LinkedIn Ads Agency", link: "linkedin-ad-agency" },
                 ],
               },
               {
                 title: "Owned Media",
-                items: [{name: "Technical SEO Agency", link: "technical-seo-agency"}, {name: "Content Strategy Agency", link:"content-strategy-agency"}],
+                items: [{ name: "Technical SEO Agency", link: "technical-seo-agency" }, { name: "Content Strategy Agency", link: "content-strategy-agency" }],
               },
               {
                 title: "Creative",
                 items: [
-                  {name: "Ad Creative", link: "creative"},
-                  {name: "Video Marketing", link: "videomarketing"},
-                  {name: "Strategic Messaging", link: "strategic-messaging"}
+                  { name: "Ad Creative", link: "creative" },
+                  { name: "Video Marketing", link: "videomarketing" },
+                  { name: "Strategic Messaging", link: "strategic-messaging" }
                 ],
               },
               {
                 title: "Growth",
                 items: [
-                  {name: "Growth Marketing Agency", link: "growth-marketing-agency"},
-                  {name: "Growth Agency", link: "growth-agency"},
-                  {name: "Digital Marketing Agency", link: "digital-marketing-agency"},
-                  {name: "Performance Marketing Agency", link: "performance-marketing-agency"},
-                  {name: "B2B Digital Marketing Agency", link: "b2b-digital-marketing-agency"},
-                  {name: "Growth Marketing Framework", link: "growth-marketing-framework"},
-                  {name: "Startup Marketing Agency", link: "startup-marketing-agency"},
+                  { name: "Growth Marketing Agency", link: "growth-marketing-agency" },
+                  { name: "Growth Agency", link: "growth-agency" },
+                  { name: "Digital Marketing Agency", link: "digital-marketing-agency" },
+                  { name: "Performance Marketing Agency", link: "performance-marketing-agency" },
+                  { name: "B2B Digital Marketing Agency", link: "b2b-digital-marketing-agency" },
+                  { name: "Growth Marketing Framework", link: "growth-marketing-framework" },
+                  { name: "Startup Marketing Agency", link: "startup-marketing-agency" },
                 ],
               },
             ].map((section, idx) => (

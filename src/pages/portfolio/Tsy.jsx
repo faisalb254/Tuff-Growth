@@ -1,10 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Portfolio from '../components/Portfolio'
-import tsy from '../assets/TSY.webp'
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
+import CaseTsy from '../case-studies/CaseTsy'
+import tsy from '../../assets/TSY.webp'
 
-export default function Peace() {
+export default function Tsy() {
     return (
         <>
             <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">
@@ -13,6 +14,7 @@ export default function Peace() {
             <section>
                 <Portfolio brandimg={tsy} brandname="TSY"/>
             </section>
+            <CaseTsy noNavbarFooter={true} />
             <Footer />
         </>
     )

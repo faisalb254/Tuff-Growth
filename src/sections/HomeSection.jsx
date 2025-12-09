@@ -23,17 +23,8 @@ import acres from "../assets/acres.jpg";
 import acreslogo from "../assets/acres-logo.svg";
 import starri from "../assets/starri.jpg";
 import starrilogo from "../assets/starrilogo.svg";
-import jamie from "../assets/jamie.png";
-import landy from "../assets/landy.png";
-import brad from "../assets/brad.png";
-import micheal from "../assets/micheal.png";
-import sashee from "../assets/sashee.png";
-import jordan from "../assets/jordan.png";
-import Laurens from "../assets/Laurens.png";
-import aide from "../assets/aide.png";
 import team from "../assets/team.png";
 import { BiChevronRight } from "react-icons/bi";
-import { IoPlayOutline } from "react-icons/io5";
 import { FaArrowUp } from "react-icons/fa";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -75,7 +66,7 @@ export default function HomeSection() {
                 HAVE IT ALL AT HAVIT
               </div>
 
-              <h1 className="text-[32px] sm:text-[48px]  font-semibold text-white leading-tight  mt-6 tracking-tight">
+              <h1 className="text-[32px text-left sm:text-[48px]  font-semibold text-white leading-tight  mt-6 tracking-tight">
                 Find traction and growth with an expert-led,on-demand{" "}
                 <span className="text-[#CEFD94]">growth team.</span>
               </h1>
@@ -129,7 +120,7 @@ export default function HomeSection() {
               />
             </div>
           </div>
-          
+
 
           <div
             className="hidden lg:block w-full h-[120px] top-0  overflow-hidden relative mt-4" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
@@ -173,7 +164,7 @@ export default function HomeSection() {
           </div>
 
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-2">
-            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full leading-[1.4]">
+            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-semibold text-[#0C2233] w-full text-left leading-[1.4]">
               Building Real Growth Through Strategy & Structure
             </h3>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
@@ -197,7 +188,7 @@ export default function HomeSection() {
       <section>
         <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px] py-5">
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-1">
-            <h3 className="text-[28px] md:text-[32px] lg:text-[35px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4]">
+            <h3 className="text-[28px] md:text-[32px] lg:text-[35px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4] text-left">
               Your compounding growth curve begins here.
             </h3>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
@@ -227,7 +218,7 @@ export default function HomeSection() {
       <section>
         <div className="w-full homeImg1 h-max bg-]">
           <div className="w-full h-full">
-            <div className="w-full h-auto flex flex-col items-center pt-10 lg:pt-19 px-4">
+            <div className="w-full h-auto text-center flex flex-col items-center pt-10 lg:pt-19 px-4">
               <p className="text-[20px] w-full lg:w-3/4 sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-[#0C2233] text-center mt-6">
                 <span className="bg-[#CEFD94] px-1">
                   You need results you can count on. The team at Havit provide a clear strategy for success, not another empty promise based on hype.
@@ -391,12 +382,12 @@ export default function HomeSection() {
             Have an expert growth strategy, planning, and leadership from a proven growth marketing process and team.
           </p>
 
-          <div className="w-full h-auto flex items-center justify-center  sm:mt-16 px-2 sm:px-0">
+          <div className="w-full h-auto flex items-center justify-center px-2 sm:px-0">
             <img
               src={home1}
               alt="home1"
               loading="lazy"
-              className="mt-16 md:w-auto w-full"
+              className=" md:w-auto w-full"
             />
           </div>
         </div>
@@ -406,7 +397,7 @@ export default function HomeSection() {
             <div className="h-[40px] w-max p-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
               OUR PROCESS
             </div>
-            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-black mt-4 text-[#0C2233] w-full lg:w-[90%] leading-[1.4]">
+            <h3 className="text-[28px] md:text-[32px] lg:text-[40px] font-black mt-4 text-[#0C2233] w-full lg:w-[90%] leading-[1.4] text-left">
               Our process is simple: learn, activate, analyze, optimize, repeat.
             </h3>
             <p className="text-[16px] lg:text-[18.7px] font-normal text-[#0C2233] mt-4 lg:mt-6">
@@ -580,26 +571,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  “The Tuff team is truly in a league of their own – just
-                  genuinely good people who are unequivocally amazing at what
-                  they do.
+                  Custom Web & Mobile App Development Exceptional Experience
                 </span>
-                They are each so passionate and skilled in their respective
-                crafts, and their ambition is contagious. Our meetings are the
-                highlight of my week!”
+                I was pissed off by multiple people regarding to my project which had quite exceptional technicalities, regarding to IPTV Technology integration and many more but then finally reached to Havit as a blessing. They handled my Sonderblu web and mobile custom application development project exceptionally well. Their professionalism and expertise exceeded my expectations. I am grateful to them and aligned with them with great confidence for future.
               </p>
-              <div className="flex mt-18 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%]">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
                   <img src={jamie} alt="jamie" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Jamie Ward
+                    Hope Corohon
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Director of Growth at Sharetown
+                    CEO Sonder Blu
                   </p>
                 </div>
               </div>
@@ -614,26 +601,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
-                “We’ve been working with Ellen and the Tuff team for just over 7
-                months and have been impressed with their knowledge, attention
-                to detail, professionalism and execution.
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  Tuff has been instrumental in helping us make a monumental
-                  jump in search ranking, as well as site traffic and leads
-                  generated through our site!”
+                  Business Website Overhaul
                 </span>
+                Our outdated website was hindering our online presence and credibility. Havit Growth Agency transformed our website into a sleek, user-friendly platform that showcases our brand and offerings effectively. Not only did they enhance the design and functionality, but they also optimized it for search engines, resulting in higher visibility and organic traffic. Thanks to their expertise, our website now serves as a powerful tool for attracting and converting leads.
               </p>
-              <div className="flex mt-18 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%]">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
                   <img src={landy} alt="landy" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Landy Kindle
+                    Noman
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Tech Heads
+                    CTO AAS Foundation
                   </p>
                 </div>
               </div>
@@ -648,25 +631,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
-                “I view our partnership with Tuff as more like an extension of
-                my team.
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  We strategize together, ask tough questions, examine the
-                  results, optimize – and it just keeps getting better. Exactly
-                  what I was looking for.”
+                  Tailored Digital Solutions
                 </span>
+                Havit understood our unique business needs and crafted customized digital solutions that addressed our specific challenges. From SEO optimization to email marketing campaigns, their holistic approach has had a profound impact on our business growth. Their team’s commitment to understanding our goals and delivering measurable results sets them apart in the industry.
               </p>
-              <div className="flex mt-14 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%]">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
                   <img src={brad} alt="brad" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Brad Veach
+                    Moran Biton
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    VP of Marketing at Thnks
+                    Founder & CEO IDEEZA
                   </p>
                 </div>
               </div>
@@ -681,24 +661,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
-                “Tuff has been an incredible value-add to our business. They’re
-                effective, flexible, communicative, and bright.
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  I feel like I have another set of 6+ eyes on the growth of my
-                  business at all times.”
+                  Comprehensive Digitalization
                 </span>
+                Transitioning our business into the digital age seemed like a daunting task, but Havit Growth Agency made the process seamless and rewarding. They provided end-to-end digitalization solutions, from setting up our online store to implementing CRM systems and automation tools. Their expertise and support have streamlined our operations, enhanced customer experiences, and ultimately fueled our business growth. Partnering with them has been a game-changer for our organization.
               </p>
-              <div className="flex mt-14 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%]">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
                   <img src={micheal} alt="micheal" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Michael Correo
+                    Walid bin Khalid
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Co-founder, Team Bootcamp
+                    Founder DispatchX
                   </p>
                 </div>
               </div>
@@ -713,24 +691,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  “Tuff is an amazing team, extremely organized, and driven to
-                  produce results!
+                  Strategic Consultation <br />
                 </span>
-                We have churned through multiple agencies in our lifetime, and
-                have been so impressed by Tuff.”
+                Navigating the digital landscape can be daunting, but Havit Growth Agency provided expert guidance every step of the way. Their strategic consultation helped us identify untapped opportunities and refine our marketing approach for maximum impact. With their insights and recommendations, we’ve been able to optimize our resources and achieve sustainable growth that exceeds our expectations.
               </p>
-              <div className="flex mt-14 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%]">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
                   <img src={sashee} alt="sashee" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Sashee Chandran
+                    Emily Chang
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Founder and CEO at Tea Drops
+                    Executive Officer
                   </p>
                 </div>
               </div>
@@ -745,23 +721,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  “Very knowledgeable team at Tuff – fast moving with a get it
-                  done attitude.
+                  Tailored Digital Solutions <br />
                 </span>
-                Looking forward to a continued partnership and future success.”
+                Havit understood our unique business needs and crafted customized digital solutions that addressed our specific challenges. From SEO optimization to email marketing campaigns, their holistic approach has had a profound impact on our business growth. Their team’s commitment to understanding our goals and delivering measurable results sets them apart in the industry.
               </p>
-              <div className="flex mt-14 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%]">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
                   <img src={jordan} alt="jordan" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Jordan Kenyon
+                    Daniel Lee
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    VP at Growth Factory
+                    Co-founder
                   </p>
                 </div>
               </div>
@@ -776,24 +751,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  “Great team to work with. Very experienced, quick to respond
-                  and always willing to pivot based on feedback.
+                  Digital Strategy Transformation <br />
                 </span>
-                I have really enjoyed working with the Tuff team and have
-                learned a ton from them!”
+                As a small business owner, I was overwhelmed by the complexities of digital marketing. Havit Growth Agency provided invaluable guidance and support in developing a comprehensive digital strategy tailored to our goals and budget. Their team’s proactive approach and personalized solutions have propelled our business growth and visibility, turning challenges into opportunities.
               </p>
-              <div className="flex mt-14 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%] ">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%] ">
                   <img src={Laurens} alt="Laurens" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Laurens Spethmann
+                    Rachel Martinez
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Growth Lead at Headway
+                    CEO
                   </p>
                 </div>
               </div>
@@ -808,24 +781,22 @@ export default function HomeSection() {
                     "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
                 }}
               />
-              <p className="text-[20px] md:text-[28px] font-medium text-[#000000] leading-8 mt-7">
-                “The entire Tuff Team is amazing, which is no surprise because
-                their leadership is exceptional.
+              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  Ellen has put together one of the most amazing firms out
-                  there, and we are so happy to be working with TUFF.”
+                  Our Essential Digital Partner <br />
                 </span>
+                Havit delivered exceptional expertise across every challenge. Their strategic consultation provided tailored digital solutions, including custom app development, SEO-optimized website overhaul, and end-to-end digitalization (CRM, automation, online store setup). Their commitment to understanding our goals and delivering measurable results fundamentally transformed our operations, fueling sustainable growth, and exceeding expectations. They are an invaluable partner.
               </p>
-              <div className="flex mt-14 gap-4">
-                <div className="rounded-[40%] w-[10%] h-[10%] ">
+              <div className="flex mt-5 gap-4">
+                {/* <div className="rounded-[40%] w-[10%] h-[10%] ">
                   <img src={aide} alt="aide" loading="lazy" />
-                </div>
+                </div> */}
                 <div className="w-max h-auto pt-2">
                   <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Liliana Aide Monge
+                    Peace Skin-vestment
                   </h3>
                   <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Co-Founder at Sabio
+                    CEO
                   </p>
                 </div>
               </div>
@@ -847,13 +818,7 @@ export default function HomeSection() {
           </h3>
 
           <p className="text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-normal text-[#0C2233] w-[95%] sm:w-[85%] md:w-[75%] lg:w-[60%] text-center mx-auto mt-4">
-            Above all else, we’re collaborators. While we each have different
-            feathers in our caps (from PPC expertise to big-picture strategy, to
-            creative insight, to data analysis, and more) we do our best work
-            together. We take an all-thoughts-on-the-table, what else ya got,
-            here-let-me-help-you-with-that kind of approach. And our best
-            partners are ready to jump in and build a strong, purposeful
-            partnership that can go the distance.
+            More than service providers, we are dedicated partners. The Havit team brings together specialized skills, including <b>SEO optimization, custom development, strategic consultation</b>, and <b>data-driven insights.</b> We thrive on a <b>holistic, all-in- one approach</b>, where every thought is on the table to deliver comprehensive results. We look for proactive partners eager to join us in establishing powerful, long-term relationships that lead to success.
           </p>
 
           <Link to={"/our-company"}>

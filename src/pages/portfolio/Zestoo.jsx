@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Portfolio from '../components/Portfolio'
-import zestoo from '../assets/Zestoo.webp'
-
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
+import CaseZestoo from '../case-studies/CaseZestoo'
+import zestoo from '../../assets/Zestoo.webp'
 
 export default function Zestoo() {
     return (
@@ -14,6 +14,7 @@ export default function Zestoo() {
             <section>
                 <Portfolio brandimg={zestoo} brandname="Zestoo"/>
             </section>
+            <CaseZestoo noNavbarFooter={true} />
             <Footer />
         </>
     )

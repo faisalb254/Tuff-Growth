@@ -23,10 +23,10 @@ import FinalSection from "../components/FinalSection";
 
 export default function CaseStudies() {
   const box = {
-        heading: "Ready to grow?",
-        para: ["Your compounding growth curve begins here."],
-        button: "Book a Strategy Call"
-    }
+    heading: "Ready to grow?",
+    para: ["Your compounding growth curve begins here."],
+    button: "Book a Strategy Call"
+  }
   return (
     <>
       <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">
@@ -56,31 +56,32 @@ export default function CaseStudies() {
         <div className="w-full h-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              SOONA
+              CheckIn.pk
             </div>
-            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%]">
-              Tackling Rising Acquisition Costs with an Ad Creative Testing
-              Framework
+            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%] text-left">
+              Relaunching Pakistan’s First Online Travel Agency With a New Identity, New App & 71% Growth in Bookings
             </p>
 
             <div className="w-full pt-7 pr-4 sm:pr-6 md:pr-8 lg:pr-9 ">
               {[
                 {
-                  value: "1.4M",
-                  label: "Increase in Impressions",
+                  value: "2.3M+",
+                  label: " Increase in Total Impressions",
                   icon: chevUp,
                 },
-                { value: "45%", label: "Increase in CRV", icon: chevUp },
                 {
-                  value: "57%+",
-                  label: "Increase in Total Sales",
+                  value: "62%",
+                  label: " Increase in App Sign-Ups",
                   icon: chevUp,
                 },
-                { value: "$200+", label: "CPA", icon: chevDown },
+                { value: "48%", label: "Increase in Booking Conversion Rate (BCR)", icon: chevUp },
+                { value: "71%", label: " Growth in Monthly Online Bookings", icon: chevUp },
+                { value: "36%", label: " Reduction in Cost Per Acquisition (CPA)", icon: chevDown },
+                { value: "32x", label: "Return on Ad Spend (ROAS) after scaling", icon: chevUp },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
                   <div className="flex items-center gap-1 w-[40%]">
                     <img
@@ -94,25 +95,27 @@ export default function CaseStudies() {
                     </h3>
                   </div>
                   <div>
-                    <p className="text-[18px] sm:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[18px] sm:text-[18px] font-normal text-[#0c2233] text-right">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/checkin">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
 
-          <div className="h-auto w-full lg:w-[65.7%] cursor-pointer pt-10 lg:pt-15">
+          <div className="h-full w-full lg:w-[65.7%] cursor-pointer pt-10 lg:pt-15">
             <img src={soona} alt="soona" loading="lazy" className="w-full" />
           </div>
         </div>
@@ -125,62 +128,78 @@ export default function CaseStudies() {
 
           <div className="h-auto w-full lg:w-[34.3%] pt-6 sm:pt-8 md:pt-9 pl-0 sm:pl-4 md:pl-6 lg:pl-9">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              MULTIVERSE
+              LDNIO
             </div>
 
-            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full">
-              Building an Inbound Pipeline in a New Region with Account-Based
-              Marketing Principles
+            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full text-left">
+              LDNIO Pakistan: From Zero Presence to ₨10M in Just 7 Months — Brand Launch, Store Activation & D2C Growth Engine
             </p>
 
             <div className="w-full pt-4 sm:pt-5">
               {[
                 {
-                  value: "189%",
-                  label: "Increase MQLs in 6 months",
+                  value: "10 Million+",
+                  label: "Revenue in First 7 Months",
                   icon: chevUp,
                 },
                 {
-                  value: "22%",
-                  label: "Decrease monthly spend",
-                  icon: chevDown,
+                  value: "5× – 6×",
+                  label: "ROAS Every Single Month",
+                  icon: chevUp,
                 },
                 {
-                  value: "38%",
-                  label: "Increase account in the US",
+                  value: "80,000+ ",
+                  label: "New Organic Users via SEO",
                   icon: chevUp,
+                },
+                {
+                  value: "92%",
+                  label: "Website Conversion Funnel Efficiency",
+                  icon: chevUp
+                },
+                {
+                  value: "AOV Growth",
+                  label: "₨5,000 → ₨9,000",
+                  icon: chevUp
+                },
+                {
+                  value: "0 → 100%  ",
+                  label: "Digitalized Brand Presence (Web + Social + Retail)",
+                  icon: chevUp
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[70px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
+                  <div className="flex items-center gap-1 w-[60%]">
                     <img
                       src={item.icon}
                       alt="icon"
                       loading="lazy"
                       className="w-[17%]"
                     />
-                    <h3 className="text-[16px] sm:text-[18px] md:text-[20px] font-extrabold text-[#0c2233]">
+                    <h3 className="text-[16px] sm:text-[18px] font-extrabold text-[#0c2233]">
                       {item.value}
                     </h3>
                   </div>
                   <div>
-                    <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[16px] sm:text-[18px] font-normal text-[#0c2233]">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/ldnio">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -190,39 +209,54 @@ export default function CaseStudies() {
         <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              NOVA CREDIT
+              ZESTOO FOODS
             </div>
-            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%]">
-              Overcoming Regulatory Roadblocks by Reimagining Paid Media
-              Strategies for Fintech
+            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%] text-left">
+              Zestoo Foods: Building a Fresh Fast-Food Brand from
+              the Ground Up
             </p>
 
             <div className="w-full pt-7 pr-4 sm:pr-6 md:pr-8 lg:pr-9 ">
               {[
                 {
-                  value: "55%",
-                  label: "Below Target CPA",
-                  icon: chevDown,
-                },
-                {
-                  value: "72%",
-                  label: "Increase Total Conversions",
+                  value: "350K+",
+                  label: " New Organic Impressions Across Social & Web",
                   icon: chevUp,
                 },
                 {
-                  value: "111%",
-                  label: "Increase Total Impressions",
+                  value: "5x",
+                  label: "Increase in Monthly Orders (from soft launch to scale)",
                   icon: chevUp,
                 },
                 {
-                  value: "299%",
-                  label: "Increase in from Q4 → Q1*",
+                  value: "45%",
+                  label: "Growth in Social Engagement (followers, comments, shares)",
+                  icon: chevUp,
+                },
+                {
+                  value: "30%",
+                  label: " Increase in Website Conversion Rate (visitors → orders)",
+                  icon: chevUp,
+                },
+                {
+                  value: "30%",
+                  label: " Increase in Website Conversion Rate (visitors → orders)",
+                  icon: chevUp,
+                },
+                {
+                  value: "Brand Reach:",
+                  label: "Launched with full retail identity in Lahore",
+                  icon: chevUp,
+                },
+                {
+                  value: "Store Experience:",
+                  label: "Created physical branding experience + digital integration",
                   icon: chevUp,
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between gap-6"
                 >
                   <div className="flex items-center gap-1 w-[40%]">
                     <img
@@ -231,25 +265,27 @@ export default function CaseStudies() {
                       loading="lazy"
                       className="w-[17%]"
                     />
-                    <h3 className="text-[18px] sm:text-[20px] font-extrabold text-[#0c2233]">
+                    <h3 className="text-[18px] font-extrabold text-[#0c2233]">
                       {item.value}
                     </h3>
                   </div>
                   <div>
-                    <p className="text-[18px] sm:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[18px] font-normal text-[#0c2233]">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/zestoo">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -267,47 +303,36 @@ export default function CaseStudies() {
 
           <div className="h-auto w-full lg:w-[34.3%] pt-6 sm:pt-8 md:pt-9 pl-0 sm:pl-4 md:pl-6 lg:pl-9">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              THINKS
+              TGR
             </div>
 
-            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full">
-              Scaling Results By Diversifying Channel Mix: Using Third-Party
-              Data to Unlock Growth on Meta
+            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full text-left">
+              TGR: Building a Purpose-Driven Podcast
+              Brand to Inspire Growth
             </p>
 
             <div className="w-full pt-4 sm:pt-5">
               {[
                 {
-                  value: "23%",
-                  label: "Increase in Lead",
-                  icon: chevUp,
+                  label: "0 → Full Podcast Brand Identity Built",
                 },
                 {
-                  value: "16%",
-                  label: "Increase in MQLs*",
-                  icon: chevUp,
+                  label: "🚀 Launched a Socially-Driven Platform Focused on IT, Society & Human Growth",
                 },
                 {
-                  value: "16%",
-                  label: "Decrease in CPQL*S",
-                  icon: chevDown,
+                  label: "💡 Unique Format Created: Real People, Real Rooms, Real Stories",
+                },
+                {
+                  label: "🔥 Positioned TGR as a Niche Thought-Leadership Media Brand",
+                },
+                {
+                  label: "🌱 Became a Voice for Underrepresented, Everyday Heroes in the Tech Industry",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
-                    <img
-                      src={item.icon}
-                      alt="icon"
-                      loading="lazy"
-                      className="w-[17%]"
-                    />
-                    <h3 className="text-[16px] sm:text-[18px] md:text-[20px] font-extrabold text-[#0c2233]">
-                      {item.value}
-                    </h3>
-                  </div>
                   <div>
                     <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0c2233]">
                       {item.label}
@@ -316,13 +341,15 @@ export default function CaseStudies() {
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/tgr">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -332,61 +359,60 @@ export default function CaseStudies() {
         <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              KOJI
+              Slipper
             </div>
-            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%]">
-              Koji Proving ROI on YouTube Awareness Campaigns for a B2C SaaS
-              Brand
+            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%] text-left">
+              Slipper: Launching a Youth-Driven Footwear Brand From Zero to a Fast-Growing Digital Label
             </p>
 
             <div className="w-full pt-7 pr-4 sm:pr-6 md:pr-8 lg:pr-9 ">
               {[
                 {
-                  value: "70%",
-                  label: "Increase in Total Users",
-                  icon: chevUp,
+                  label: "✨ 0 → Full Brand Built (Identity, Packaging, Product Direction, Store Setup)",
                 },
                 {
-                  value: "52%",
-                  label: "Increase in Total Sessions",
-                  icon: chevUp,
+                  label: "👠 Brand Positioned for Independent, Modern Young Women",
                 },
                 {
-                  value: "57%+",
-                  label: "Increase in Organic SignUp",
-                  icon: chevUp,
+                  label: "📈 280% Growth in Monthly Sales Within First 4 Months",
+                },
+                {
+                  label: "🛍 Average Order Value (AOV): 2,000 PKR → 3,500 PKR",
+                },
+                {
+                  label: "🚀 From Zero Presence to 150K+ Total Reach Across Social & Web",
+                },
+                {
+                  label: "💬 45% Repeat Customer Rate by Month 5 (strong indicator of brand loyalty)",
+                },
+                {
+                  label: "💄 Product Sellout Cycles Every 3–6 Weeks",
+                },
+                {
+                  label: "📸 Built a Fashion-Lifestyle Brand, Not Just a Footwear Store",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
-                    <img
-                      src={item.icon}
-                      alt="icon"
-                      loading="lazy"
-                      className="w-[17%]"
-                    />
-                    <h3 className="text-[18px] sm:text-[20px] font-extrabold text-[#0c2233]">
-                      {item.value}
-                    </h3>
-                  </div>
                   <div>
-                    <p className="text-[18px] sm:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[18px] font-normal text-[#0c2233]">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/slipper">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -404,47 +430,46 @@ export default function CaseStudies() {
 
           <div className="h-auto w-full lg:w-[34.3%] pt-6 sm:pt-8 md:pt-9 pl-0 sm:pl-4 md:pl-6 lg:pl-9">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              CABI
+              Peaceskin Vestmest
             </div>
 
-            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full">
-              Validating a New DTC Revenue Stream for an Established Women’s
-              Clothing Brand
+            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full text-left">
+              PeaceSkin: Transforming a Small Skincare
+              Startup Into a Recognized Omni-Channel
+              Beauty Brand
             </p>
 
             <div className="w-full pt-4 sm:pt-5">
               {[
                 {
-                  value: "68.5%",
-                  label: "Increase in New Customers",
-                  icon: chevUp,
+                  label: "💰 AOV Jump: 1,200 PKR → 2,750 PKR (129% increase)",
                 },
                 {
-                  value: "66%",
-                  label: "Increase in Revenue",
-                  icon: chevUp,
+                  label: "📈 ROAS: 2.5× → 6.2× within 90 days",
                 },
                 {
-                  value: "33%",
-                  label: "Decrease in CAC",
-                  icon: chevDown,
+                  label: "👥 Website Traffic: +420% Growth in 4 months",
+                },
+                {
+                  label: "📦 Online Orders: 0 → 1,800+ in first 5 months",
+                },
+                {
+                  label: "🏬 Offline Sales: Boosted by 230% after brand recognition grew",
+                },
+                {
+                  label: "🔥 Brand Recall: PeaceSkin recognized in local beauty stores + salons",
+                },
+                {
+                  label: "🌱 Created a loyal returning customer base (38% repeat rate)",
+                },
+                {
+                  label: "💡 Positioned PeaceSkin as a clean, modern, science-backed skincare brand",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
-                    <img
-                      src={item.icon}
-                      alt="icon"
-                      loading="lazy"
-                      className="w-[17%]"
-                    />
-                    <h3 className="text-[16px] sm:text-[18px] md:text-[20px] font-extrabold text-[#0c2233]">
-                      {item.value}
-                    </h3>
-                  </div>
                   <div>
                     <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0c2233]">
                       {item.label}
@@ -453,13 +478,15 @@ export default function CaseStudies() {
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/peace">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -469,61 +496,66 @@ export default function CaseStudies() {
         <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              PALMETTO
+              TSY
             </div>
-            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%]">
-              Developing an Inbound Pipeline to Scale Qualified B2B Leads for a
-              Clean Energy Company
+            <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%] text-left">
+              Transforming a Traditional Travel Agency Into Digitally Dominant Brand
             </p>
 
             <div className="w-full pt-7 pr-4 sm:pr-6 md:pr-8 lg:pr-9 ">
               {[
                 {
-                  value: "110%",
-                  label: "Increase in New Customers",
-                  icon: chevUp,
+                  label: "2,700% Increase in online inquiries",
                 },
                 {
-                  value: "76%",
-                  label: "Increase in Paid Sales",
-                  icon: chevUp,
+                  label: "8.4× Growth in monthly revenue",
                 },
                 {
-                  value: "54%",
-                  label: "Increase in Total Leads",
-                  icon: chevUp,
+                  label: "600% Boost in total website traffic",
+                },
+                {
+                  label: "600% Boost in total website traffic",
+                },
+                {
+                  label: "5.1× Average ROAS on paid campaigns",
+                },
+                {
+                  label: "47% Lower CPL (Cost Per Lead)",
+                },
+                {
+                  label: "420% Increase in organic traffic",
+                },
+                {
+                  label: "2× Growth in offline walk-in bookings",
+                },
+                {
+                  label: "31% Higher lead-to-booking conversion rate",
+                },
+                {
+                  label: "120% Increase in returning customers",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
-                    <img
-                      src={item.icon}
-                      alt="icon"
-                      loading="lazy"
-                      className="w-[17%]"
-                    />
-                    <h3 className="text-[18px] sm:text-[20px] font-extrabold text-[#0c2233]">
-                      {item.value}
-                    </h3>
-                  </div>
                   <div>
-                    <p className="text-[18px] sm:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[18px] font-normal text-[#0c2233]">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/tsy">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -546,62 +578,53 @@ export default function CaseStudies() {
 
           <div className="h-auto w-full lg:w-[34.3%] pt-6 sm:pt-8 md:pt-9 pl-0 sm:pl-4 md:pl-6 lg:pl-9">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              ACRES
+              Nutty Hunt
             </div>
 
-            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full">
-              Scaling Campaigns that Generate High-Value Customers for a Fintech
-              Software Company
+            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full text-left">
+              NuttyHunt: Building a Bold, Social-First Brand Through
+              Mood & Identity
             </p>
 
             <div className="w-full pt-4 sm:pt-5">
               {[
                 {
-                  value: "272%",
-                  label: "Increase in Subscriptions",
-                  icon: chevUp,
+                  label: "100% Brand Visual Identity Built (mood board → execution)",
                 },
                 {
-                  value: "45%",
-                  label: "Increase in Subscriber",
-                  icon: chevUp,
+                  label: "Brand Personality Defined: Fun, premium, human-focused",
                 },
                 {
-                  value: "31%",
-                  label: "Increase in Premium Lead",
-                  icon: chevUp,
+                  label: "Social Engagement Estimated to Grow by 4× (projected based on mood-board-led strategy)",
+                },
+                {
+                  label: "Increased Brand Recall among young urban consumers",
+                },
+                {
+                  label: "Clear Direction for Future Campaigns — social-first promotional framework",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
-                    <img
-                      src={item.icon}
-                      alt="icon"
-                      loading="lazy"
-                      className="w-[17%]"
-                    />
-                    <h3 className="text-[16px] sm:text-[18px] md:text-[20px] font-extrabold text-[#0c2233]">
-                      {item.value}
-                    </h3>
-                  </div>
                   <div>
-                    <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[18px] font-normal text-[#0c2233]">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/nuttyhunt">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -611,56 +634,60 @@ export default function CaseStudies() {
         <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              STARRYAI
+              Temoc io
             </div>
             <p className="text-[22px] sm:text-[24px] md:text-[26px] lg:text-[28px] font-semibold text-[#0c2233] leading-[32px] sm:leading-[34px] lg:leading-[36px] mt-1 w-[90%]">
-              Achieving a 50% Surge in Organic Traffic within 60 Days, Reducing
-              Dependency on Paid Strategies
+              Temoc: Building a Web3 Music Brand from Zero to Social Powerhouse
             </p>
 
             <div className="w-full pt-7 pr-4 sm:pr-6 md:pr-8 lg:pr-9 ">
               {[
                 {
-                  value: "57%",
-                  label: "Increase in non-branded",
-                  icon: chevUp,
+                  label: "0 → 120,000+ Social Media Followers (across Instagram, Twitter, TikTok)",
                 },
                 {
-                  value: "113K",
-                  label: "ROI from targeted countries",
-                  icon: chevUp,
+                  label: "RoAS (Ad + Creator Campaigns): ~4.8×",
+                },
+                {
+                  label: "Monthly Active Users (MAUs): 65,000+ on the platform within first 6 months",
+                },
+                {
+                  label: "User Sign-Ups: 180,000+ registered users in first year",
+                },
+                {
+                  label: "Engagement Rate: ~8% average — high due to community-first contents",
+                },
+                {
+                  label: "Content Reach: 3.2M+ impressions from social campaigns in first 9 months",
+                },
+                {
+                  label: "Creator Growth: Onboarded 350+ independent artists on the platform",
+                },
+                {
+                  label: "Referral Rate: 28% of users joined via referral or word-of-mouth",
                 },
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
-                  <div className="flex items-center gap-1 w-[40%]">
-                    <img
-                      src={item.icon}
-                      alt="icon"
-                      loading="lazy"
-                      className="w-[17%]"
-                    />
-                    <h3 className="text-[18px] sm:text-[20px] font-extrabold text-[#0c2233]">
-                      {item.value}
-                    </h3>
-                  </div>
                   <div>
-                    <p className="text-[18px] sm:text-[20px] font-normal text-[#0c2233]">
+                    <p className="text-[18px] font-normal text-[#0c2233]">
                       {item.label}
                     </p>
                   </div>
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
-                <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-                  Read the case study
-                  <span>
-                    <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-                  </span>
-                </p>
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+                <Link to="/case-studies/temoc">
+                  <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                    Read the case study
+                    <span>
+                      <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                    </span>
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
@@ -678,28 +705,67 @@ export default function CaseStudies() {
 
           <div className="h-auto w-full lg:w-[34.3%] pt-6 sm:pt-8 md:pt-9 pl-0 sm:pl-4 md:pl-6 lg:pl-9">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
-              REWIRING AMERICA
+              FGF
             </div>
 
-            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full">
-              Maximize ROI on Rewiring America’s Early Paid Advertising Efforts
+            <p className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px] font-semibold text-[#0c2233] leading-[30px] sm:leading-[32px] md:leading-[34px] lg:leading-[36px] mt-1 w-full text-left">
+              Brand Positioning, Social Media Optimization & Fundraising Growth for a
+              Greener Planet
             </p>
             <p className="text-[16px] mt-6 sm:text-[18px] md:text-[20px] font-normal text-[#0c2233]">
-              Here’s how we supported Rewiring America: We helped them test and
-              validate early paid advertising efforts by providing
-              cross-functional support, including design, content creation,
-              tracking, campaign management, and more.
+              {[
+                {
+                  label: "85,00+ Social Media Community Growth",
+                },
+                {
+                  label: "3.5× Increase in Monthly Website Traffic",
+                },
+                {
+                  label: "2.8× Higher Engagement across social channels",
+                },
+                {
+                  label: "Fundraising Campaign ROI: 4.2×",
+                },
+                {
+                  label: "10X Funds Raised through digital campaignss",
+                },
+                {
+                  label: "80% Growth in online donor participation",
+                },
+                {
+                  label: "3 Successful Online Events with a combined reach of 500,000+ viewers",
+                },
+                {
+                  label: "Brand Awareness Lift: +340% across eco-audiences",
+                },
+                {
+                  label: "Volunteer Signups Increased by 170%",
+                },
+              ].map((item, i) => (
+                <div
+                  key={i}
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                >
+                  <div>
+                    <p className="text-[18px] font-normal text-[#0c2233]">
+                      {item.label}
+                    </p>
+                  </div>
+                </div>
+              ))}
             </p>
-            <p className="flex items-center gap-1 mt-6 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
-              Read the case study
-              <span>
-                <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
-              </span>
-            </p>
+            <Link to="/case-studies/fgf">
+              <p className="flex items-center gap-1 mt-6 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
+                Read the case study
+                <span>
+                  <BiChevronRight className="text-[22px] sm:text-[24px] lg:text-[30px] hover:text-[#FF6A39]" />
+                </span>
+              </p>
+            </Link>
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
@@ -730,7 +796,7 @@ export default function CaseStudies() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
+                  className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between"
                 >
                   <div className="flex items-center gap-1 w-[40%]">
                     <img
@@ -751,7 +817,7 @@ export default function CaseStudies() {
                 </div>
               ))}
 
-              <div className="w-full h-[55px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
+              <div className="w-full h-[75px] mt-2 border-t-2 border-[#807F7E] flex items-center justify-between">
                 <p className="flex items-center gap-1 text-[16px] sm:text-[18px] lg:text-[19px] font-semibold hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
                   Read the case study
                   <span>
@@ -766,7 +832,7 @@ export default function CaseStudies() {
             <img src={ant} alt="ant" loading="lazy" className="w-full" />
           </div>
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="w-full h-auto flex justify-center px-4 sm:px-6 md:px-8 flex-col items-center pt-10 lg:pt-39">
           <div

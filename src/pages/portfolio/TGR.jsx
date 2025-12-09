@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Portfolio from '../components/Portfolio'
-import tgr from '../assets/TGR.webp'
-
+import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
+import Portfolio from '../../components/Portfolio'
+import CaseTgr from '../case-studies/CaseTgr'
+import tgr from '../../assets/TGR.webp'
 
 export default function TGR() {
     return (
@@ -14,6 +14,7 @@ export default function TGR() {
             <section>
                 <Portfolio brandimg={tgr} brandname="TGR"/>
             </section>
+            <CaseTgr noNavbarFooter={true} />
             <Footer />
         </>
     )

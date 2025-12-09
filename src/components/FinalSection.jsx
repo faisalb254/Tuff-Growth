@@ -13,7 +13,7 @@ export default function FinalSection(props) {
                             {text.heading}
                         </h2>
                         {text.para.map((item, idx) => (
-                            <p key={idx} className="w-2/3 text-[18px] sm:text-[20px] md:text-[24px] font-medium mt-3 text-[#FFFEFB]">
+                            <p key={idx} className="w-2/3 text-[18px] sm:text-[20px] md:text-[24px] font-medium mt-3 text-[#FFFEFB] text-center">
                                 {item}
                             </p>
                         ))}

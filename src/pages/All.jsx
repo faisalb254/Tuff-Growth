@@ -23,10 +23,10 @@ import FinalSection from "../components/FinalSection";
 
 export default function All() {
   const box = {
-        heading: "Ready to grow?",
-        para: ["Your compounding growth curve begins here."],
-        button: "Book a Strategy Call"
-    }
+    heading: "Ready to grow?",
+    para: ["Your compounding growth curve begins here."],
+    button: "Book a Strategy Call"
+  }
   return (
     <>
       <div className="w-full lg:fixed top-0 z-50 bg-[#1e1e1e]">
@@ -39,15 +39,15 @@ export default function All() {
             SERVICES
           </div>
           <h2 className="text-[30px] sm:text-[36px] md:text-[44px] lg:text-[50px] font-semibold leading-[38px] sm:leading-[46px] md:leading-[52px] lg:leading-[55px] mt-6 text-[#0C2233] text-center px-2 sm:px-6 md:px-16 lg:px-30">
-            Rapid experimentation. Quick wins. Big achievements.
+            Through strategic testing we achieve quick wins that lead to major accomplishments.
           </h2>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] text-center mt-8 px-4 sm:px-6 md:px-12 lg:px-0">
-            Team up with our growth marketers and deep squad of specialists to
-            unfurl your best, data-forward path to growth.
+            Partner with our growth marketers and expert specialists to execute your most effective, data-driven path to expansion.
           </p>
           <p className="text-[#0C2233] text-[16px] sm:text-[17px] md:text-[18px] font-extrabold text-center mt-10">
-            Has Tuff changed the way you think about growth?
-            <span className="text-[#FF6B39]">33 seconds</span>
+            Has Havit changed the way you think about growth? <br />
+            Download The Pitch Deck
+            {/* <span className="text-[#FF6B39]">33 seconds</span> */}
           </p>
           <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[46%] m-auto mt-10 md:mt-12 lg:mt-13 px-4">
             <img src={AllImg} alt="AllImg" className="w-full" />
@@ -62,8 +62,8 @@ export default function All() {
               <div className="h-auto md:h-[39px] capitalize py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-16 md:mt-24 lg:mt-34 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
                 STRATEGY
               </div>
-              <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] font-semibold leading-[38px] sm:leading-[44px] md:leading-[48px] lg:leading-[50px] text-[#FFFEFB] mt-7">
-                Ditch the To-Do List
+              <h2 className="text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] text-left font-semibold leading-[38px] sm:leading-[44px] md:leading-[48px] lg:leading-[50px] text-[#FFFEFB] mt-7">
+                Let us manage the details.
               </h2>
               <Link to="/get-started-with-tuff">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
@@ -73,16 +73,10 @@ export default function All() {
             </div>
             <div className="w-full lg:w-[58%] h-auto pt-6 lg:pt-41">
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-medium text-[#FFFEFB]">
-                We start by building a complete growth marketing strategy. This
-                is a list of action items, at a high level, of what tactics
-                we’re going to test first, based on what is most likely to
-                succeed.
+                The first step is establishing a complete growth marketing strategy. This strategic document serves as an actionable framework, outlining the high-priority tactics selected for initial testing based on data-informed projections of success.
               </p>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-medium text-[#FFFEFB] mt-3">
-                This keeps us focused and working day-to-day on the things that
-                have the highest impact on your revenue. We’ll choose the growth
-                marketing tactics to apply to your company — then our team of
-                marketing experts will execute them.
+                This approach ensures our daily focus remains strictly on initiatives that deliver the highest impact on your revenue. We will select the most effective growth marketing tactics tailored for your company, and our specialized team of marketing experts will then execute them.
               </p>
             </div>
           </div>
@@ -105,8 +99,7 @@ export default function All() {
                 Value Props
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                We’ll dig into your existing messaging to identify your distinct
-                value props then wordsmith them to perfection.
+                The experts will audit your current messaging to determine your distinct value propositions and expertly craft them for optimal clarity.
               </p>
             </div>
 
@@ -116,8 +109,7 @@ export default function All() {
                 Audience Development
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                Honing in on your best audiences ensures your ad dollars go to
-                those most likely to buy.
+                Precise targeting of your ideal audience ensures marketing spend is directed toward  the highest-potential customers.
               </p>
             </div>
 
@@ -127,8 +119,7 @@ export default function All() {
                 Analytics & Tracking
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                We set up conversion tracking and analytics. From here, we help
-                you identify and measure the metrics that matter most.
+                After implementing conversion tracking and analytics, the focus shifts to helping you pinpoint and measure the most critical performance indicators.
               </p>
             </div>
 
@@ -138,9 +129,7 @@ export default function All() {
                 SEO
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                We set your SEO foundation with keyword research, site
-                optimizations, and help you gain early organic traction with
-                your niche.
+                The SEO foundation is set via meticulous keyword research and site optimizations, helping you quickly achieve organic visibility within your target niche.
               </p>
             </div>
 
@@ -150,8 +139,7 @@ export default function All() {
                 Google Ads
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                We’ll increase reach, leads, and revenue with PPC campaign
-                strategies that work.
+                Achieve expanded reach, higher quality leads, and increased revenue through our proven PPC campaign methodologies.
               </p>
             </div>
 
@@ -161,20 +149,17 @@ export default function All() {
                 Email
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                We’ll audit (or develop) your existing email flows and work to
-                identify testing opportunities to get more people to take
-                action.
+                The team will audit or develop your email automation flows, focusing on identifying testing opportunities to maximize subscriber action and engagement.
               </p>
             </div>
 
             <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[31.3%] h-auto min-h-[325px] pb-11 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8 md:mt-7">
               <img src={Rate} alt="Rate" />
-              <h2 className="text-[22px] sm:text-[24px] font-bold text-[#0C2233] mt-6">
+              <h2 className="text-[22px] sm:text-[24px] font-bold text-[#0C2233] mt-6 text-left">
                 Conversion Rate Optimization
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4 leading-[24px] md:leading-[25px]">
-                We can run experiments to optimize conversion rate through
-                tailored landing pages and email capture.
+                Conversion rate optimization is achieved through controlled experiments on custom landing pages and email capture strategies.
               </p>
             </div>
             <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[31.3%] h-auto min-h-[325px] pb-5 border-2 border-[#E0E0E0] rounded-[3px] p-7 px-8 md:mt-7">
@@ -213,23 +198,20 @@ export default function All() {
           <img src={star1} alt="star1" className="mt-14 sm:mt-16 md:mt-20" />
 
           <p className="bg-[#CEFD94] text-[#0C2233] text-[18px] sm:text-[20px] md:text-[22px] font-semibold mt-7 px-4 text-center lg:text-[26px]">
-            “Tuff is a true growth agency.
+            Struggling to get your marketing campaigns to really move the needle?
           </p>
 
           <p className="text-[#FFFFFF] text-[18px] sm:text-[20px] md:text-[22px] font-semibold mt-5 px-4 text-center lg:text-[26px]">
-            They are highly skilled in all aspects of performance marketing and
-            specifically what it takes to win at Facebook Ads, which is constant
-            experimentation and analysis. Since we started working with them we
-            saw immediate results growing our revenue by 50% MoM!”
+            Havit solves that problem. Our team steps in with proven skills in all areas of performance marketing, so you don't have to guess what works. We take the pain out of platforms like Facebook Ads by using constant testing and smart analysis. The result? You get immediate lift and tangible growth, seeing your revenue jump significantly every month.
           </p>
 
-          <h1 className="text-[#FFFFFF] text-[16px] sm:text-[17px] md:text-[18px] font-semibold mt-3 text-center lg:text-[20px]">
+          {/* <h1 className="text-[#FFFFFF] text-[16px] sm:text-[17px] md:text-[18px] font-semibold mt-3 text-center lg:text-[20px]">
             Mathew Greenspan
           </h1>
 
           <p className="text-[15px] sm:text-[16px] md:text-[17px] text-center px-4 sm:px-6 font-normal text-[#FFFFFF] mt-6 leading-[22px] lg:text-[20px] lg:w-[55%] lg:mt-0 lg:leading-[25px]">
             Head of Digital Growth, EZ Lifestyles
-          </p>
+          </p> */}
         </div>
       </section>
 
@@ -241,16 +223,10 @@ export default function All() {
                 Engagements at every stage.
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-6">
-                We have found success working with teams in nearly every
-                industry, from early traction startups to large enterprises. The
-                most basic guidelines: our best fit is anyone looking to acquire
-                new customers and scale their company through modern channels,
-                tools, and frameworks: primarily founders and business owners.
+                You've found success working with teams across nearly every industry, from early-stage startups to large enterprises. Your best partners are those looking to acquire new customers and scale their company through modern channels, tools, and frameworks—primarily founders and business owners.
               </p>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4">
-                We get our best results when we work with clients looking for a
-                strategic, proactive team that values transparency,
-                communication, and shared KPIs.
+                To get the greatest results, we look for a proactive, strategic partner who shares our high value for transparency, communication, and aligned performance metrics (KPIs).
               </p>
               <Link to={"/case-studies"}>
                 <button className="flex items-center gap-1 text-[14px] sm:text-[18px] lg:text-[20px] font-semibold text-[#0C2233] hover:text-[#FF6A39] hover:cursor-pointer rounded-md transition-transform duration-500 tilt-zoom mt-4">
@@ -278,20 +254,14 @@ export default function All() {
               />
             </div>
             <div className="w-full lg:w-[50%] h-auto pt-1">
-              <h2 className="text-[28px] sm:text-[36px] md:text-[40px] lg:text-[40px] font-extrabold md:leading-[50px] text-[#0c2233] mt-10 lg:mt-22">
-                Small teams of growth experts collaborating closely with
-                clients.
+              <h2 className="text-[28px] sm:text-[36px] md:text-[40px] lg:text-[40px] font-extrabold md:leading-[50px] text-[#0c2233] mt-10 lg:mt-22 text-left">
+                Dedicated expert team working in close collaboration with clients.
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-6">
-                We’re fully transparent and responsive: keeping you fully up to
-                date on what we’re testing, how it’s performing, and what it
-                means for short and long-term success.
+                The team is fully transparent and responsive, ensuring we always know what is being tested, the results of that testing, and how it translates to our short and long-term goals.
               </p>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-4">
-                We’re also built to be highly autonomous or fully collaborative,
-                becoming an always-on extension of your team. And, bottom line:
-                we’re laser-focused on revenue. If it’s not bringing in the
-                bucks, it’s out.
+                Our structure offers maximum flexibility: we operate as either a highly autonomous unit or a fully integrated extension of your existing team. Crucially, our bottom line is revenue optimization. If a tactic does not generate measurable returns, it is swiftly eliminated.
               </p>
               <Link to={"/our-company"}>
                 <button className="flex items-center gap-1 text-[14px] sm:text-[18px] lg:text-[20px] font-semibold text-[#0C2233] hover:text-[#FF6A39] cursor-pointer rounded-md transition-transform duration-500 tilt-zoom mt-4">
@@ -315,8 +285,7 @@ export default function All() {
             Growth Marketing Guides
           </h2>
           <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#0C2233] mt-6">
-            Take a deep dive and get into the weeds with us! Get the
-            step-by-step playbook on our most asked-for services.
+            Gain a detailed understanding of our methodology. Access the step-by-step playbook for our most requested services.
           </p>
           <div className="w-full h-auto mt-12 flex flex-col lg:flex-row gap-10">
             <div className="w-full lg:w-[31.5%] h-[400px]">

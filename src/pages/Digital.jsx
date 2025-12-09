@@ -35,7 +35,7 @@ export default function Digital() {
                 <div className="googlebg w-full flex justify-center items-center md:pt-50 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-white ">
-                            <h1 className=' text-6xl font-black my-5'>
+                            <h1 className=' text-6xl font-black my-5 text-center'>
                                 Meet The Digital Marketing Agency That Commits
                             </h1>
                             <p className=' text-xl my-5'>
@@ -62,7 +62,7 @@ export default function Digital() {
                 <div className=" w-full flex justify-center items-center py-20">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10 ">
                         <div className="w-full md:w-1/2  ">
-                            <h1 className='text-4xl font-black my-5'>
+                            <h1 className='text-4xl font-black my-5 text-left'>
                                 Are you ready to find traction in scale with a digital marketing agency and a proven process?
                             </h1>
                             <p className=' text-xl my-5'>
@@ -74,7 +74,7 @@ export default function Digital() {
                             </span>
                         </div>
                         <div className="w-full md:w-1/2 flex flex-col md:flex-row gap-2">
-                            <div className=" border border-[rgb(0_0_0_/_12%)] p-7.5 w-72 sm:w-96">
+                            <div className=" border border-[rgb(0_0_0_/_12%)] p-7.5 w-full md:w-96">
                                 <img className=' w-12.5 h-12.5' src={signal1} alt="" />
                                 <h2 className=' font-black text-xl my-5'>
                                     Before Tuff
@@ -83,7 +83,7 @@ export default function Digital() {
                                     Tactics without clear goals, things slip, limited communication, lack of transparency, it’s tough to see where things stand, and people are running around like headless chickens.
                                 </p>
                             </div>
-                            <div className=" border border-[rgb(0_0_0_/_12%)] p-7.5 w-72 sm:w-96">
+                            <div className=" border border-[rgb(0_0_0_/_12%)] p-7.5 w-full md:w-96">
                                 <img className=' w-12.5 h-12.5' src={signal2} alt="" />
                                 <h2 className=' font-black text-xl my-5'>
                                     After Tuff
@@ -147,7 +147,7 @@ export default function Digital() {
                             Technical SEO Articles on Tuff
                         </h2>
                         <div className=" w-full flex justify-center gap-5 flex-wrap">
-                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72. sm:w-96">
+                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-full sm:w-96">
                                 <img className=' my-4' src={img3} alt="" />
                                 <span className=' my-4 px-5 py-2.5 bg-[#FF6A39] font-black rounded-full'>
                                     GEO
@@ -166,7 +166,7 @@ export default function Digital() {
                                     </span>
                                 </div>
                             </div>
-                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72 sm:w-96">
+                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-full sm:w-96">
                                 <img className=' my-4' src={img2} alt="" />
                                 <span className=' my-4 px-5 py-2.5 bg-[#FF6A39] font-black rounded-full'>
                                     Growth Marketing
@@ -185,7 +185,7 @@ export default function Digital() {
                                     </span>
                                 </div>
                             </div>
-                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-72 sm:w-96">
+                            <div className="p-7.5 border border-[rgb(0_0_0_/_12%)] w-full sm:w-96">
                                 <img className=' my-4' src={img4} alt="" />
                                 <span className=' my-4 px-5 py-2.5 bg-[#FF6A39] font-black rounded-full'>
                                     Growth Marketing

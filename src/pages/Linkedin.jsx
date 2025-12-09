@@ -220,10 +220,10 @@ export default function Linkedin() {
                                     CREATIVE
                                 </span>
                                 <div className=" my-4 text-xl font-black">
-                                    The Ultimate Guide to Maximizing Your Media Spend with Performance Ad Creative
+                                The Essential Guide to High-Performing Ad Creative by Maximizing Your Media Budget
                                 </div>
                                 <p className=' my-4 text-[16px]'>
-                                    Humans are inherently social creatures. We’ve survived and thrived for centuries, relying on one another to navigate the complexities of social interactions and decision-making. Take online reviews–we’ve all used them…
+                                Humans are fundamentally social beings. Our survival and advancement over centuries have relied on mutual dependence, especially when navigating complex social dynamics and making decisions. Consider online reviews—they are a tool we all use to inform those decisions.
                                 </p>
                                 <div className="flex items-center my-4">
                                     <img src={Elle} alt="" className=' w-1/10 m-2.5' />
