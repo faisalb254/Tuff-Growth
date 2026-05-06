@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import Works from "../assets/Work.png";
 import Search from "../assets/search.svg";
 import Userborder from "../assets/Userborder.svg";
@@ -49,7 +49,7 @@ export default function Work() {
                 customer acquisition, lifecycle, and conversion. And let’s keep
                 it curious and human-centered every step of the way.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let’s Talk
                 </button>
@@ -63,7 +63,7 @@ export default function Work() {
       </section>
 
       <section>
-        <div className="w-full h-auto flex items-center flex-col pt-20">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex items-center flex-col pt-20">
           <h2 className="text-[24px] sm:text-[32px] lg:text-[43px] font-semibold text-[#0C2233] leading-snug lg:leading-[2.5rem] mt-4 text-center w-[90%] sm:w-[80%] md:w-[70%] lg:w-[45%]">
             We’re designed to flex to meet you on your terms:
           </h2>
@@ -100,7 +100,7 @@ export default function Work() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-14 pb-20 flex items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-14 pb-20 flex items-center flex-col">
           <div className="h-auto md:h-[39px] m-auto py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-10 sm:mt-16 md:mt-19 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
             OUR SERVICES
           </div>
@@ -195,7 +195,7 @@ export default function Work() {
       </section>
 
       <section>
-        <div className="w-full h-auto pb-10 ">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-10 ">
           <div className="h-auto m-auto py-2 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-24 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0">
             WHY TUFF
           </div>
@@ -265,7 +265,7 @@ export default function Work() {
                 the right channel mix that sets the stage for true, sustainable
                 growth.
               </p>
-              <Link to={"/case-studies"}>
+              <Link to={"/portfolios"}>
                 <p className="flex items-center gap-1 text-[18px] font-semibold mt-4 text-[#0C2233]cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px] lg:text-[19px] hover:text-[#FF6A39]">
                   Read our case studies
                   <span>
@@ -341,7 +341,7 @@ export default function Work() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1 flex flex-col items-center">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1 flex flex-col items-center">
           <h1 className="text-[28px] sm:text-[36px] md:text-[43px] text-center font-semibold text-[#0C2233] leading-[36px] sm:leading-[42px] md:leading-[52px] lg:leading-[60px] mt-4 sm:mt-6 md:mt-15 w-[90%] sm:w-[80%] md:w-[70%] lg:w-[65%]">
             We focus on finding traction and scale for brands, ideas, and
             campaigns for teams of all sizes.
@@ -378,7 +378,7 @@ export default function Work() {
       </section>
 
       <section>
-        <div className="w-full h-auto pb-10 flex flex-col items-center justify-center pt-10 px-4 sm:px-6 md:px-10 lg:px-65">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-10 flex flex-col items-center justify-center pt-10 px-4 sm:px-6 md:px-10 lg:px-65">
           <img src={star1} alt="star1" className="mt-14 sm:mt-16 md:mt-20" />
 
           <p className="bg-[#CEFD94] text-[#0C2233] text-[18px] sm:text-[20px] md:text-[22px] font-semibold mt-7 text-center lg:text-[26px]">

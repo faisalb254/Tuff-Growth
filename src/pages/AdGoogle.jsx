@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import Faq from '../components/Faq'
 import img1 from '../assets/googleimg1.png'
@@ -165,7 +165,7 @@ export default function AdGoogle() {
                             <p className=' text-xl my-5'>
                                 Simply getting impressions and clicks doesn’t cut it. We focus on data and results-driven paid search campaigns to really make an impact. No fluff. Ever.
                             </p>
-                            <Link to={"/get-started-with-tuff"}>
+                            <Link to={"/get-started-with-havit-growth"}>
                                 <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black cursor-pointer tilt-zoom'>
                                     Let's talk
                                 </button>
@@ -263,7 +263,7 @@ export default function AdGoogle() {
                             <p className=' text-xl'>
                                 Our Google Ads management team will need access to your account for an audit. This audit takes about a week, and we’ll provide you with a detailed report. Afterward, we’ll schedule a session to walk you through our findings and recommendations.
                             </p>
-                            <Link to={"/get-started-with-tuff"}>
+                            <Link to={"/get-started-with-havit-growth"}>
                                 <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black cursor-pointer tilt-zoom'>
                                     Get Started with an Audit
                                 </button>
@@ -594,7 +594,7 @@ export default function AdGoogle() {
                         <p className="w-2/3 text-[18px] sm:text-[20px] md:text-[24px] font-medium mt-3 text-[#FFFEFB]">
                             Let’s chat briefly and get the ball rolling on the audit.
                         </p>
-                        <Link to="/get-started-with-tuff">
+                        <Link to="/get-started-with-havit-growth">
                             <button className="text-[#0C2233] cursor-pointer text-[18px] md:text-[22px] font-bold mt-6 p-4 bg-[#ceff2a] px-8 rounded-[2px] tilt-zoom">
                                 Book a strategy call
                             </button>

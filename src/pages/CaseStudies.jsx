@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import { BiChevronDown, BiChevronRight } from "react-icons/bi";
 import chevUp from "../assets/chevUp.svg";
 import chevDown from "../assets/chevDown.svg";
@@ -33,7 +33,7 @@ export default function CaseStudies() {
         <Navbar />
       </div>
       <section>
-        <div className="w-full h-auto flex justify-center flex-col items-center  pb-10 lg:pt-[135px] lg:pb-15">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex justify-center flex-col items-center  pb-10 lg:pt-[135px] lg:pb-15">
           <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
             CASE STUDIES
           </div>
@@ -53,7 +53,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
               CheckIn.pk
@@ -121,7 +121,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[65.7%] pt-6 sm:pt-8 md:pt-10 lg:pt-15">
             <img src={multi} alt="multi" loading="lazy" className="w-full" />
           </div>
@@ -206,7 +206,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
               ZESTOO FOODS
@@ -296,7 +296,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[65.7%] pt-6 sm:pt-8 md:pt-10 lg:pt-15">
             <img src={thinks} alt="thinks" loading="lazy" className="w-full" />
           </div>
@@ -356,7 +356,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
               Slipper
@@ -423,7 +423,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[65.7%] pt-6 sm:pt-8 md:pt-10 lg:pt-15">
             <img src={cabi} alt="cabi" loading="lazy" className="w-full" />
           </div>
@@ -493,7 +493,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
               TSY
@@ -571,7 +571,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[65.7%] pt-6 sm:pt-8 md:pt-10 lg:pt-15">
             <img src={acres} alt="acres" loading="lazy" className="w-full" />
           </div>
@@ -631,7 +631,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
               Temoc io
@@ -698,7 +698,7 @@ export default function CaseStudies() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto flex flex-col lg:flex-row mt-7 px-4 sm:px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[65.7%] pt-6 sm:pt-8 md:pt-10 lg:pt-15">
             <img src={rew} alt="rew" loading="lazy" className="w-full" />
           </div>
@@ -766,7 +766,7 @@ export default function CaseStudies() {
         </div>
       </section>
       {/* <section>
-        <div className="w-full h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto mt-10 flex flex-col-reverse md:flex-col-reverse lg:flex-row px-6 lg:px-27">
           <div className="h-auto w-full lg:w-[34.3%] pt-4">
             <div className="h-auto py-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-4 mt-4 text-xs sm:text-sm font-semibold tracking-wide text-[#0C2233] whitespace-normal w-fit lg:h-[39px] lg:py-0 lg:px-5 lg:text-sm lg:tracking-[1.5px]">
               ANTICA FARMACISTA

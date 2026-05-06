@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import { ArrowRight } from "lucide-react";
 import Guide1 from "../assets/Guide1.jpg";
 import Guide2 from "../assets/Guide2.jpg";
@@ -58,7 +58,7 @@ export default function Guides() {
       </section>
 
       <section>
-        <div className="w-[90%] md:w-[80%] lg:w-[66%] m-auto h-auto">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto">
           <div className="py-8 md:py-12 pt-10 md:pt-17">
             <div className="max-w-6xl mx-auto grid gap-6">
               {guides.map((guide, index) => (

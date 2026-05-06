@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import jamie from "../assets/jamieicon.png"
@@ -161,7 +161,7 @@ export default function Sample() {
                 </div>
             </section>
             <section>
-                <div className="py-12.5 flex justify-center items-center ">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 py-12.5 flex justify-center items-center ">
                     <div className="w-full flex flex-col-reverse lg:flex-row justify-center items-center gap-3">
                         <div className="w-full md:w-1/2">
                             <img src={img1} alt="" />
@@ -181,7 +181,7 @@ export default function Sample() {
                 </div>
             </section>
             <section>
-                <div className="flex flex-col justify-start items-center gap-4 w-full">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex flex-col justify-start items-center gap-4">
                     <div className="h-[45px] w-fit px-4 bg-[#CEFD94] rounded-[40px] flex items-center justify-center gap-1 text-[15px] font-semibold text-[#0C2233]">
                         TESTIMONIALS
                     </div>

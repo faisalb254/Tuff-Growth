@@ -118,7 +118,7 @@ export default function Footer() {
               />
               <p className="text-[16px] font-normal text-[#FFFEFB] mt-8 md:mt-10 ml-1 md:ml-3">
                 <span className="font-semibold">Inbox:</span>{" "}
-                havit360.contact@gmail.com
+                business@havitgrowth.com
               </p>
               {/* <p className="text-[16px] font-normal text-[#FFFEFB] mt-2 ml-1 md:ml-3">
                 <span className="font-semibold">Office:</span> 1099 Capitol St,
@@ -135,7 +135,7 @@ export default function Footer() {
                   className="w-[98%] m-auto mt-[-7%] bg-transparent"
                 />
                 <div className="absolute top-[34%] left-[16%]">
-                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                  <div className="group relative w-[12px] h-[12px] bg-[#CEFF2A]/30 rounded-full hover:bg-[#CEFF2A]/60 cursor-pointer">
                     {/* Tooltip */}
                     <div className="absolute left-[16%] top-[40%] invisible opacity-0 group-hover:visible group-hover:opacity-100
                       transition bg-black text-white text-xs p-2 rounded shadow">
@@ -144,7 +144,7 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="absolute top-[45%] left-[59%]">
-                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                  <div className="group relative w-[12px] h-[12px] bg-[#CEFF2A]/30 rounded-full hover:bg-[#CEFF2A]/60 cursor-pointer">
                     {/* Tooltip */}
                     <div className="absolute left-[59%] top-[-45px] -translate-x-1/2 invisible opacity-0 group-hover:visible group-hover:opacity-100
                       transition bg-black text-white text-xs p-2 rounded shadow">
@@ -153,7 +153,7 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="absolute top-[42%] left-[66%]">
-                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                  <div className="group relative w-[12px] h-[12px] bg-[#CEFF2A]/30 rounded-full hover:bg-[#CEFF2A]/60 cursor-pointer">
                     <div className="absolute left-[66%] top-[42%] invisible opacity-0 group-hover:visible group-hover:opacity-100
                       transition bg-black text-white text-xs p-2 rounded shadow">
                       Pakistan
@@ -161,7 +161,7 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="absolute top-[25%] left-[45%]">
-                  <div className="group relative w-[12px] h-[12px] bg-blue-500/30 rounded-full hover:bg-blue-500/60 cursor-pointer">
+                  <div className="group relative w-[12px] h-[12px] bg-[#CEFF2A]/30 rounded-full hover:bg-[#CEFF2A]/60 cursor-pointer">
                     <div className="absolute left-[45%] top-[25%] invisible opacity-0 group-hover:visible group-hover:opacity-100
                       transition bg-black text-white text-xs p-2 rounded shadow">
                       UK
@@ -277,7 +277,8 @@ export default function Footer() {
             ))}
           </div>
           <p className="text-[14px] font-medium mt-6 text-[#FFFFFF] text-center">
-            © 2024 Tuff | We're a division of Goodway Group!
+            {/* © 2024 Tuff | We're a division of Goodway Group! */}
+            Copy Right 2025 - Havit Growth - Have it all at Havit!
           </p>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import Toc from '../components/Toc';
 import RelatedPosts from '../components/RelatedPosts';
@@ -156,9 +156,9 @@ export default function Marketing() {
           <div className="my-12.5 flex flex-col  text-white mx-6 border-20 border-[#060631] bg-[#060631] p-12.5">
             <h3 id='section-7' className='font-bold text-4xl'>We’d love to work with you.</h3>
             <p className='my-4'>
-              <Link to={"/get-started-with-tuff"}><span className='text-[#ff6b39] font-bold'>Schedule a call with our team</span></Link> and we’ll analyze your marketing, product, metrics, and business. Then, present a Growth Plan with actionable strategies to find and keep more engaged customers.
+              <Link to={"/get-started-with-havit-growth"}><span className='text-[#ff6b39] font-bold'>Schedule a call with our team</span></Link> and we’ll analyze your marketing, product, metrics, and business. Then, present a Growth Plan with actionable strategies to find and keep more engaged customers.
             </p>
-            <span className='w-fit text-2xl border-b-3 border-b-white hover:cursor-pointer tilt-zoom'><Link to={"/get-started-with-tuff"}>Get Tuff</Link></span>
+            <span className='w-fit text-2xl border-b-3 border-b-white hover:cursor-pointer tilt-zoom'><Link to={"/get-started-with-havit-growth"}>Get Tuff</Link></span>
           </div>
           <div className="py-12.5 w-full bg-[#F0F0F0] h-64 rounded-xl px-5 pt-2.5 pb-6 flex items-center">
             <div className="w-1/5">

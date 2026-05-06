@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import chart from '../assets/digitalchart.svg'
@@ -46,7 +46,7 @@ export default function Digital() {
                             <p className=' text-sm'>
                                 LIL ROBERTS, FOUNDER AT XENDOO
                             </p>
-                            <Link to={"/get-started-with-tuff"}>
+                            <Link to={"/get-started-with-havit-growth"}>
                                 <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black cursor-pointer tilt-zoom'>
                                     Let's talk
                                 </button>

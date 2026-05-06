@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import arifix from '../assets/Arifix.webp'
 import clf from '../assets/CLF.webp'

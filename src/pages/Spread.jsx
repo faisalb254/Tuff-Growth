@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import FinalSection from '../components/FinalSection'
 import { FaLink } from "react-icons/fa";
 import Spread1 from "../assets/Spread1.jpg";
@@ -147,7 +147,7 @@ export default function Spread() {
       </section>
 
       <section>
-        <div className="w-full min-h-screen pt-10 sm:pt-16 md:pt-20 px-4 sm:px-8 md:px-12 lg:px-19 pb-10 sm:pb-16 md:pb-20 flex flex-wrap gap-6 sm:gap-8 justify-center lg:justify-start">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 min-h-screen pt-10 sm:pt-16 md:pt-20 px-4 sm:px-8 md:px-12 lg:px-19 pb-10 sm:pb-16 md:pb-20 flex flex-wrap gap-6 sm:gap-8 justify-center lg:justify-start">
           {spreads.map((spread) => (
             <div
               key={spread.id}

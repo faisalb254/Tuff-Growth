@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../components/NavbarNew';
 import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
 import { BiHome, BiArrowBack } from 'react-icons/bi';
@@ -74,7 +74,7 @@ export default function NotFound() {
                 Our Company
               </Link>
               <Link 
-                to="/get-started-with-tuff" 
+                to="/get-started-with-havit-growth" 
                 className="text-[#FF6A39] hover:text-[#ff8a5c] font-medium transition-colors duration-200">
                 Get Started
               </Link>

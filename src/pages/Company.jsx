@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import Tufftesti from "../assets/tufftesti.png";
 import Model from "../assets/model.png";
 import Search from "../assets/search.svg";
@@ -53,7 +53,7 @@ export default function Company() {
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-normal text-[#ffffff] mt-6 sm:mt-8 md:mt-10 lg:mt-13 leading-[22px] sm:leading-[24px] md:leading-[25px]">
                 Great marketing continuously tests, refines, and re-tests. We deliver world-class performance through a cohesive, efficient, and data-driven unit. We scrutinize metrics across all levels—from detailed campaign performance to high-level strategy—and ensure full alignment among all contributors and optimizers. The outcome is a streamlined operation that converts casual interest into dedicated brand advocacy, changing client questions of value into statements of necessity.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let’s Talk
                 </button>
@@ -130,7 +130,7 @@ export default function Company() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-14 pb-20 flex items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-14 pb-20 flex items-center flex-col">
           <div className="h-auto md:h-[39px] m-auto py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-10 sm:mt-16 md:mt-19 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
             OUR SERVICES
           </div>
@@ -256,7 +256,7 @@ export default function Company() {
       </section>
 
       <section>
-        <div className="w-full h-auto p-4 sm:p-6 md:p-8 lg:p-1 pb-16">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto p-4 sm:p-6 md:p-8 lg:p-1 pb-16">
           <div className="h-auto md:h-[40px] w-max py-2 px-5 bg-[#ceff2a] m-auto rounded-[20px] flex justify-center items-center mt-10 sm:mt-12 md:mt-26 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
             OUR WHY
           </div>
@@ -277,7 +277,7 @@ export default function Company() {
       </section>
 
       <section>
-        <div>
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0">
           <div className="w-[90%] sm:w-[80%] md:w-[65%] lg:w-[45%] m-auto">
             <div className="h-auto md:h-[40px] w-max py-2 px-5 bg-[#ceff2a] m-auto rounded-[20px] flex justify-center items-center mt-10 sm:mt-12 md:mt-26 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
               OUR TEAM

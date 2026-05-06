@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import chart from '../assets/frameworkchart.svg'
 import signal1 from '../assets/signal1.png'
@@ -33,7 +33,7 @@ export default function GrowthFramework() {
                                 Early-stage businesses need a strategic vision and a roadmap. We partner with businesses of all sizes to help them identify their major growth channel and then scale it. This is our growth marketing framework.
                             </p>
                             <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
-                                <Link to={"/get-started-with-tuff"}>Let's talk</Link>
+                                <Link to={"/get-started-with-havit-growth"}>Let's talk</Link>
                             </button>
                         </div>
                         <div className="w-full md:w-1/2">
@@ -230,7 +230,7 @@ export default function GrowthFramework() {
                         We partner with small, dedicated teams to build intentional and sustainable growth. Let’s level up your business using our growth marketing framework together.
                     </p>
                     <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
-                        <Link to={"/get-started-with-tuff"}>
+                        <Link to={"/get-started-with-havit-growth"}>
                             Book a strategy call
                         </Link>
                     </button>

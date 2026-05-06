@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import Faq from '../components/Faq'
 import img1 from '../assets/technicalimg1.png'

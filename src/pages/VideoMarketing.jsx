@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import Hero from "../assets/hero.png";
 import VideoYou from "../assets/VideoYou.svg";
 import VideoTik from "../assets/VideoTik.svg";
@@ -30,7 +30,7 @@ export default function VideoMarketing() {
 
       <section>
         <div className="w-full h-auto VideoLine pt-1">
-          <div className="w-full h-auto flex flex-col md:flex-row pb-23 mt-10 md:mt-20 lg:mt-30 px-4 sm:px-6 md:px-12 lg:pl-19">
+          <div className="w-full h-auto max-w-[1700px] mx-auto flex flex-col md:flex-row pb-23 mt-10 md:mt-20 lg:mt-30 px-4 sm:px-6 md:px-12 lg:pl-19 min-[120rem]:px-0">
             <div className="w-full sm:w-[80%] md:w-[60%] lg:w-[40%] h-auto pb-10 pt-1">
               <h1 className="text-[28px] sm:text-[36px] md:text-[48px] lg:text-[64px] font-medium text-[#ffffff] leading-[36px] sm:leading-[42px] md:leading-[52px] lg:leading-[60px] mt-4 sm:mt-6 md:mt-7">
                 With the right video marketing strategies, you can be seen and
@@ -43,7 +43,7 @@ export default function VideoMarketing() {
               <p className="text-[16px] sm:text-[18px] md:text-[20px] font-medium text-[#ffffff] mt-4 sm:mt-5 w-full lg:w-[95%] leading-[22px] sm:leading-[24px] md:leading-[25px]">
                 Even TikTok has become a top place to find everything you need.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let's Talk
                 </button>
@@ -57,7 +57,7 @@ export default function VideoMarketing() {
       </section>
 
       <section>
-        <div className="flex items-center justify-center flex-col pb-10 sm:pb-14 md:pb-16 lg:pb-20 px-4 sm:px-6 md:px-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex items-center justify-center flex-col pb-10 sm:pb-14 md:pb-16 lg:pb-20 px-4 sm:px-6 md:px-10">
           <h2 className="text-[20px] xs:text-[24px] sm:text-[32px] md:text-[36px] lg:text-[46px] font-semibold text-[#0C2233] text-center w-full lg:w-[50%] leading-tight sm:leading-[38px] md:leading-[44px] lg:leading-[60px] mt-[20px] sm:mt-[25px] md:mt-[30px] lg:mt-30 tracking-normal md:tracking-[-1.5px] lg:tracking-[-2.5px]">
             Yes, video marketing actually boosts ROI.
           </h2>
@@ -129,7 +129,7 @@ export default function VideoMarketing() {
           </div>
 
           <div className="flex items-center justify-center">
-            <Link to="/get-started-with-tuff">
+            <Link to="/get-started-with-havit-growth">
               <button className="text-[#0C2233] cursor-pointer text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                 Let's Talk
               </button>
@@ -139,7 +139,7 @@ export default function VideoMarketing() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1">
           <div className="h-auto md:h-[39px] m-auto py-2 md:py-0 bg-[#CEFD94] rounded-[20px] flex justify-center items-center px-5 mt-19 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
             OUR PROCESS
           </div>
@@ -273,7 +273,7 @@ export default function VideoMarketing() {
       </section>
 
       <section>
-        <div className="w-full h-auto pb-10 pt-1">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-10 pt-1">
           <h2 className="text-[28px] sm:text-[36px] md:text-[40px] lg:text-[44px] font-semibold text-[#0c2233] text-center mt-10 lg:mt-18 px-4">
             Quick wins and long-term growth. No mysterious secret sauce.
           </h2>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import Faq from '../components/Faq'
@@ -123,7 +123,7 @@ export default function Tiktok() {
                                 Partner with Havit for TikTok Ad Success.
                             </p>
                             <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
-                                <Link to={"/get-started-with-tuff"}>Let's talk</Link>
+                                <Link to={"/get-started-with-havit-growth"}>Let's talk</Link>
                             </button>
                         </div>
                         <div className="w-full md:w-1/2">
@@ -408,7 +408,7 @@ export default function Tiktok() {
                             Irrespective of the role of TikTok in the media mix, there are 5 foundational principles of TikTok ads success:
                         </p>
                         <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
-                            <Link to={"/get-started-with-tuff"}>Let's talk</Link>
+                            <Link to={"/get-started-with-havit-growth"}>Let's talk</Link>
                         </button>
                         <div className=" flex flex-wrap justify-evenly gap-8">
                             <div className="p-7.5 font-black text-xl sm:text-[28px] w-70 sm:w-96 h-60 border border-[rgb(0_0_0/12%)] text-left">

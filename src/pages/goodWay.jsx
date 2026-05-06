@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import Hero from "../assets/hero.png";
 import check from "../assets/check.svg";
 import Footer from "../components/Footer";

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import Blogdown from "../assets/Blogdown.svg";
 import Blog1 from "../assets/Blog1.png";
 import BlogW1 from "../assets/BlogW1.png";
@@ -203,7 +203,7 @@ export default function Blog() {
         </div>
       </section>
       <section>
-        <div id="intro" className="w-full min-h-screen pt-10 sm:pt-16 md:pt-28 px-4 sm:px-8 md:px-27 pb-10 sm:pb-16 md:pb-20 gap-6 sm:gap-8">
+        <div id="intro" className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 min-h-screen pt-10 sm:pt-16 md:pt-28 px-4 sm:px-8 md:px-27 pb-10 sm:pb-16 md:pb-20 gap-6 sm:gap-8">
           <div className="w-full bg-white py-8 pb-0 px-4 md:px-8 gap-6 mb-13">
             {articles.map((article) => (
               <div
@@ -334,7 +334,7 @@ export default function Blog() {
       </section>
 
       <section>
-        <div className="w-full h-[57vh] flex items-center justify-center p-1 md:px-19">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-[57vh] flex items-center justify-center p-1 md:px-19">
           <div className="w-[90%] md:w-full h-[360px] flex flex-col justify-center items-center text-center px-4">
             <h2 className="text-[30px] sm:text-[42px] md:text-[52px] font-semibold text-[#0C2233]">
               Ready to grow?
@@ -342,7 +342,7 @@ export default function Blog() {
             <p className="text-[18px] sm:text-[20px] md:text-[24px] font-medium mt-3 text-[#0C2233]">
               Your compounding growth curve begins here.
             </p>
-            <Link to="/get-started-with-tuff">
+            <Link to="/get-started-with-havit-growth">
               <button className="text-[#0C2233] cursor-pointer text-[18px] md:text-[22px] font-bold mt-6 p-4 bg-[#ceff2a] px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                 Book a Strategy Call
               </button>

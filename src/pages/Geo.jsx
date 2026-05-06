@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import GeoH from "../assets/GeoH.png";
 import Organic from "../assets/Organic.png";
 import GeoImg from "../assets/GeoImg.png";
@@ -115,7 +115,7 @@ export default function Geo() {
                 asked “what’s our AI search strategy?”, you can point to
                 tangible results.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let's Talk
                 </button>
@@ -133,7 +133,7 @@ export default function Geo() {
       </section>
 
       <section>
-        <div className="w-full h-auto pb-10 px-4 sm:px-10 md:px-18">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-10 px-4 sm:px-10 md:px-18">
           <div className="flex flex-col-reverse lg:flex-row justify-between mt- gap-6">
             <div className="w-full lg:w-[50%] flex items-center justify-center pt-10 pl-0 lg:pl-4">
               <img src={Organic} alt="Organic" className="w-[100%]" />
@@ -220,7 +220,7 @@ export default function Geo() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1">
           <div className="flex items-center justify-center flex-col">
             <div className="h-auto md:h-[39px] m-auto py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-19 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
               OUR PROCESS
@@ -498,7 +498,7 @@ export default function Geo() {
               </div>
             </div>
           </div>
-          <Link to={"/case-studies"}>
+          <Link to={"/portfolios"}>
             <div className="w-max px-6 py-2 border-2 border-white text-[#FFFEFB] text-[18px] lg:text-[20px] font-semibold m-auto mt-10 transition-transform duration-500 tilt-zoom">
               View all case studies
             </div>
@@ -507,7 +507,7 @@ export default function Geo() {
       </section>
 
       <section>
-        <div className="w-full h-auto pb-20 pt-1 flex items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-20 pt-1 flex items-center flex-col">
           <h2 className="text-[28px] text-center mt-20 px-4 font-semibold text-[#0c2233] lg:text-[42px]">
             Download a Sample SEO Audit
           </h2>
@@ -657,7 +657,7 @@ export default function Geo() {
       </section >
 
       <section>
-        <div className="w-full h-auto pt-1 flex items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1 flex items-center flex-col">
           <h2 className="text-[26px] md:text-[28px] text-center leading-[36px] font-semibold text-[#0c2233] mt-10 px-4 w-full lg:text-[42px] lg:leading-[50px] lg:w-[50%]">
             Consider us your AEO experts
           </h2>
@@ -703,7 +703,7 @@ export default function Geo() {
       </section>
 
       <section>
-        <div className="w-full flex justify-center items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex justify-center items-center flex-col">
           <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[42px] font-bold text-center text-[#0C2233] ">
             FAQs
           </h2>
@@ -716,7 +716,7 @@ export default function Geo() {
 
 
       <section>
-        <div className="w-full h-auto pt-1 flex items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1 flex items-center flex-col">
           {/* Badge */}
           <div className="h-auto m-auto py-2 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-16 text-sm font-semibold tracking-[1.5px] text-[#0C2233] w-fit">
             KNOWLEDGE BASE

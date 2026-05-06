@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
-import Form from '../components/Form'
+import Form from '../components/FormNew'
 import media1 from "../assets/mediaimg1.png"
 import soonamedia from "../assets/soonamedia.jpg";
 import img1 from "../assets/ownedmedia1.png"
@@ -51,7 +51,7 @@ export default function OwnedMedia() {
                 </div>
             </section>
             <section>
-                <div className="w-full min-h-dvh flex flex-col justify-center items-start mb-20">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 min-h-dvh flex flex-col justify-center items-start mb-20">
                     <h1 className="text-3xl md:text-5xl w-full p-15 font-black text-center">
                         In our view, to drive growth, cross-functional collaboration is crucial to provide the best experience for the customer at every stage of the funnel.
                     </h1>
@@ -165,7 +165,7 @@ export default function OwnedMedia() {
             </section>
 
             <section>
-                <div className="w-full min-h-[2000px] md:min-h-[1280px] h-auto pb-7.5">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 min-h-[2000px] md:min-h-[1280px] h-auto pb-7.5">
                     <div className="w-full h-full flex flex-col md:flex-row pt-20">
                         <div className="w-full md:w-1/2 h-full flex flex-col justify-center items-center pl-15 text-black">
                             <h1 className=' text-4xl font-black w-full my-7.5'>
@@ -388,7 +388,7 @@ export default function OwnedMedia() {
                             </div>
                         </div>
                     </div>
-                    <Link to={"/case-studies"}>
+                    <Link to={"/portfolios"}>
                         <div className="w-max px-6 py-2 border-2 border-white text-[#FFFEFB] text-[18px] lg:text-[20px] font-semibold m-auto mt-10 transition-transform duration-500 tilt-zoom">
                             View all case studies
                         </div>

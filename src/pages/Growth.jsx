@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import Growth1 from "../assets/Growth1.png";
 import aarp from "../assets/aarp.svg";
 import multiverse from "../assets/multiverse.svg";
@@ -104,7 +104,7 @@ export default function Growth() {
                 experiments to find big wins. Now we want to help you.
               </p>
               <div className="flex justify-center lg:justify-start">
-                <Link to="/get-started-with-tuff">
+                <Link to="/get-started-with-havit-growth">
                   <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                     Book a Strategy Call
                   </button>
@@ -153,7 +153,7 @@ export default function Growth() {
       </section>
 
       <section>
-        <div className="w-full h-auto px-4 sm:px-6 md:px-10 lg:px-19 flex flex-col lg:flex-row justify-between gap-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto px-4 sm:px-6 md:px-10 lg:px-19 flex flex-col lg:flex-row justify-between gap-10">
           <div className="w-full lg:w-[48.5%] h-auto pb-20 pt-1">
             <h2 className="text-[28px] sm:text-[36px] md:text-[45px] font-semibold text-[#0C2233] leading-[36px] sm:leading-[42px] md:leading-[52px] mt-4 sm:mt-6 md:mt-20 text-center lg:text-left">
               We’ll help you build a growth marketing foundation, with strategic
@@ -275,7 +275,7 @@ export default function Growth() {
       </section>
 
       <section>
-        <div className="w-full h-auto px-4 sm:px-6 md:px-10 lg:px-19 pt-1 pb-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto px-4 sm:px-6 md:px-10 lg:px-19 pt-1 pb-10">
           <div className="w-full h-auto flex flex-col lg:flex-row justify-between mt-16 lg:mt-27 gap-10 lg:gap-0">
             <div className="w-full lg:w-[47%] h-auto pb-20">
               <div className="h-auto md:h-[39px] py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-10 sm:mt-16 md:mt-5 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
@@ -500,7 +500,7 @@ export default function Growth() {
       </section>
 
       <section>
-        <div className="w-full h-auto px-4 sm:px-6 md:px-12 lg:px-19 pb-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto px-4 sm:px-6 md:px-12 lg:px-19 pb-10">
           <div className="w-full lg:w-[76%] m-auto">
             <div className="h-auto m-auto py-2 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-5 mt-10 sm:mt-16 md:mt-30 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal w-fit">
               WHAT WE DO
@@ -670,7 +670,7 @@ export default function Growth() {
       </section>
 
       <section>
-        <div className="w-full px-4 sm:px-6 md:px-10 lg:px-14 py-10 lg:w-[67%] lg:mx-auto">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 px-4 sm:px-6 md:px-10 lg:px-14 py-10 lg:w-[67%] lg:mx-auto">
           <h2 className="text-[24px] sm:text-[28px] md:text-[32px] lg:text-[42px] font-bold text-center text-[#0C2233] mb-8">
             FAQs
           </h2>
@@ -857,7 +857,7 @@ export default function Growth() {
               </div>
             </div>
           </div>
-          <Link to={"/case-studies"}>
+          <Link to={"/portfolios"}>
             <div className="w-max px-6 py-2 border-2 border-white text-white text-[18px] lg:text-[20px] font-semibold m-auto mt-8 lg:mt-10 tilt-zoom">
               View all case studies
             </div>

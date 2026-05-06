@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import OurClients from '../components/OurClients'
@@ -348,7 +348,7 @@ export default function GrowthAgency() {
                             </div>
                         </div>
                     </div>
-                    <Link to={"/case-studies"}>
+                    <Link to={"/portfolios"}>
                         <div className="w-max px-6 py-2 border-2 border-black  text-[18px] lg:text-[20px] font-semibold m-auto mt-10 transition-transform duration-500 tilt-zoom">
                             View all case studies
                         </div>

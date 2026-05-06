@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import CroHead from "../assets/CroHead.png";
 import CroImg from "../assets/CroImg.png";
 import Seo1 from "../assets/Seo1.svg";
@@ -47,7 +47,7 @@ export default function Cro() {
                 thrive on helping you get more revenue out of the traffic you
                 already have.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let’s Talk
                 </button>
@@ -97,7 +97,7 @@ export default function Cro() {
       </section>
 
       <section>
-        <div className="w-full h-auto pb-10 pt-20 px-4 sm:px-10 md:px-18">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-10 pt-20 px-4 sm:px-10 md:px-18">
           <div className="flex flex-col-reverse lg:flex-row justify-between mt- gap-6">
             <div className="w-full lg:w-[50%] flex items-center justify-center pt-10 pl-0 lg:pl-4">
               <img src={Seo1} alt="Seo1" className="w-[100%]" />
@@ -161,7 +161,7 @@ export default function Cro() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1 pb-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1 pb-10">
           <div className="w-[90%] md:w-[70%] lg:w-[50%] m-auto">
             <div className="h-auto m-auto py-2 md:h-[39px] md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-4 md:px-5 mt-10 text-xs sm:text-sm font-semibold tracking-[1px] text-[#0C2233] whitespace-normal w-fit">
               HOW IT WORK
@@ -179,7 +179,7 @@ export default function Cro() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1">
           <div className="w-full h-auto px-4 sm:px-6 md:px-10 lg:px-40 flex flex-col lg:flex-row">
             {/* Text Section */}
             <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[48%] h-auto pt-0">
@@ -213,7 +213,7 @@ export default function Cro() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1 pb-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1 pb-10">
           {/* Top Text Block */}
           <div className="w-[90%] sm:w-[80%] md:w-[65%] lg:w-[50%] m-auto">
             <div className="h-auto md:h-[39px] py-2 md:py-0 bg-[#ceff2a] rounded-[20px] flex justify-center items-center px-4 sm:px-5 mt-10 lg:mt-22 text-xs sm:text-sm font-semibold tracking-[1px] text-[#0C2233] w-fit m-auto">
@@ -445,7 +445,7 @@ export default function Cro() {
               </div>
             </div>
           </div>
-          <Link to={"/case-studies"}>
+          <Link to={"/portfolios"}>
             <div className="w-max px-6 py-2 border-2 border-white text-[#FFFEFB] text-[18px] lg:text-[20px] font-semibold m-auto mt-10 transition-transform duration-500 tilt-zoom">
               View all case studies
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import OurClients from '../components/OurClients'
@@ -235,7 +235,7 @@ export default function Email() {
                         Right out the gate, we dig deep into your existing data, snag actionable insights, and create an informed email strategy designed to convert.
                     </p>
                     <button className='bg-[#FF6A39] my-5 p-5 text-2xl text-black font-black'>
-                        <Link to={"/get-started-with-tuff"}>
+                        <Link to={"/get-started-with-havit-growth"}>
                             See our approach
                         </Link>
                     </button>

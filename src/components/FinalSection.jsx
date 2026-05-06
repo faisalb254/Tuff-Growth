@@ -7,7 +7,7 @@ export default function FinalSection(props) {
     return (
         <>
             <section>
-                <div className="w-full flex items-center justify-center p-10 md:px-19">
+                <div className="w-full max-w-[1700px] mx-auto flex items-center justify-center p-10 md:px-19 min-[120rem]:px-0">
                     <div className=" w-full p-7.5 py-18.5 bg-[#5A2AFF] border-2 border-[rgb(255_255_255_/_12%)] flex flex-col justify-center items-center text-center ">
                         <h2 className="text-[30px] sm:text-[32px] md:text-[42px] font-semibold text-[#FFFEFB] w-2/3">
                             {text.heading}
@@ -18,7 +18,7 @@ export default function FinalSection(props) {
                             </p>
                         ))}
 
-                        <Link to="/get-started-with-tuff">
+                        <Link to="/get-started-with-havit-growth">
                             <button className="text-[#0C2233] cursor-pointer text-[18px] md:text-[22px] font-bold mt-6 p-4 bg-[#CEFF2A] px-8 rounded-[2px] tilt-zoom">
                                 {text.button}
                             </button>

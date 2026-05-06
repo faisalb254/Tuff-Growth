@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Form from '../components/Form'
+import Form from '../components/FormNew'
 import { Download } from "lucide-react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import OurClients from "../components/OurClients";
 import Part from "../assets/part.png";
 import Footer from "../components/Footer";
@@ -17,7 +17,7 @@ const TuffLandingSections = () => {
 
       <div className="min-h-screen">
         <section>
-          <div className="relative max-w-[95%] sm:max-w-[90%] md:max-w-[88%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-20">
+          <div className="relative max-w-[1700px] mx-auto min-[120rem]:px-0 px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:py-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-start">
               <div className="space-y-6 sm:space-y-8 mt-16 sm:mt-24 lg:mt-15">
                 <div>

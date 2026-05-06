@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import Faq from '../components/Faq'
 import FinalSection from '../components/FinalSection'
@@ -231,7 +231,7 @@ export default function B2B() {
                 </div>
             </section>
             <section>
-                <div className=" w-full flex justify-center items-center py-20 ">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex justify-center items-center py-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10 ">
                         <div className="w-full md:w-1/2  ">
                             <h1 className='text-4xl font-black my-5'>
@@ -308,7 +308,7 @@ export default function B2B() {
                 </div>
             </section>
             <section>
-                <div className="w-full flex justify-center items-center py-10">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex justify-center items-center py-10">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2 text-black ">
                             <span className=' px-5 py-2.5 bg-[#CEFD94] font-black rounded-full text-black'>
@@ -332,7 +332,7 @@ export default function B2B() {
                 </div>
             </section>
             <section>
-                <div className=" w-full flex justify-center items-center py-20 ">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex justify-center items-center py-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2">
                             <img src={img3} alt="" />
@@ -467,7 +467,7 @@ export default function B2B() {
                 </div>
             </section>
             <section>
-                <div className=" w-full flex justify-center items-center py-20 ">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex justify-center items-center py-20 ">
                     <div className="w-9/10 flex flex-col md:flex-row justify-center items-center gap-10">
                         <div className="w-full md:w-1/2">
                             <img src={img4} alt="" />

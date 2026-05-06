@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import img1 from '../assets/linkedinimg1.svg'
 import img2 from '../assets/linkedinimg2.svg'

@@ -1,7 +1,9 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
+import NavbarNew from "../components/NavbarNew";
 import OurClients from "../components/OurClients";
 import HeroTeam from "../assets/HeroTeam.png";
+import HavitTeam from "../assets/teamhavit.png"
 import aarp from "../assets/aarp.svg";
 import multiverse from "../assets/multiverse.svg";
 import punchbow from "../assets/punchbow.svg";
@@ -27,6 +29,7 @@ import team from "../assets/team.png";
 import { BiChevronRight } from "react-icons/bi";
 import { FaArrowUp } from "react-icons/fa";
 import Footer from "../components/Footer";
+import CaseStudiesPoster from '../components/CaseStudiesPoster'
 import { Link } from "react-router-dom";
 
 import advisory from "../assets/Logo/advisory-corp.png"
@@ -50,22 +53,24 @@ import sonderblu from "../assets/Logo/sonderblu.png"
 import space from "../assets/Logo/Space.png"
 import tgr from "../assets/Logo/TGR.png"
 import moran from "../assets/moran.jpeg"
+import ldnioBanner from '../assets/Ldnio.webp'
+import rfcBanner from '../assets/RFC.webp'
+
 
 export default function HomeSection() {
   return (
     <>
       <div className="w-full lg:fixed  top-0 z-50 bg-[#1e1e1e]">
-        <Navbar />
+        <NavbarNew />
       </div>
 
       <section className="w-full h-full homeImg pt-20">
-        <div className="w-full h-max">
-          <div className="flex flex-col lg:flex-row px-5 md:px-10 lg:px-20">
-            <div className="w-full lg:w-1/2">
+        <div className="w-full h-max ">
+          <div className="max-w-[1700px] mx-auto flex flex-col lg:flex-row px-5 md:px-10 lg:px-20 min-[120rem]:px-0 ">
+            <div className="w-full lg:w-1/2 flex flex-col justify-center">
               <div className="h-auto md:h-[39px] md:w-max bg-[#FFFFFF] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233] whitespace-normal">
                 HAVE IT ALL AT HAVIT
               </div>
-
               <h1 className="text-[32px text-left sm:text-[48px]  font-semibold text-white leading-tight  mt-6 tracking-tight">
                 Find traction and growth with an expert-led,on-demand{" "}
                 <span className="text-[#CEFD94]">growth team.</span>
@@ -73,7 +78,7 @@ export default function HomeSection() {
               <p className="text-base sm:text-lg text-white mt-4 leading-[27px] max-w-[95%]">
                 We help brands cut through the noise and find clarity. And, the most important lesson learned = growth is a process not an outcome. Team up with our growth strategist and deep squad of marketing specialists to grow your business with less risk, hassle, and cost.
               </p>
-              <Link to='/get-started-with-tuff'>
+              <Link to='/get-started-with-havit-growth'>
                 <button className="text-lg sm:text-xl cursor-pointer font-semibold text-[#0C2233] bg-[#ceff2a] mt-6 px-6 py-4 rounded-md transition-transform duration-500 tilt-zoom">
                   Let’s Grow
                 </button>
@@ -152,8 +157,8 @@ export default function HomeSection() {
           </div>
         </div>
       </section>
-      <section className="mt-16 md:mt-28">
-        <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px]">
+      <section className="mt-16  md:mt-28 max-w-[1700px] mx-auto">
+        <div className="w-full  flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px] min-[120rem]:px-0">
           <div className="w-full lg:w-[50%] h-max mt-10 lg:mt-[70px] flex justify-center items-center pr-0 lg:pr-9 order-2 lg:order-1">
             <img
               src={Home}
@@ -186,7 +191,7 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px] py-5">
+        <div className="w-full max-w-[1700px] mx-auto flex flex-col lg:flex-row px-4 md:px-8 lg:px-[76px] py-20 min-[120rem]:px-0">
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[100px] px-4 lg:px-8 order-1 lg:order-1">
             <h3 className="text-[28px] md:text-[32px] lg:text-[35px] font-semibold text-[#0C2233] w-full lg:w-[80%] leading-[1.4] text-left">
               Your compounding growth curve begins here.
@@ -216,9 +221,9 @@ export default function HomeSection() {
         </div>
       </section>
       <section>
-        <div className="w-full homeImg1 h-max bg-]">
-          <div className="w-full h-full">
-            <div className="w-full h-auto text-center flex flex-col items-center pt-10 lg:pt-19 px-4">
+        <div className="w-full homeImg1 h-max bg-] ">
+          <div className="w-full h-full max-w-[1700px] mx-auto">
+            <div className="w-full h-auto text-center flex flex-col items-center pt-10 lg:pt-19 px-4 min-[120rem]:px-0">
               <p className="text-[20px] w-full lg:w-3/4 sm:text-[24px] lg:text-[28px] leading-8 lg:leading-9 font-semibold text-[#0C2233] text-center mt-6">
                 <span className="bg-[#CEFD94] px-1">
                   You need results you can count on. The team at Havit provide a clear strategy for success, not another empty promise based on hype.
@@ -392,7 +397,7 @@ export default function HomeSection() {
           </div>
         </div>
 
-        <div className="w-full min-h-screen flex flex-col lg:flex-row px-4 md:px-8 lg:px-[40px]">
+        <div className="w-full  flex flex-col lg:flex-row px-4 md:px-8 lg:px-[40px] max-w-[1700px] mx-auto min-[120rem]:px-0">
           <div className="w-full lg:w-[50%] h-auto pt-10 lg:pt-[130px] px-4 lg:px-15 order-1 lg:order-1">
             <div className="h-[40px] w-max p-2 bg-[#CEEF2A] rounded-[20px] flex justify-center items-center px-5 mt-4 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
               OUR PROCESS
@@ -419,7 +424,7 @@ export default function HomeSection() {
               opportunities. Ultimately, we emerge with detailed findings and a
               clear understanding of how you win for the long term.
             </p>
-            <Link to={"/get-started-with-tuff"} className=" w-1/5">
+            <Link to={"/get-started-with-havit-growth"} className=" w-1/5">
               <span className="flex w-fit items-center gap-1 text-[18px] lg:text-[20px] font-semibold my-5 hover:text-[#FF6A39] cursor-pointer transition-transform duration-500 tilt-zoom hover:text-[21px]">
                 Learn how it all works
                 <span>
@@ -453,106 +458,15 @@ export default function HomeSection() {
           we couldn’t be more excited to talk about our clients’ successes.
         </p>
 
-        <div className="w-full h-auto flex flex-col lg:flex-row justify-between gap-8 px-4 sm:px-6 lg:px-19 pt-10 lg:pt-14">
-          <div className="w-full lg:w-[48.7%] h-auto px-6 lg:px-12 pt-10 lg:pt-14 cursor-pointer pb-10 lg:pb-14 bg-[#FFFFFF] border border-white rounded-[5px]">
-            <img src={acres} alt="acres" loading="lazy" />
-            <img
-              src={acreslogo}
-              alt="acreslogo"
-              loading="lazy"
-              className="mt-8 filter brightness-0 saturate-100"
-            />
-            <div className="flex flex-wrap gap-4">
-              <div className="bg-black text-white w-max px-[10px] py-2 text-[16px] lg:text-[20px] font-semibold mt-6">
-                Data & Analytics
-              </div>
-              <div className="bg-black text-white w-max px-[10px] py-2 text-[16px] lg:text-[20px] font-semibold md:mt-6">
-                Media Strategy & Management
-              </div>
-            </div>
-            <h3 className="text-[16px] lg:text-[20px] font-semibold mt-2 text-black">
-              4 min read
-            </h3>
-            <p className="text-[20px] lg:text-[28px] font-semibold mt-2 leading-7 lg:leading-9 text-[#000000]">
-              Scaling Campaigns That Generate High-Value Customers for a Fintech
-              Client
-            </p>
-            <div>
-              <div className="w-full border-t-2 flex flex-col sm:flex-row justify-between pt-1 py-5 border-[#000000] mt-9 gap-2 sm:gap-0">
-                <h4 className="text-[16px] lg:text-[20px] font-semibold text-[#000000] flex items-center">
-                  <FaArrowUp /> 272%
-                </h4>
-                <p className="text-[16px] lg:text-[20px] font-medium text-[#000000]">
-                  Increase in Active Monthly Subscriptions
-                </p>
-              </div>
-              <div className="w-full border-t-2 flex flex-col sm:flex-row justify-between pt-1 py-5 border-[#000000] gap-2 sm:gap-0">
-                <h4 className="text-[16px] lg:text-[20px] font-semibold text-[#000000] flex items-center">
-                  <FaArrowUp /> 45%
-                </h4>
-                <p className="text-[16px] lg:text-[20px] font-medium text-[#000000]">
-                  Increase in Premium Subscriber Growth in Month 1
-                </p>
-              </div>
-              <div className="w-full border-t-2 border-b-2 flex flex-col sm:flex-row justify-between pt-1 py-5 border-[#000000] gap-2 sm:gap-0">
-                <h4 className="text-[16px] lg:text-[20px] font-semibold text-[#000000] flex items-center">
-                  <FaArrowUp /> 31%
-                </h4>
-                <p className="text-[16px] lg:text-[20px] font-medium text-[#000000]">
-                  Increase in Lead to Premium Subscriber CVR in Three Months
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="w-full lg:w-[48.7%] h-auto px-6 lg:px-12 pt-10 lg:pt-14 cursor-pointer pb-10 lg:pb-14 bg-[#FFFFFF] border border-white rounded-[5px]">
-            <img src={starri} alt="starri" loading="lazy" />
-            <img
-              src={starrilogo}
-              alt="starrilogo"
-              loading="lazy"
-              className="mt-8 filter brightness-0 saturate-100"
-            />
-            <div className="flex flex-wrap items-center gap-4">
-              <div className="bg-black text-white w-max px-[10px] py-2 text-[16px] lg:text-[20px] font-semibold mt-6">
-                SEO
-              </div>
-              <h3 className="text-[16px] lg:text-[20px] font-semibold mt-5 text-[#000000]">
-                5 min read
-              </h3>
-            </div>
-            <p className="text-[20px] lg:text-[28px] font-semibold mt-2 leading-7 lg:leading-9 text-[#000000]">
-              Achieving a 50% Surge in Organic Traffic within 60 Days, Reducing
-              Dependency on Paid Strategies
-            </p>
-            <div>
-              <div className="w-full border-t-2 flex flex-col sm:flex-row justify-between pt-1 py-5 border-[#000000] mt-9 gap-2 sm:gap-0">
-                <h4 className="text-[16px] lg:text-[20px] font-semibold text-[#000000] flex items-center">
-                  <FaArrowUp /> 57%
-                </h4>
-                <p className="text-[16px] lg:text-[20px] font-medium text-[#000000]">
-                  Increase in non-branded clicks in 2 months
-                </p>
-              </div>
-              <div className="w-full border-t-2 border-b-2 flex flex-col sm:flex-row justify-between pt-1 py-5 border-[#000000] gap-2 sm:gap-0">
-                <h4 className="text-[16px] lg:text-[20px] font-semibold text-[#000000] flex items-center">
-                  <FaArrowUp /> 113k
-                </h4>
-                <p className="text-[16px] lg:text-[20px] font-medium text-[#000000]">
-                  ROI from targeted countries
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <Link to={"/case-studies"}>
+        <CaseStudiesPoster />
+        <Link to={"/portfolios"}>
           <div className="w-max px-6 py-2 border-2 border-white text-[#FFFEFB] text-[18px] lg:text-[20px] font-semibold m-auto mt-10 transition-transform duration-500 tilt-zoom">
             View all case studies
           </div>
         </Link>
       </section>
       <section>
-        <div className="w-full h-auto p-1 pb-24">
+        <div className="w-full h-auto p-1 pb-24 max-w-[1700px] mx-auto">
           <div className="h-[40px] w-max p-2 bg-[#CEEF2A] m-auto rounded-[20px] flex justify-center items-center px-5 mt-26 text-sm font-semibold tracking-[1.5px] text-[#0C2233]">
             TESTIMONIALS
           </div>
@@ -560,37 +474,7 @@ export default function HomeSection() {
             We focus on finding traction and scale for brands, ideas, and
             campaigns for teams of all sizes.
           </p>
-          <div className="w-full h-auto flex flex-wrap justify-center lg:justify-between gap-y-16 gap-x-5 px-4 lg:px-18 pt-19">
-            <div className="w-full lg:w-[49%] h-auto">
-              <img
-                src={star1}
-                alt="star"
-                loading="lazy"
-                style={{
-                  filter:
-                    "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
-                }}
-              />
-              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
-                <span className="text-[#0C2233] font-bold">
-                  Custom Web & Mobile App Development Exceptional Experience
-                </span>
-                I was pissed off by multiple people regarding to my project which had quite exceptional technicalities, regarding to IPTV Technology integration and many more but then finally reached to Havit as a blessing. They handled my Sonderblu web and mobile custom application development project exceptionally well. Their professionalism and expertise exceeded my expectations. I am grateful to them and aligned with them with great confidence for future.
-              </p>
-              <div className="flex mt-5 gap-4">
-                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
-                  <img src={jamie} alt="jamie" />
-                </div> */}
-                <div className="w-max h-auto pt-2">
-                  <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Hope Corohon
-                  </h3>
-                  <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    CEO Sonder Blu
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="w-full h-auto flex flex-wrap justify-center lg:justify-between gap-y-16 gap-x-5 px-4 lg:px-18 pt-19 min-[120rem]:px-0">
             <div className="w-full lg:w-[49%] h-auto pl-0 lg:pl-5">
               <img
                 src={star1}
@@ -603,7 +487,7 @@ export default function HomeSection() {
               />
               <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
                 <span className="text-[#0C2233] font-bold">
-                  Business Website Overhaul
+                  Business Website Overhaul <br />
                 </span>
                 Our outdated website was hindering our online presence and credibility. Havit Growth Agency transformed our website into a sleek, user-friendly platform that showcases our brand and offerings effectively. Not only did they enhance the design and functionality, but they also optimized it for search engines, resulting in higher visibility and organic traffic. Thanks to their expertise, our website now serves as a powerful tool for attracting and converting leads.
               </p>
@@ -621,67 +505,7 @@ export default function HomeSection() {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-[49%] h-auto mt-5 md:mt-24">
-              <img
-                src={star1}
-                alt="star"
-                loading="lazy"
-                style={{
-                  filter:
-                    "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
-                }}
-              />
-              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
-                <span className="text-[#0C2233] font-bold">
-                  Tailored Digital Solutions
-                </span>
-                Havit understood our unique business needs and crafted customized digital solutions that addressed our specific challenges. From SEO optimization to email marketing campaigns, their holistic approach has had a profound impact on our business growth. Their team’s commitment to understanding our goals and delivering measurable results sets them apart in the industry.
-              </p>
-              <div className="flex mt-5 gap-4">
-                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
-                  <img src={brad} alt="brad" loading="lazy" />
-                </div> */}
-                <div className="w-max h-auto pt-2">
-                  <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Moran Biton
-                  </h3>
-                  <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Founder & CEO IDEEZA
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full lg:w-[49%] h-auto mt-5 md:mt-24 pl-0 lg:pl-5">
-              <img
-                src={star1}
-                alt="star"
-                loading="lazy"
-                style={{
-                  filter:
-                    "brightness(0) saturate(100%) invert(71%) sepia(13%) saturate(2254%) hue-rotate(128deg) brightness(96%) contrast(85%)",
-                }}
-              />
-              <p className="text-[20px] md:text-[24px] font-medium text-[#000000] leading-8 mt-7">
-                <span className="text-[#0C2233] font-bold">
-                  Comprehensive Digitalization
-                </span>
-                Transitioning our business into the digital age seemed like a daunting task, but Havit Growth Agency made the process seamless and rewarding. They provided end-to-end digitalization solutions, from setting up our online store to implementing CRM systems and automation tools. Their expertise and support have streamlined our operations, enhanced customer experiences, and ultimately fueled our business growth. Partnering with them has been a game-changer for our organization.
-              </p>
-              <div className="flex mt-5 gap-4">
-                {/* <div className="rounded-[40%] w-[10%] h-[10%]">
-                  <img src={micheal} alt="micheal" loading="lazy" />
-                </div> */}
-                <div className="w-max h-auto pt-2">
-                  <h3 className="text-[20px] font-semibold text-[#0C2233]">
-                    Walid bin Khalid
-                  </h3>
-                  <p className="text-[19px] font-medium text-[#0C2233] mt-[-3px]">
-                    Founder DispatchX
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full lg:w-[49%] h-auto mt-5 md:mt-24">
+            <div className="w-full lg:w-[49%] h-auto">
               <img
                 src={star1}
                 alt="star"
@@ -830,18 +654,18 @@ export default function HomeSection() {
             </p>
           </Link>
 
-          <div className="flex items-center justify-center mt-6 sm:mt-8">
+          <div className="flex items-center justify-center mt-6 sm:mt-8 max-w-[1700px] mx-auto">
             <img
-              src={team}
+              src={ldnioBanner}
               alt="team"
               loading="lazy"
-              className="w-[90%] sm:w-[80%] md:w-[72%] lg:w-[66%]"
+              className="w-[90%] sm:w-[80%] md:w-[72%] lg:w-[85%]"
             />
           </div>
         </div>
       </section>
       <section>
-        <div className="w-full h-[77vh] flex items-center justify-center p-1 md:px-19">
+        <div className="w-full my-20 max-w-[1700px] mx-auto flex items-center justify-center p-1 md:px-19 min-[120rem]:px-0">
           <div className="w-[90%] md:w-full h-[360px] bg-[#5A2AFF] flex flex-col justify-center items-center text-center px-4">
             <h2 className="text-[30px] sm:text-[42px] md:text-[52px] font-semibold text-[#FFFEFB]">
               Ready to grow?
@@ -849,7 +673,7 @@ export default function HomeSection() {
             <p className="text-[18px] sm:text-[20px] md:text-[24px] font-medium mt-3 text-[#FFFEFB]">
               Your compounding growth curve begins here.
             </p>
-            <Link to={"/get-started-with-tuff"}>
+            <Link to={"/get-started-with-havit-growth"}>
               <button className="text-[#0C2233] cursor-pointer text-[18px] md:text-[22px] font-bold mt-6 p-4 bg-[#ceff2a] px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                 Book a Strategy Call
               </button>

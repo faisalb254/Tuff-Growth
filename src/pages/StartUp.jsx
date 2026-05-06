@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import img1 from "../assets/startupimg1.png"
@@ -301,7 +301,7 @@ export default function StartUp() {
                 </div>
             </section>
             <section>
-                <div className="w-full flex justify-center items-center flex-col md:py-24 md:px-18">
+                <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 flex justify-center items-center flex-col md:py-24 md:px-18">
                     <div className="w-15 h-auto flex justify-center">
                         <img className="" src={plus} alt="" />
                     </div>

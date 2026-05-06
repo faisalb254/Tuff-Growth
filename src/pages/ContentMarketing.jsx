@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarNew";
 import ContentHero from "../assets/ContentHero.png";
 import User from "../assets/User.svg";
 import Chat from "../assets/Chat.svg";
@@ -67,7 +67,7 @@ export default function ContentMarketing() {
                 distribute high-quality, human-led content that drives traffic,
                 builds brand authority, and generates qualified leads.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let’s Build Your Content Engine
                 </button>
@@ -84,7 +84,7 @@ export default function ContentMarketing() {
         </div>
       </section>
       <section>
-        <div className="w-full h-auto pb-10 pt-20 flex items-center flex-col px-4">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pb-10 pt-20 flex items-center flex-col px-4">
           {/* Heading */}
           <h2 className="text-[24px] text-center font-semibold text-[#0c2233] leading-[34px] w-full mt-6 lg:text-[44px] lg:leading-[50px] lg:w-[65%]">
             Bespoke Content Strategy and Execution that Rises Above
@@ -267,7 +267,7 @@ export default function ContentMarketing() {
               </h2>
 
               <div className="flex items-center justify-center pt-4">
-                <Link to="/get-started-with-tuff">
+                <Link to="/get-started-with-havit-growth">
                   <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-7 md:mt-8 lg:mt-9 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
                     Let’s Talk
                   </button>
@@ -279,7 +279,7 @@ export default function ContentMarketing() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-1">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-1">
           <div className="w-full h-auto mt-20 sm:mt-20 md:mt-16 lg:mt-35 px-4 sm:px-6 md:px-8 lg:pl-19 flex flex-col lg:flex-row gap-10">
             <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[48%] h-auto pt-4 sm:pt-6">
               <h1 className="text-[26px] sm:text-[32px] md:text-[40px] lg:text-[54px] font-bold text-[#0C2233] leading-[34px] sm:leading-[42px] md:leading-[48px] lg:leading-[60px] mt-4 sm:mt-5 md:mt-6">
@@ -292,7 +292,7 @@ export default function ContentMarketing() {
                 With an updated keyword strategy and fresh goals, we can conduct
                 a content audit to identify diamonds in the rough.
               </p>
-              <Link to="/get-started-with-tuff">
+              <Link to="/get-started-with-havit-growth">
                 <button className="text-[#0C2233] cursor-pointer text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px] font-bold mt-6 sm:mt-6 md:mt-7 lg:mt-9 p-2 sm:p-3 bg-[#ceff2a] px-5 sm:px-6 rounded-[2px] transition-transform duration-500 tilt-zoom">
                   Let’s Talk!
                 </button>
@@ -328,7 +328,7 @@ export default function ContentMarketing() {
       </section>
 
       <section>
-        <div className="w-full h-auto pt-20 flex items-center flex-col">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 h-auto pt-20 flex items-center flex-col">
           <h2 className="text-[28px] text-[#0C2233] text-center mt-4 px-4 font-extrabold w-full lg:text-[42px] lg:w-[45%]">
             Why Tuff
           </h2>
@@ -518,7 +518,7 @@ export default function ContentMarketing() {
               </div>
             </div>
           </div>
-          <Link to={"/case-studies"}>
+          <Link to={"/portfolios"}>
             <div className="w-max px-6 py-2 border-2 border-white text-[#FFFEFB] text-[18px] lg:text-[20px] font-semibold m-auto mt-10 transition-transform duration-500 tilt-zoom">
               View all case studies
             </div>
@@ -526,7 +526,7 @@ export default function ContentMarketing() {
         </div>
       </section>
       <section>
-        <div className="w-full mx-auto px-4 sm:px-6 md:px-10 lg:px-14 py-10">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0 px-4 sm:px-6 md:px-10 lg:px-14 py-10">
           <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[42px] font-bold text-center text-[#0C2233] mb-8">
             FAQs
           </h2>
@@ -578,7 +578,7 @@ export default function ContentMarketing() {
             great partnership is also about people. Ready to learn more about
             the Tuff way?
           </p>
-          <Link to="/get-started-with-tuff">
+          <Link to="/get-started-with-havit-growth">
             <button className="text-[#0C2233] cursor-pointer text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold mt-6 p-3 sm:p-4 bg-[#ceff2a] px-6 sm:px-8 rounded-[2px] transition-transform duration-500 tilt-zoom">
               Book a Call
             </button>

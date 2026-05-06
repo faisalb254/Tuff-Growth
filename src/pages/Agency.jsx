@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import Toc from '../components/Toc';
 import RelatedPosts from '../components/RelatedPosts';
@@ -118,7 +118,8 @@ export default function Agency() {
         </div>
     </section>
     <section className='pt-3 flex flex-col items-center text-xl w-full'>
-        <div className="w-8/10 md:w-[55%]">
+        <div className="w-full max-w-[1700px] mx-auto min-[120rem]:px-0">
+            <div className="w-8/10 md:w-[55%]">
             <ul className=' list-disc pl-8'>
                 <li className='mt-5'>Meeting consistently in small teams of two to four (always with a Growth Marketer in addition to one or more channel experts)</li>
                 <li className='mt-5'>With weekly or bi-weekly team meetings</li>
@@ -128,8 +129,9 @@ export default function Agency() {
                 <li className='mt-5'>With rock solid execution</li>
             </ul>
             <p className="my-4">
-               Think you might be in need of a growth marketing agency to level up your business and start showing the revenue you know you’re capable of? <span className='text-[#ff6b39] font-bold'>Let’s talk.</span>
+               Think you might be in need of a growth marketing agency to level up your business and start showing the revenue you know you're capable of? <span className='text-[#ff6b39] font-bold'>Let's talk.</span>
              </p>
+            </div>
         </div>
     </section>
     <RelatedPosts/>

@@ -66,9 +66,9 @@ export default function Form(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(isSubmitted){
+        if (isSubmitted) {
             return
-        } else{
+        } else {
             console.log("Submitted");
             setSubmitted(true);
             sendEmail(formData);

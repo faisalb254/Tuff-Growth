@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
 import HomeSection from "./sections/HomeSection";
+import WebAndApp from "./pages/WebAndApp";
 import GoodWay from "./pages/goodWay";
 import CaseStudies from "./pages/CaseStudies";
 import PaidMedia from "./pages/paidMedia";
@@ -18,6 +19,7 @@ import Company from "./pages/Company";
 import Work from "./pages/Work";
 import Growth from "./pages/Growth";
 import Started from "./pages/Started";
+import StartedNew from "./pages/StartedNew";
 import Guides from "./pages/Guides";
 import Spread from "./pages/Spread";
 import Blog from "./pages/Blog";
@@ -151,7 +153,8 @@ export default function App() {
           <Route path="/our-company" element={<Company />} />
           <Route path="/how-it-works" element={<Work />} />
           <Route path="/growth-marketing-agency" element={<Growth />} />
-          <Route path="/get-started-with-tuff" element={<Started />} />
+          <Route path="/get-started-with-havit-growth" element={<StartedNew />} />
+          <Route path="/get-started-with-havit-growth-old" element={<Started />} />
           <Route path="/growth-marketing-guides" element={<Guides />} />
           <Route path="/marketing-spreadsheets" element={<Spread />} />
           <Route path="/blog" element={<Blog />} />
@@ -205,6 +208,8 @@ export default function App() {
           <Route path="/portfolios/creasoft_c" element={<Creasoft_c />}/>
           <Route path="/portfolios/clf" element={<CLF />}/>
           <Route path="/portfolios/unidraft" element={<Unidraft />}/>
+          <Route path="/web-and-app" element={<WebAndApp />}/>
+          <Route path="/test" element={<Test />}/>
           {/* <Route path="/case-studies/checkin" element={<CaseCheckIn />}/>
           <Route path="/case-studies/ldnio" element={<CaseLdnio />}/>
           <Route path="/case-studies/zestoo" element={<CaseZestoo />}/>

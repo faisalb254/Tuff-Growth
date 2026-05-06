@@ -1,4 +1,25 @@
+@import url("https://use.typekit.net/your-kit-id.css"); /* Replace with your Adobe Fonts kit ID if using Adobe Fonts */
 @import "tailwindcss";
+
+/* Font imports - Degular Variable and Cofo Sans Variable */
+
+/* If using self-hosted fonts, uncomment and update paths:
+@font-face {
+  font-family: 'degular-variable';
+  src: url('/fonts/Degular-Variable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'cofo-sans-variable';
+  src: url('/fonts/CofoSans-Variable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+*/
 
 @layer base {
   *,
@@ -6,11 +27,27 @@
   *::after {
     box-sizing: border-box;
   }
+  
   body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: "cofo-sans-variable", sans-serif;
+  }
+
+  /* Headings - Degular Variable font */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "degular-variable", sans-serif !important;
+  }
+
+  /* Links inside headings */
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-family: "degular-variable", sans-serif !important;
+  }
+
+  /* Body text elements - Cofo Sans Variable font */
+  div, p, span, button, input, textarea, select, label, a {
+    font-family: "cofo-sans-variable", sans-serif;
   }
 
   /* Default text alignment - can be overridden by Tailwind utilities (text-left, text-center, text-right, text-justify) */
@@ -18,10 +55,16 @@
     text-align: justify;
   }
 }
-/* html {  */
-h1, h2, h3 {
+
+/* Headings scroll margin */
+h1, h2, h3, h4, h5, h6 {
   scroll-margin-top: 100px; 
 }
+
+/* section {
+  max-width: 1510px;
+  margin: 0 auto;
+} */
 
 .formbg {
   background-image: url(./assets/form-bg.svg);
@@ -58,99 +101,116 @@ h1, h2, h3 {
 }
 
 .homeImg3 {
-  background-image: url(./assets/line3.svg);
+  /* background-image: url(./assets/line3.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-attachment: fixed;
   background-size: cover;
 }
 .homeImg5 {
-  background-image: url(./assets/homebg5.svg);
+  /* background-image: url(./assets/homebg5.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-attachment: fixed;
   background-size: cover;
 }
 
 .creative {
-  background-image: url(./assets/creative.svg);
+  /* background-image: url(./assets/creative.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-attachment: fixed;
   background-size: cover;
 }
 
 .adline {
-  background-image: url(./assets/adline.svg);
+  /* background-image: url(./assets/adline.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-attachment: fixed;
   background-size: cover;
 }
 
 .mediabg {
-  background-image: url(./assets/mediabg.svg);
+  /* background-image: url(./assets/mediabg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
 }
 
 .mediaLine {
-  background-image: url(./assets/mediaLine.svg);
+  /* background-image: url(./assets/mediaLine.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
 }
 
 /* this */
 .mediaLine1 {
-  background-image: url(./assets/mediaLine1.svg);
+  /* background-image: url(./assets/mediaLine1.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
 }
 .creline {
-  background-image: url(./assets/creline.svg);
+  /* background-image: url(./assets/creline.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
 }
 .MediaProcessLine {
-  background-image: url(./assets/MediaProcessLine.svg);
+  /* background-image: url(./assets/MediaProcessLine.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
 }
 
 .VideoLine {
-  background-image: url(./assets/VideoLine.svg);
+  /* background-image: url(./assets/VideoLine.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
 }
 .VideoLine2 {
-  background-image: url(./assets/VideoLine2.svg);
+  /* background-image: url(./assets/VideoLine2.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
 }
 .VideoLine3 {
-  background-image: url(./assets/VideoLine3.svg);
+  /* background-image: url(./assets/VideoLine3.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 /* this */
 .SeoBg {
-  background-image: url(./assets/SeoBg.svg);
+  /* background-image: url(./assets/SeoBg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .Seolast {
-  background-image: url(./assets/Seolast.svg);
+  /* background-image: url(./assets/Seolast.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .GeoBg {
-  background-image: url(./assets/GeoBg.svg);
+  /* background-image: url(./assets/GeoBg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .ContentLine {
-  background-image: url(./assets/ContentLine.svg);
+  /* background-image: url(./assets/ContentLine.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .CSLine {
-  background-image: url(./assets/CSLine.svg);
+  /* background-image: url(./assets/CSLine.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -158,34 +218,39 @@ h1, h2, h3 {
 
 .Croline {
   background-image: url(./assets/Croline.svg);
+  /* background-image: url(./assets/HeroLine.webp); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .Croline2 {
-  background-image: url(./assets/Croline2.svg);
+  /* background-image: url(./assets/Croline2.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .croline3 {
-  background-image: url(./assets/croline3.svg);
+  /* background-image: url(./assets/croline3.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .caseline {
-  background-image: url(./assets/caseline.svg);
+  /* background-image: url(./assets/caseline.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   /* background-attachment: fixed; */
 }
 
 .Dataline {
-  background-image: url(./assets/Dataline.svg);
+  /* background-image: url(./assets/Dataline.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -193,73 +258,85 @@ h1, h2, h3 {
 
 .AllLine {
   background-image: url(./assets/AllLine.svg);
+  /* background-image: url(./assets/HeroLine.webp); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .ServiceBlue {
-  background-image: url(./assets/ServiceBlue.svg);
+  /* background-image: url(./assets/ServiceBlue.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .contactbg {
-  background-image: url(./assets/contactbg.svg);
+  /* background-image: url(./assets/contactbg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .guidebg {
-  background-image: url(./assets/guidebg.svg);
+  /* background-image: url(./assets/guidebg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .lightbg {
-  background-image: url(./assets/light-bg.svg);
+  /* background-image: url(./assets/light-bg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .smoothline {
-  background-image: url(./assets/smoothline.svg);
+  /* background-image: url(./assets/smoothline.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .samplebg {
-  background-image: url(./assets/samplebg.svg);
+  /* background-image: url(./assets/samplebg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .tiktokbg {
-  background-image: url(./assets/tiktokbg.svg);
+  /* background-image: url(./assets/tiktokbg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .googlebg {
-  background-image: url(./assets/googlebg.svg);
+  /* background-image: url(./assets/googlebg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .googleadsbg {
-  background-image: url(./assets/googleadsbg.svg);
+  /* background-image: url(./assets/googleadsbg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .linkedinbg {
-  background-image: url(./assets/linkedinbg.svg);
+  /* background-image: url(./assets/linkedinbg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 .technicalbg {
-  background-image: url(./assets/technicalbg.svg);
+  /* background-image: url(./assets/technicalbg.svg); */
+  background-image: url(./assets/HeroLine.webp);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

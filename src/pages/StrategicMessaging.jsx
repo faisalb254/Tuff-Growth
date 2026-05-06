@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar'
+import Navbar from '../components/NavbarNew'
 import Footer from '../components/Footer'
 import FinalSection from '../components/FinalSection'
 import React, { useState } from "react";
@@ -510,7 +510,7 @@ export default function StrategicMessaging() {
                         </p>
 
                         {/* Button */}
-                        <Link to="/get-started-with-tuff">
+                        <Link to="/get-started-with-havit-growth">
                             <button className="text-[#0C2233] cursor-pointer text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] font-bold mt-6 py-3 px-6 md:py-4 md:px-8 bg-[#ceff2a] rounded-[4px] tilt-zoom">
                                 Book a Strategy Call
                             </button>
