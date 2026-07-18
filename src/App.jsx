@@ -85,6 +85,11 @@ import CaseNutty from "./pages/case-studies/CaseNutty";
 import CaseTemoc from "./pages/case-studies/CaseTemoc";
 import CaseFgf from "./pages/case-studies/CaseFgf";
 import CaseStudiesNew from "./pages/CaseStudiesNew";
+import AdvisoryCorps from "./pages/portfolio/AdvisoryCorps";
+import DispatchX from "./pages/portfolio/DispatchX";
+import ContinentalTravel from "./pages/portfolio/ContinentalTravel";
+import AAS from "./pages/portfolio/AAS";
+import SKStones from "./pages/portfolio/SKStones";
 
 export default function App() {
   return (
@@ -208,6 +213,11 @@ export default function App() {
           <Route path="/portfolios/creasoft_c" element={<Creasoft_c />}/>
           <Route path="/portfolios/clf" element={<CLF />}/>
           <Route path="/portfolios/unidraft" element={<Unidraft />}/>
+          <Route path="/portfolios/advisorycorps" element={<AdvisoryCorps />}/>
+          <Route path="/portfolios/dispatchx" element={<DispatchX />}/>
+          <Route path="/portfolios/continentaltravel" element={<ContinentalTravel />}/>
+          <Route path="/portfolios/aas" element={<AAS />}/>
+          <Route path="/portfolios/skstones" element={<SKStones />}/>
           <Route path="/web-and-app" element={<WebAndApp />}/>
           <Route path="/test" element={<Test />}/>
           {/* <Route path="/case-studies/checkin" element={<CaseCheckIn />}/>

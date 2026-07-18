@@ -19,6 +19,11 @@ import tsy from '../assets/TSY.webp'
 import zestoo from '../assets/Zestoo.webp'
 import fgf_img from '../assets/FGF.webp'
 import rfc_img from '../assets/RFC.webp'
+import advisorycorps from '../assets/AdvisoryCorps.webp'
+import dispatchx from '../assets/DispatchX.webp'
+import continentaltravel from '../assets/ContinentalTravel.webp'
+import aas from '../assets/AAS.webp'
+import skstones from '../assets/SKStones.webp'
 
 export default function CaseStudiesNew() {
     // Portfolio data array
@@ -125,6 +130,36 @@ export default function CaseStudiesNew() {
             name: 'RFC',
             image: rfc_img,
             route: '/portfolios/rfc',
+            filter: []
+        },
+        {
+            name: 'Advisory Corps',
+            image: advisorycorps,
+            route: '/portfolios/advisorycorps',
+            filter: []
+        },
+        {
+            name: 'Dispatch X',
+            image: dispatchx,
+            route: '/portfolios/dispatchx',
+            filter: []
+        },
+        {
+            name: 'Continental Travel',
+            image: continentaltravel,
+            route: '/portfolios/continentaltravel',
+            filter: []
+        },
+        {
+            name: 'AAS',
+            image: aas,
+            route: '/portfolios/aas',
+            filter: []
+        },
+        {
+            name: 'SK Stones',
+            image: skstones,
+            route: '/portfolios/skstones',
             filter: []
         },
     ]

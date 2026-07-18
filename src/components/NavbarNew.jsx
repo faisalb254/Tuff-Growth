@@ -23,7 +23,7 @@ export default function NavbarNew() {
         <div>
             <nav className="bg-[#1E1E1E] w-full h-[68px] flex items-center px-6 md:px-20 pb-36 md:pb-0 nav relative">
                 <section className="max-w-[1700px] mx-auto hidden xl:flex justify-between items-center w-full ">
-                    {/* <div className="flex"> */}
+                    
                     <Link to="/">
                         <img
                             src={logo}
@@ -89,7 +89,7 @@ export default function NavbarNew() {
                             </Link>
                             <BiChevronDown className="text-[26px]" />
                             <div className="absolute top-full left-[-14px] w-56 hover:cursor-pointer text-[17px] font-normal text-black  hidden group-hover:block z-10 ">
-                                <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded ">
+                                <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded max-h-[70vh] overflow-y-auto">
                                     <Link to="/portfolios/checkin">
                                         <p className="pb-[14px] hover:text-[#FF6A39] hover:cursor-pointer">
                                             Checkin
@@ -168,6 +168,31 @@ export default function NavbarNew() {
                                     <Link to="/portfolios/unidraft">
                                         <p className="pb-[14px] hover:text-[#FF6A39]">
                                             Unidraft
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/advisorycorps">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Advisory Corps
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/dispatchx">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Dispatch X
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/continentaltravel">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Continental Travel
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/aas">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            AAS
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/skstones">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            SK Stones
                                         </p>
                                     </Link>
                                 </div>
@@ -254,16 +279,16 @@ export default function NavbarNew() {
                         </li>
                     </ul>
                     <Link to="/get-started-with-havit-growth">
-                        {/* <section className="md:flex-1 md:flex md:justify-end absolute right-2 lg:right-16 top-1/2 -translate-y-1/2"> */}
+
                         <button className="text-[#FFFFFF] md:block hidden cursor-pointer text-[16px] font-semibold h-auto w-max p-2 px-[13px] rounded-[2px] border-2 border-[#FFFFFF] tilt-zoom">
                             Book a Strategy Call
                         </button>
                         <div className="block md:hidden text-white text-[46px] cursor-pointer">
                             <BiCalendarPlus />
                         </div>
-                        {/* </section> */}
+                        
                     </Link>
-                    {/* </div> */}
+                   
                 </section>
                 <section className="w-full xl:hidden relative">
                     <div className="flex items-center justify-between w-full">
@@ -328,6 +353,11 @@ export default function NavbarNew() {
                                             { name: "Creasoft Capital", path: "/portfolios/creasoft_c" },
                                             { name: "CLF", path: "/portfolios/clf" },
                                             { name: "Unidraft", path: "/portfolios/unidraft" },
+                                            { name: "Advisory Corps", path: "/portfolios/advisorycorps" },
+                                            { name: "Dispatch X", path: "/portfolios/dispatchx" },
+                                            { name: "Continental Travel", path: "/portfolios/continentaltravel" },
+                                            { name: "AAS", path: "/portfolios/aas" },
+                                            { name: "SK Stones", path: "/portfolios/skstones" },
                                             { name: "All", path: "/portfolios" },
                                         ],
                                     },

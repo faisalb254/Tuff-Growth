@@ -107,7 +107,7 @@ export default function Navbar() {
             </Link>
             <BiChevronDown className="text-[26px]" />
             <div className="absolute top-full left-[-14px] w-56 hover:cursor-pointer text-[17px] font-normal text-black  hidden group-hover:block z-10 ">
-              <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded ">
+              <div className="bg-white mt-3 w-full p-6 py-5 shadow-lg rounded max-h-[70vh] overflow-y-auto">
                 <Link to="/portfolios/checkin">
                   <p className="pb-[14px] hover:text-[#FF6A39] hover:cursor-pointer">
                     Checkin
@@ -186,6 +186,31 @@ export default function Navbar() {
                 <Link to="/portfolios/unidraft">
                   <p className="pb-[14px] hover:text-[#FF6A39]">
                     Unidraft
+                  </p>
+                </Link>
+                <Link to="/portfolios/advisorycorps">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Advisory Corps
+                  </p>
+                </Link>
+                <Link to="/portfolios/dispatchx">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Dispatch X
+                  </p>
+                </Link>
+                <Link to="/portfolios/continentaltravel">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    Continental Travel
+                  </p>
+                </Link>
+                <Link to="/portfolios/aas">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    AAS
+                  </p>
+                </Link>
+                <Link to="/portfolios/skstones">
+                  <p className="pb-[14px] hover:text-[#FF6A39]">
+                    SK Stones
                   </p>
                 </Link>
               </div>
@@ -331,6 +356,11 @@ export default function Navbar() {
                   { name: "Creasoft Capital", path: "/portfolios/creasoft_c" },
                   { name: "CLF", path: "/portfolios/clf" },
                   { name: "Unidraft", path: "/portfolios/unidraft" },
+                  { name: "Advisory Corps", path: "/portfolios/advisorycorps" },
+                  { name: "Dispatch X", path: "/portfolios/dispatchx" },
+                  { name: "Continental Travel", path: "/portfolios/continentaltravel" },
+                  { name: "AAS", path: "/portfolios/aas" },
+                  { name: "SK Stones", path: "/portfolios/skstones" },
                   { name: "All", path: "/portfolios" },
                 ],
               },
