@@ -195,6 +195,56 @@ export default function NavbarNew() {
                                             SK Stones
                                         </p>
                                     </Link>
+                                    <Link to="/portfolios/asy">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            ASY
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/brandkraft">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Brandkraft
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/starchitect">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Starchitect
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/kitchentrademark">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Kitchen Trademark
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/evergreen">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Ever Green
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/rightwaydirect">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Right Way Direct
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/sonderblu">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Sonderblu
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/seeetech">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            SEEE Tech
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/santevoyage">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Santé Voyage
+                                        </p>
+                                    </Link>
+                                    <Link to="/portfolios/wildlife">
+                                        <p className="pb-[14px] hover:text-[#FF6A39]">
+                                            Wildlife
+                                        </p>
+                                    </Link>
                                 </div>
                             </div>
                         </li>
@@ -358,6 +408,16 @@ export default function NavbarNew() {
                                             { name: "Continental Travel", path: "/portfolios/continentaltravel" },
                                             { name: "AAS", path: "/portfolios/aas" },
                                             { name: "SK Stones", path: "/portfolios/skstones" },
+                                            { name: "ASY", path: "/portfolios/asy" },
+                                            { name: "Brandkraft", path: "/portfolios/brandkraft" },
+                                            { name: "Starchitect", path: "/portfolios/starchitect" },
+                                            { name: "Kitchen Trademark", path: "/portfolios/kitchentrademark" },
+                                            { name: "Ever Green", path: "/portfolios/evergreen" },
+                                            { name: "Right Way Direct", path: "/portfolios/rightwaydirect" },
+                                            { name: "Sonderblu", path: "/portfolios/sonderblu" },
+                                            { name: "SEEE Tech", path: "/portfolios/seeetech" },
+                                            { name: "Santé Voyage", path: "/portfolios/santevoyage" },
+                                            { name: "Wildlife", path: "/portfolios/wildlife" },
                                             { name: "All", path: "/portfolios" },
                                         ],
                                     },

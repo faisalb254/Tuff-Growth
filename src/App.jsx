@@ -90,6 +90,16 @@ import DispatchX from "./pages/portfolio/DispatchX";
 import ContinentalTravel from "./pages/portfolio/ContinentalTravel";
 import AAS from "./pages/portfolio/AAS";
 import SKStones from "./pages/portfolio/SKStones";
+import ASY from "./pages/portfolio/ASY";
+import Brandkraft from "./pages/portfolio/Brandkraft";
+import Starchitect from "./pages/portfolio/Starchitect";
+import KitchenTrademark from "./pages/portfolio/KitchenTrademark";
+import EverGreen from "./pages/portfolio/EverGreen";
+import RightWayDirect from "./pages/portfolio/RightWayDirect";
+import Sonderblu from "./pages/portfolio/Sonderblu";
+import SeeeTech from "./pages/portfolio/SeeeTech";
+import SanteVoyage from "./pages/portfolio/SanteVoyage";
+import Wildlife from "./pages/portfolio/Wildlife";
 
 export default function App() {
   return (
@@ -218,6 +228,16 @@ export default function App() {
           <Route path="/portfolios/continentaltravel" element={<ContinentalTravel />}/>
           <Route path="/portfolios/aas" element={<AAS />}/>
           <Route path="/portfolios/skstones" element={<SKStones />}/>
+          <Route path="/portfolios/asy" element={<ASY />}/>
+          <Route path="/portfolios/brandkraft" element={<Brandkraft />}/>
+          <Route path="/portfolios/starchitect" element={<Starchitect />}/>
+          <Route path="/portfolios/kitchentrademark" element={<KitchenTrademark />}/>
+          <Route path="/portfolios/evergreen" element={<EverGreen />}/>
+          <Route path="/portfolios/rightwaydirect" element={<RightWayDirect />}/>
+          <Route path="/portfolios/sonderblu" element={<Sonderblu />}/>
+          <Route path="/portfolios/seeetech" element={<SeeeTech />}/>
+          <Route path="/portfolios/santevoyage" element={<SanteVoyage />}/>
+          <Route path="/portfolios/wildlife" element={<Wildlife />}/>
           <Route path="/web-and-app" element={<WebAndApp />}/>
           <Route path="/test" element={<Test />}/>
           {/* <Route path="/case-studies/checkin" element={<CaseCheckIn />}/>
