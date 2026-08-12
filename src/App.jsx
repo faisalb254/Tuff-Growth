@@ -55,6 +55,7 @@ import GrowthAgency from "./pages/GrowthAgency";
 import Digital from "./pages/Digital";
 import B2B from "./pages/B2B";
 import Email from "./pages/Email";
+import ContactSales from "./pages/ContactSales";
 import PortfolioLanding from "./pages/PortfolioLanding";
 import CheckIn from "./pages/portfolio/CheckIn";
 import Ldnio from "./pages/portfolio/Ldnio"
@@ -204,7 +205,7 @@ export default function App() {
           <Route path="/digital-marketing-agency" element={<Digital />} />
           <Route path="/b2b-digital-marketing-agency" element={<B2B />} />
           <Route path="/email-marketing" element={<Email />} />
-          {/* <Route path="/portfolios" element={<PortfolioLanding/>}/> */}
+          <Route path="/contact-sales" element={<ContactSales />} />
           <Route path="/portfolios" element={<CaseStudiesNew />} />
           <Route path="/portfolios/checkin" element={<CheckIn />}/>
           <Route path="/portfolios/ldnio" element={<Ldnio />}/>

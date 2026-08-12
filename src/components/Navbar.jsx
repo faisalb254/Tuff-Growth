@@ -357,10 +357,10 @@ export default function Navbar() {
       >
         {menuOpen ? <RxCross2 /> : <BiMenu />}
       </div>
-      <Link to="/get-started-with-havit-growth">
+      <Link to="/contact-sales">
         <section className="md:flex-1 md:flex md:justify-end absolute right-2 lg:right-16 top-1/2 -translate-y-1/2">
           <button className="text-[#FFFFFF] md:block hidden cursor-pointer text-[16px] font-semibold h-auto w-max p-2 px-[13px] rounded-[2px] border-2 border-[#FFFFFF] tilt-zoom">
-            Book a Strategy Call
+            Contact Sales
           </button>
           <div className="block md:hidden text-white text-[46px] cursor-pointer">
             <BiCalendarPlus />
