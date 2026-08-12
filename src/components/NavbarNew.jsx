@@ -331,7 +331,7 @@ export default function NavbarNew() {
                     <Link to="/contact-sales">
 
                         <button className="text-[#FFFFFF] md:block hidden cursor-pointer text-[16px] font-semibold h-auto w-max p-2 px-[13px] rounded-[2px] border-2 border-[#FFFFFF] tilt-zoom">
-                            Contact Sales
+                            Book a Strategy Call
                         </button>
                         <div className="block md:hidden text-white text-[46px] cursor-pointer">
                             <BiCalendarPlus />
